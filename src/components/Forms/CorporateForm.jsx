@@ -196,7 +196,7 @@ const CorporateForm = ({ dataSet }) => {
             {/* Draft Annual Return Form */}
             <div className="col-md-4 mb-3">
                 <div className="corporate-notice-form association-form-card">
-                    <h3>{staticTexts['Download Draft Annual Return']}</h3>
+                    <h3>{staticTexts['Download Annual Return']}</h3>
                     <div className="row">
                         <div className="col-md-12 mb-3">
                             <div className="input-group mb-lg-0 mb-3">
