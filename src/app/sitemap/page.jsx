@@ -25,6 +25,7 @@ const SiteMapPage = async ({ searchParams }) => {
     const allTestimonial = await urlList.getTestimonial({ langLoc: getLangLoc });
     const allDoctorTalk = await urlList.getDoctorTalk({ langLoc: getLangLoc });
     const allAtHomeServices = await urlList.getAtHomeService({ langLoc: getLangLoc });
+    const allSpecialist = await urlList.getSpecialist({ langLoc: getLangLoc });
 
 
 
@@ -187,6 +188,24 @@ const SiteMapPage = async ({ searchParams }) => {
                                                         const url = basePath + "/at-home-services/" + data.slug;
                                                         return (
                                                             <tr key={"athomeservices" + index}>
+                                                                <td><a href={url}>{data.title}</a></td>
+                                                                <td>{url}</td>
+                                                            </tr>
+                                                        );
+                                                    })}
+                                                </>
+                                            )}
+
+                                            {/* Specialist */}
+                                            {allSpecialist.length > 0 && (
+                                                <>
+                                                    <tr>
+                                                        <td colSpan="2"><strong>{staticText['Specialist']}</strong></td>
+                                                    </tr>
+                                                    {allSpecialist.map((data, index) => {
+                                                        const url = basePath + "/specialist/" + data.slug;
+                                                        return (
+                                                            <tr key={"specialist" + index}>
                                                                 <td><a href={url}>{data.title}</a></td>
                                                                 <td>{url}</td>
                                                             </tr>
@@ -423,6 +442,30 @@ const SiteMapPage = async ({ searchParams }) => {
                                                 allAtHomeServices.map((data, index) => {
                                                     return <li key={"athomeservices" + index}>
                                                         <a href={basePath + "/at-home-services/" + data.slug}>{data.title}</a>
+                                                    </li>
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div className="line-divider"></div>
+                    </>
+                    }
+
+                    {/* Specialist*/}
+                    {allSpecialist.length > 0 && <>
+                        <section className="section">
+                            <div className="container">
+                                <div className="main-heading main-list sub-heading">
+                                    <h2>{staticText['Specialist']}</h2>
+                                    <div>
+                                        <ul>
+                                            {
+                                                allSpecialist.map((data, index) => {
+                                                    return <li key={"specialist" + index}>
+                                                        <a href={basePath + "/specialist/" + data.slug}>{data.title}</a>
                                                     </li>
                                                 })
                                             }
