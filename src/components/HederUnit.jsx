@@ -668,7 +668,7 @@ const HeaderUnit = ({ hospital }) => {
                   )}
                   {staticPageChecker['medical-representatives-appointments'] && (
                     <li className="quicklink-header">
-                      <a href={"https://medrep.kimshealth.org/"} target='_blank'>
+                      <a href={"https://medrep.khmlonline.com:6005"} target='_blank'>
                         {staticTexts['Medical Representatives - Appointments']}
                       </a>
                     </li>
@@ -933,7 +933,7 @@ const HeaderUnit = ({ hospital }) => {
                         <li> <a href={basePath + "/all-companies-on-panel"} className="menu-item ">{staticTexts['Insurance Providers']}</a> </li>
                       }
                       {staticPageChecker['medical-representatives-appointments'] &&
-                        <li> <a href={"https://medrep.kimshealth.org/"} target='_blank' className="menu-item ">{staticTexts['Medical Representatives - Appointments']}</a> </li>
+                        <li> <a href={"https://medrep.khmlonline.com:6005"} target='_blank' className="menu-item ">{staticTexts['Medical Representatives - Appointments']}</a> </li>
                       }
                       
                               {staticPageChecker['organ-transplant-compliance'] && (
