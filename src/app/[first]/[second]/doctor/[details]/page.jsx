@@ -11,6 +11,7 @@ import DocTalk from '@/components/DocTalk';
 import Header from '@/components/Header';
 import { marked } from 'marked';
 import locationData from '@/app/lib/getLocationData';
+import FAQ from '@/components/FAQ';
 
 
 
@@ -21,7 +22,9 @@ const DoctorDetails = async ({ params }) => {
     const slug = params.details;
     const data = await doctorData.getSingleDoctor({ slug, langLoc: getLangLoc });
     const staticText = await getStaticText();
-    const locationDataForDoc = await locationData.getSingleLocation({slug:getLangLoc.loc.slug});
+    const locationDataForDoc = await locationData.getSingleLocation({ slug: getLangLoc.loc.slug });
+
+    console.log("Doctor Data", data);
 
     // :::::: ALL DATA SETS ::::::
     const docTalkDataSet = {
@@ -35,6 +38,12 @@ const DoctorDetails = async ({ params }) => {
         sectionTitle: data.blogSection?.title,
         buttonText: 'View All', buttonURL: basePath + "/blog?doctor=" + data.slug,
         data: await blogData.getByDoctor({ id: data.id, langLoc: getLangLoc }),
+        baseUrl: basePath
+    }
+
+    const faqDataSet = {
+        sectionTitle: data.faq?.title,
+        data: data.faq?.faqData,
         baseUrl: basePath
     }
 
@@ -94,8 +103,8 @@ const DoctorDetails = async ({ params }) => {
                                             {data.appointmentAvailable && (
                                                 <a
                                                     href={`${basePath}/book-an-appointment/?doctor-slug=${data?.slug}&location=${data?.locations[0]?.slug === "generic"
-                                                            ? data?.locations[1]?.slug
-                                                            : data?.locations[0]?.slug
+                                                        ? data?.locations[1]?.slug
+                                                        : data?.locations[0]?.slug
                                                         }&hospital=${data?.hospitals[0]?.slug}&speciality=${data?.specialities?.[0]?.slug}`}
                                                     className="form-btn mt-3 d-block text-center text-light"
                                                 >
@@ -105,7 +114,7 @@ const DoctorDetails = async ({ params }) => {
 
 
 
-                                            {data.teleConsultationAvailable && <a href={locationDataForDoc?.teleMedicineLink}  className="form-btn mt-3 d-block text-center text-light vice-btn">{staticText['Book a Telemedicine']}</a>}
+                                            {data.teleConsultationAvailable && <a href={locationDataForDoc?.teleMedicineLink} className="form-btn mt-3 d-block text-center text-light vice-btn">{staticText['Book a Telemedicine']}</a>}
                                         </div>
 
                                         {/* <div className="calendar mt-5">
@@ -248,6 +257,9 @@ const DoctorDetails = async ({ params }) => {
 
                     <div className="line-divider"></div>
                     <BlogCarousel dataSet={blogDataSet} />
+
+                    <div className="line-divider"></div>
+                    <FAQ dataSet={faqDataSet} />
                 </div>
             </div>
             <Footer />

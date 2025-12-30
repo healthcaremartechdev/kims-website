@@ -21,6 +21,7 @@ import { marked } from 'marked'
 import React from 'react'
 import Popup from '@/components/Popup'
 import DiseaseAndProcedure from '@/components/DiseaseAndProcedure'
+import FAQ from '@/components/FAQ'
 
 const SpecialityDetails = async ({ params, searchParams }) => {
     const URLParams = await searchParams;
@@ -77,6 +78,12 @@ const SpecialityDetails = async ({ params, searchParams }) => {
         baseUrl: baseUrl
     }
 
+
+    const faqDataSet = {
+        sectionTitle: data.faq?.title,
+        data: data.faq?.faqData,
+        baseUrl: baseUrl
+    }
 
     return (
         <>
@@ -268,6 +275,9 @@ const SpecialityDetails = async ({ params, searchParams }) => {
 
                     <div className="line-divider"></div>
                     <BlogCarousel dataSet={blogDataSet} />
+
+                    <div className="line-divider"></div>
+                    <FAQ dataSet={faqDataSet} />
 
                 </div>
             </div>
