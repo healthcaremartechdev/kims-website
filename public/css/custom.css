@@ -6302,41 +6302,43 @@ a.form-btn {
     padding: 11px 20px;
 }
 
-.file-input-label.estimate-upload{
+.file-input-label.estimate-upload {
     border: 1px solid #b71c2b;
 }
-.form-btn.reverse-btn{
+
+.form-btn.reverse-btn {
     background-color: #fff;
     border: 1px solid #b71c2b;
     color: #b71c2b;
 }
-.form-btn.reverse-btn:hover{
+
+.form-btn.reverse-btn:hover {
     background-color: #b71c2b;
     color: #fff !important;
 }
 
-.dividend-form .form-control{
+.dividend-form .form-control {
     border-radius: 30px;
 }
 
-.has-dropdown.d-none-menu{
+.has-dropdown.d-none-menu {
     display: none !important;
 }
 
-.quicklink-header.d-none-menu{
+.quicklink-header.d-none-menu {
     display: none !important;
 }
 
 .details-key-row .form-control {
-  border-radius: 30px;
-  border: 1px solid #b71c2b;
+    border-radius: 30px;
+    border: 1px solid #b71c2b;
 }
 
-.SPECIALITY-DETAILS-BANNER .details-banner-image{
+.SPECIALITY-DETAILS-BANNER .details-banner-image {
     height: 428px;
 }
 
-.SPECIALITY-DETAILS-BANNER .procedures-details-page-header::before{
+.SPECIALITY-DETAILS-BANNER .procedures-details-page-header::before {
     background-size: contain;
     height: 432px;
 }
@@ -6348,4 +6350,10 @@ a.form-btn {
     border: 1px solid #b71c2b;
     border-radius: 40px;
     padding: 10px 30px;
+}
+
+.details-icon-form i {
+    color: #b71c2b !important;
+    font-size: 20px;
+    font-weight: 600;
 }

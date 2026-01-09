@@ -13,10 +13,9 @@ import WatchVideoButton from '@/components/WatchVideoButton'
 import doctorTalkData from '@/app/lib/getDoctorTalk'
 import testimonialData from '@/app/lib/getTestimonial'
 import doctorData from '@/app/lib/getDoctor'
-import Form2 from '@/components/Forms/Form2'
-import Form1 from '@/components/Forms/Form1'
 import { marked } from 'marked'
 import hospitalData from '@/app/lib/getHospital'
+import BookAnAppoinmentVertical from '@/components/Forms/BookAnAppoinmentVertical'
 
 const DiseaseDetails = async ({ params, searchParams }) => {
     const URLParams = await searchParams;
@@ -81,7 +80,7 @@ const DiseaseDetails = async ({ params, searchParams }) => {
                                             <div className="details-heading">
                                                 <h3 className='mb-5'>{data.title}</h3>
 
-                                                <a href="#request-call-back" className="form-btn w-auto px-5 me-3 reverse-btn">Request a Call Back</a>
+                                                <a href="#request-call-back" className="form-btn w-auto px-5 me-3 reverse-btn">Book An Appointment</a>
                                                 <a href={`${basePath}/doctor?disease=${data.disease?.slug}${URLParams.hospital ? `&hospital=${URLParams.hospital}` : ''}`} className="form-btn w-auto px-5">Find a Doctor</a>
                                             </div>
                                         </div>
@@ -143,11 +142,12 @@ const DiseaseDetails = async ({ params, searchParams }) => {
                                 <div className="main-heading">
                                     <h2>{data.overviewSection?.title}</h2>
                                 </div>
-                                <div dangerouslySetInnerHTML={{ __html: marked(data.overviewSection?.details) || "" }}></div>
+                                <div className='main-heading sub-heading main-list' dangerouslySetInnerHTML={{ __html: marked(data.overviewSection?.details) || "" }}></div>
                             </div>
                             <div className="col-md-4">
                                 <div className="association-form-card sticky-form mb-5" id='request-call-back'>
-                                    <Form1 title={"Request a Call Back"} type={"Contact"} subject={"Disease:" + data.title} />
+                                    <BookAnAppoinmentVertical title={"Book An Appointment"} 
+                                    basePath={basePath}/>
                                 </div>
                             </div>
                         </div>
