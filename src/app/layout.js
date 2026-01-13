@@ -55,8 +55,8 @@ export default async function RootLayout({ children }) {
         <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" />
 
-        {/* <link rel="stylesheet" href="/css/custom.css" />
-        <link rel="stylesheet" href="/css/responsive.css" /> */}
+        
+        {/* <link rel="stylesheet" href="/css/responsive.css" /> */}
 
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
@@ -67,6 +67,7 @@ export default async function RootLayout({ children }) {
         {/* <link rel="stylesheet" href="/css/multislider.css" /> */}
 
         <link rel="stylesheet" href="/css/styles.min.css"/>
+        <link rel="stylesheet" href="/css/custom.css" />
 
 
         {/* All Scripts */}
