@@ -6,37 +6,37 @@ import nodemailer from "nodemailer";
 
 const emailData = {
   generic: {
-    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com"],
-    "Bookhealth Checkup": ["kimstech@webenza.com"],
-    "Career": ["jobs@kimshealth.org"],
-    "Contact": ["relations@kimskerala.com"],
-    "Corporate": ["relations@kimskerala.com"],
-    "KISA": ["paramedical@kimskerala.com"],
-    "IMT": ["imt@kimshealth.org"],
-    "Emergency Medicine Programme": ["socomer@kimsglobal.com"],
-    "American Heart Association": ["socomer@kimsglobal.com"],
-    "Doctoral courses": ["academics.tvm@kimsglobal.com"],
-    "Nusring Recruitment": ["nursing.secretary@kimsglobal.com"],
-    "Paramedical courses": ["paramedical@kimskerala.com"],
-    "KIMSHEALTH Clinical Skills and Simulation Centre": ["socomer@kimsglobal.com"],
-    "International": ["ipr.tvm@kimshealth.org"]
+    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Bookhealth Checkup": ["kimstech@webenza.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Career": ["jobs@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Contact": ["relations@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Corporate": ["relations@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "KISA": ["paramedical@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "IMT": ["imt@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Emergency Medicine Programme": ["socomer@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "American Heart Association": ["socomer@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Doctoral courses": ["academics.tvm@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Nusring Recruitment": ["nursing.secretary@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Paramedical courses": ["paramedical@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "KIMSHEALTH Clinical Skills and Simulation Centre": ["socomer@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "International": ["ipr.tvm@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"]
   },
   trivandrum: {
-    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com"],
-    "Career": ["jobs@kimshealth.org"],
-    "Contact": ["relations@kimskerala.com"],
-    "Corporate": ["relations@kimskerala.com"],
-    "Health At Home Services": ["healthathome.tvm@kimsglobal.com"],
-    "KISA": ["kisa.tvm@kimshealth.org"],
-    "IMT": ["imt@kimshealth.org"],
-    "(IMT) Foundation Programme": ["imt@kimshealth.org"],
-    "Emergency Medicine Programme": ["academics.tvm@kimshealth.org"],
-    "American Heart Association": ["socomer@kimsglobal.com"],
-    "Doctoral courses": ["academics.tvm@kimsglobal.com"],
-    "Nusring Recruitment": ["nursing.secretary@kimsglobal.com"],
-    "Paramedical courses": ["paramedical@kimskerala.com"],
-    "KIMSHEALTH Clinical Skills and Simulation Centre": ["socomer@kimsglobal.com"],
-    "International": ["ipr.tvm@kimshealth.org"]
+    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Career": ["jobs@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Contact": ["relations@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Corporate": ["relations@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Health At Home Services": ["healthathome.tvm@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "KISA": ["kisa.tvm@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "IMT": ["imt@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "(IMT) Foundation Programme": ["imt@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Emergency Medicine Programme": ["academics.tvm@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "American Heart Association": ["socomer@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Doctoral courses": ["academics.tvm@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Nusring Recruitment": ["nursing.secretary@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Paramedical courses": ["paramedical@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "KIMSHEALTH Clinical Skills and Simulation Centre": ["socomer@kimsglobal.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "International": ["ipr.tvm@kimshealth.org", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"]
   },
   kollam: {
     "Book Appointment": ["gpr.klm@kimshealth.org"],
@@ -116,10 +116,12 @@ export async function POST(req) {
     let recipients = emailData?.[loc]?.[formType];
 
     if (hospital) {
-      recipients = (emailDataHospital?.[hospital])?emailDataHospital?.[hospital]:recipients;
+      recipients = (emailDataHospital?.[hospital]) ? emailDataHospital?.[hospital] : recipients;
     }
 
-  
+    // console.log("==========================")
+    // console.log(recipients)
+    // console.log("==========================")
 
     if (!recipients || recipients.length === 0) {
       return res.json({ err: "No email mapping found" }, { status: 404 });
@@ -150,8 +152,8 @@ export async function POST(req) {
     const mailOptions = {
       from: emailFrom[loc],
       to: recipients.join(","),
-      //cc: "mohit@healthcaremartech.com", // CC
-      //bcc: "sbhadipchanda@gmail.com", // hidden recipient
+      // cc: "mohit@healthcaremartech.com", // CC
+      // bcc: "sbhadipchanda@gmail.com", // hidden recipient
       subject: !subject ? `${formType}` : `${formType} : ${subject}`,
       html: data,
     };
@@ -191,7 +193,7 @@ export async function POST(req) {
       delete mailOptions.attachments;
     }
 
-    
+
 
     const info = await transporter.sendMail(mailOptions);
 
