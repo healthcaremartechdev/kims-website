@@ -13,7 +13,7 @@ const AcademicGalleryViewer = ({ pageContent }) => {
                     <div className="row">
                         {
                             pageContent[11]?.logoSlider?.map((img, index) => {
-                                return <div className="col-md-3 col-6 mb-4" key={index}>
+                                return <div className="col-md-4 col-6 mb-4" key={index}>
                                     <div className="expert-card" >
                                         <div className="card border-0 p-lg-4 p-0">
                                             <div className="card-top">

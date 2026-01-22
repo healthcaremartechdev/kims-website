@@ -126,13 +126,23 @@ export async function POST(req) {
     }
 
 
+    // const transporter = nodemailer.createTransport({
+    //   host: "email-smtp.us-east-1.amazonaws.com",
+    //   port: 587,
+    //   secure: false,
+    //   auth: {
+    //     user: process.env.EMAIL_USER,
+    //     pass: process.env.EMAIL_PASS,
+    //   },
+    // });
+
     const transporter = nodemailer.createTransport({
-      host: "email-smtp.us-east-1.amazonaws.com",
+      host: "smtp.gmail.com",
       port: 587,
       secure: false,
       auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS,
+        user: "kimshealthmailer@gmail.com",
+        pass: "xolvoyoaofaqeybd",
       },
     });
 
@@ -140,8 +150,8 @@ export async function POST(req) {
     const mailOptions = {
       from: emailFrom[loc],
       to: recipients.join(","),
-      // cc: "mohit@healthcaremartech.com", // CC
-      // bcc: "sbhadipchanda@gmail.com", // hidden recipient
+      //cc: "mohit@healthcaremartech.com", // CC
+      //bcc: "sbhadipchanda@gmail.com", // hidden recipient
       subject: !subject ? `${formType}` : `${formType} : ${subject}`,
       html: data,
     };
