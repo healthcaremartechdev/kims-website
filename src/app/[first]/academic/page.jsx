@@ -18,7 +18,6 @@ const Academic = async () => {
     const staticText = await getStaticText();
     const baseUrl = await getBaseUrl(true, true);
 
-    console.log(pageContent);
 
 
     return (
@@ -40,7 +39,10 @@ const Academic = async () => {
                             </div>
                         </div>
                     </section>
-                    <AcademicTab pageContent={pageContent} baseUrl={baseUrl}/>
+                    <AcademicTab
+                        pageContent={pageContent}
+                        baseUrl={baseUrl}
+                    />
 
                 </div>
             </div>

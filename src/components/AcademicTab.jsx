@@ -1,9 +1,30 @@
 "use client"
+import { useSearchParams } from "next/navigation";
 import AcademicGalleryViewer from "./AcademicGalleryViewer";
-import VisaMedicalForm from "./Forms/VisaMedicalForm"
 import { marked } from "marked";
+import { useEffect } from "react";
 
 const AcademicTab = ({ pageContent, baseUrl }) => {
+   const searchParams = useSearchParams();
+
+    useEffect(() => {
+    const tab = searchParams.get('tab');
+
+    const map = {
+        about: 'omega',
+        leader: 'omega1',
+        course: 'omega2',
+        publication: 'omega4',
+        gallery: 'omega9',
+    };
+
+    if (map[tab]) {
+        setTimeout(() => {
+            showBox(map[tab]);
+        }, 0);
+    }
+}, [searchParams]);
+
 
     return (
         <section className="section">
@@ -63,15 +84,15 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                                     <div className="visa-select d-md-none d-block">
                                         <select className="form-select" aria-label="Default select example" onChange={(e) => {
                                             let value = e.target.value;
-                                            if(value === '3')
+                                            if (value === '3')
                                                 window.location.href = `${baseUrl}/rank-holders`
-                                            else if(value === '5')
+                                            else if (value === '5')
                                                 window.location.href = `${baseUrl}/skills-and-simulation-lab`
-                                            else if(value === '6')
+                                            else if (value === '6')
                                                 window.location.href = `${baseUrl}/international-training-programs`
-                                            else if(value === '7')
+                                            else if (value === '7')
                                                 window.location.href = `${baseUrl}/outstanding-research-work`
-                                            else if(value === '8')
+                                            else if (value === '8')
                                                 window.location.href = `${baseUrl}/our-alumini`
                                             else
                                                 showBox('omega' + e.target.value)
@@ -151,7 +172,7 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                             <div className="container">
                                 <div className="main-heading sub-heading main-list course-we-offer-section-new">
                                     <h2>{pageContent[3]?.title}</h2>
-                                    <div dangerouslySetInnerHTML={{ __html: marked(pageContent[3]?.details) || "" }}></div>
+                                    <div dangerouslySetInnerHTML={{ __html: pageContent[3]?.details || "" }}></div>
                                 </div>
                             </div>
                         </div>
@@ -159,57 +180,54 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                         <div className="treat-box" id="omega4" style={{ display: "none" }}>
                             <div className="container">
                                 <div className="main-heading">
-                                    <h2>{pageContent[5].title}</h2>
+                                    <h2>{pageContent[6].title}</h2>
                                 </div>
 
-                                {pageContent[5].title && (
-                                    <div className="row">
-                                        {pageContent[5].socomer?.map((sp, i) => (
-                                            <div className="col-md-6" key={i}>
-                                                <div className="socomer-tab">
-                                                    <div className="procedure-acc-card mb-0">
-                                                        <div className="accordion-item">
-                                                            <h2 className="accordion-header">
-                                                                <button
-                                                                    className="accordion-button"
-                                                                    type="button"
-                                                                >
-                                                                    <span>{sp.title}</span>
-                                                                </button>
-                                                            </h2>
-                                                            <div
-                                                                className="accordion-collapse collapse show"
-                                                            >
-                                                                <div className="accordion-body px-0 pt-0">
-                                                                    <ul>
-                                                                        {sp.socomerItem.map((spI, j) => (
-                                                                            <li key={j}>
-                                                                                - {spI.title}
-                                                                                <a
-                                                                                    href={
-                                                                                        spI.file?.url
-                                                                                            ? `${process.env.NEXT_PUBLIC_IMAGE_URL}${spI.file.url}`
-                                                                                            : `${baseUrl}/${spI.link}`
-                                                                                    }
-                                                                                >
-                                                                                    {/* <i className="custom-download"></i> */}
-                                                                                    <u>{spI.buttonText}</u>
-                                                                                </a>
-                                                                            </li>
-                                                                        ))}
-                                                                    </ul>
-                                                                </div>
-                                                            </div>
+                                {pageContent[6].title && (
+                                    <div className="faq-card scientyfic-proceding-faq p-4">
+                                        <div className="accordion" id="accordionExample">
+                                            {pageContent[6].socomer?.map((sp, i) => (
+                                                <div className="accordion-item" key={i}>
+                                                    <h2 className="accordion-header">
+                                                        <button className={`accordion-button ${i === 0 ? "" : "collapsed"}`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${i}`}
+                                                            aria-expanded={`${i === 0 ? "true" : "false"}`} aria-controls={`collapse${i}`}>
+                                                            <span>{sp.title}</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id={`collapse${i}`} className={`accordion-collapse collapse ${i === 0 ? "show" : ""}`} data-bs-parent="#accordionExample">
+                                                        <div className="accordion-body main-list">
+                                                            <ul>
+                                                                {sp.socomerItem.map((spI, j) => (
+                                                                    <li key={j}>
+
+                                                                        <a
+                                                                            href={
+                                                                                spI.file?.url
+                                                                                    ? `${process.env.NEXT_PUBLIC_IMAGE_URL}${spI.file.url}`
+                                                                                    : `${baseUrl}/${spI.link}`
+                                                                            }
+                                                                        >
+                                                                            {/* <i className="custom-download"></i> */}
+                                                                            <u>{spI.title}</u>
+                                                                        </a>
+                                                                    </li>
+                                                                ))}
+                                                            </ul>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        ))}
+
+
+
+                                            ))}
+                                        </div>
                                     </div>
+
                                 )}
 
                             </div>
                         </div>
+
                         <div className="treat-box" id="omega9" style={{ display: "none" }}>
                             <div className="container">
                                 <div className="row justify-content-between" data-aos="fade-right">

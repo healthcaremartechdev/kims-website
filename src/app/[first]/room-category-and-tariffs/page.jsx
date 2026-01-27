@@ -1,21 +1,19 @@
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import React from 'react'
+import React from 'react';
+import Footer from '@/components/Footer';
+import Header from '@/components/Header';
 import { getStaticPageContent } from '@/app/lib/getStaticPageContent';
 import { getBaseUrl } from '@/app/lib/getBaseUrl';
 import Breadcrumb from '@/components/Breadcrumb';
 import getStaticText from '@/app/lib/getStaticTextServer';
 import getCurrentLangLoc from '@/app/lib/getCurrentLangLoc';
-import OtherAcademic from '@/components/OtherAcademic';
+import { marked } from 'marked';
 
 
-const RankHolders = async () => {
+const RoomCategoryAndTariffs = async () => {
     const getLangLoc = await getCurrentLangLoc()
     const basePath = await getBaseUrl(true, true);
-    const field = "populate[0]=pageContent&populate[1]=pageContent.contentCard&populate[2]=pageContent.contentCard.image";
-    const data = await getStaticPageContent("rank-holders", field);
+    const data = await getStaticPageContent("room-category-and-tariffs");
     const pageContent = data?.data[0]?.pageContent;
-
     const pageMeta = data?.data[0]?.metaSection;
     const staticTexts = await getStaticText();
 
@@ -34,18 +32,25 @@ const RankHolders = async () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
-                                    <Breadcrumb activeTitle={pageContent[0]?.title} middleTitle={""} middleURL={""} />
+                                    <Breadcrumb
+                                        activeTitle={pageContent[0]?.title}
+                                        middleTitle={""} middleURL={""}
+                                    />
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <OtherAcademic
-                        pageContent={pageContent}
-                        baseUrl={basePath}
-                        highlight={"rank-holder"}
-                    />
-
-                    
+                    <section className="section">
+                        <div className="container">
+                            <div className="main-heading sub-heading main-list">
+                                <div
+                                    className='table-responsive hear-associations-table'
+                                    dangerouslySetInnerHTML={{ __html: marked(pageContent[1]?.details) || "" }}
+                                >
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
             <Footer />
@@ -53,4 +58,4 @@ const RankHolders = async () => {
     )
 }
 
-export default RankHolders;
+export default RoomCategoryAndTariffs;

@@ -6,6 +6,7 @@ import { getBaseUrl } from '@/app/lib/getBaseUrl';
 import Breadcrumb from '@/components/Breadcrumb';
 import getCurrentLangLoc from '@/app/lib/getCurrentLangLoc';
 import { marked } from 'marked';
+import OtherAcademic from '@/components/OtherAcademic';
 
 
 const OurAlumini = async () => {
@@ -40,41 +41,7 @@ const OurAlumini = async () => {
                             </div>
                         </div>
                     </section>
-
-                    <section className="section">
-                        <div className="container">
-                            <div className="faq-card p-4">
-                                <div className="accordion" id="accordionExample">
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header">
-                                            <button className={`accordion-button collapsed`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse0`}
-                                                aria-expanded={`false`} aria-controls={`collapse0`}>
-                                                <span>{pageContent[1]?.title}</span>
-                                            </button>
-                                        </h2>
-                                        <div id={`collapse0`} className={`accordion-collapse collapse`} data-bs-parent="#accordionExample">
-                                            <div className="accordion-body main-list" dangerouslySetInnerHTML={{ __html: marked(pageContent[1]?.details || "") || "" }}>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="accordion-item">
-                                        <h2 className="accordion-header">
-                                            <button className={`accordion-button collapsed`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse1`}
-                                                aria-expanded={`false`} aria-controls={`collapse1`}>
-                                                <span>{pageContent[2]?.title}</span>
-                                            </button>
-                                        </h2>
-                                        <div id={`collapse1`} className={`accordion-collapse collapse`} data-bs-parent="#accordionExample">
-                                            <div className="accordion-body main-list" dangerouslySetInnerHTML={{ __html: marked(pageContent[2]?.details || "") || "" }}>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
+                    <OtherAcademic highlight={"alumini"} pageContent={pageContent} baseUrl={basePath} />
                 </div>
             </div>
             <Footer />

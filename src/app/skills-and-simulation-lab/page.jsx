@@ -6,7 +6,7 @@ import { getBaseUrl } from '@/app/lib/getBaseUrl';
 import Breadcrumb from '@/components/Breadcrumb';
 import getStaticText from '@/app/lib/getStaticTextServer';
 import getCurrentLangLoc from '@/app/lib/getCurrentLangLoc';
-import { marked } from 'marked';
+import OtherAcademic from '@/components/OtherAcademic';
 
 
 const SkillsAndSimulationLab = async () => {
@@ -40,35 +40,7 @@ const SkillsAndSimulationLab = async () => {
                             </div>
                         </div>
                     </section>
-
-                    <section className="section">
-                        <div className="container">
-                            <div className="main-heading">
-                                <h2>{pageContent[1].title}</h2>
-                            </div>
-                            <div className="main-heading sub-heading main-list">
-                                <div
-                                    dangerouslySetInnerHTML={{ __html: marked(pageContent[1]?.details) || "" }}
-                                >
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <div className="line-divider"></div>
-                    <section className="section">
-                        <div className="container">
-                            <div className="main-heading">
-                                <h2>{pageContent[2].title}</h2>
-                            </div>
-                            <div className="main-heading sub-heading main-list">
-                                <div
-                                    dangerouslySetInnerHTML={{ __html: marked(pageContent[2]?.details) || "" }}
-                                >
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    <OtherAcademic pageContent={pageContent} baseUrl={basePath} highlight={'skill'} />
                 </div>
             </div>
             <Footer />

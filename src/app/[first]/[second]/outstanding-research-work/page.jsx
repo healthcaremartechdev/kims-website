@@ -7,6 +7,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import getStaticText from '@/app/lib/getStaticTextServer';
 import getCurrentLangLoc from '@/app/lib/getCurrentLangLoc';
 import { marked } from 'marked';
+import OtherAcademic from '@/components/OtherAcademic';
 
 
 const OutStandingResearchWork = async () => {
@@ -40,19 +41,7 @@ const OutStandingResearchWork = async () => {
                             </div>
                         </div>
                     </section>
-
-
-                    <section className="section">
-                        <div className="container">
-                            <div className="main-heading sub-heading main-list">
-                                <div
-                                    className='table-responsive hear-associations-table'
-                                    dangerouslySetInnerHTML={{ __html: marked(pageContent[1]?.details) || "" }}
-                                >
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    <OtherAcademic highlight={'research'} pageContent={pageContent} baseUrl={basePath} />
                 </div>
             </div>
             <Footer />

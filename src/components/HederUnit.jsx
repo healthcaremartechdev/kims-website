@@ -155,7 +155,7 @@ const HeaderUnit = ({ hospital }) => {
           <div className="container d-flex align-items-center justify-content-between">
             <div className="navbar-logo py-2 ">
               <a href={activeLogoUrl}>
-                <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${locationData?.logo?.url}`} alt={locationData?.logo?.url?"KIMSHEALTH":""} className="img-fluid" />
+                <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${locationData?.logo?.url}`} alt={locationData?.logo?.url ? "KIMSHEALTH" : ""} className="img-fluid" />
               </a>
             </div>
             <div className="header-contact d-flex align-items-center justify-content-center position-relative">
@@ -232,7 +232,7 @@ const HeaderUnit = ({ hospital }) => {
             <nav className="header-menu-container justify-content-lg-end">
               <div className="navbar-brand">
                 <a href={activeLogoUrl} className="text-decoration-none">
-                  <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${locationData?.logo?.url}`} alt={locationData?.logo?.url?"KIMSHEALTH":""} height="55" className="img-fluid" />
+                  <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${locationData?.logo?.url}`} alt={locationData?.logo?.url ? "KIMSHEALTH" : ""} height="55" className="img-fluid" />
                 </a>
               </div>
               <div className="mobile_primary" id="primary-nav">
@@ -465,9 +465,56 @@ const HeaderUnit = ({ hospital }) => {
                   {staticPageChecker['teletriage'] && (<li className="quicklink-header">
                     <a href={basePath + "/teletriage"} className="anchor-menu">{staticTexts['Teletriage']}</a>
                   </li>)}
-                  {staticPageChecker['corporate'] && (<li className="quicklink-header">
-                    <a href={basePath + "/corporate"} className="anchor-menu">{staticTexts['Investor Relations']}</a>
-                  </li>)}
+
+                  <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities']  && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
+                    <a href="#" className="anchor-menu">{staticTexts['CE Compliance']}</a>
+                    <div className="sub-menu">
+                      <div className="row">
+                        <div className="col-lg-4">
+                          <div className="sub-menu-details">
+                            <ul>
+                              {staticPageChecker['bmw-report'] && (
+                                <li>
+                                  <a href={basePath + "/bmw-report"}>
+                                    {staticTexts['BMW Reports']}
+                                  </a>
+                                </li>
+                              )}
+                              {staticPageChecker['facilities'] && (
+                                <li>
+                                  <a href={basePath + "/facilities"}>
+                                    {staticTexts['Facilities']}
+                                  </a>
+                                </li>
+                              )}
+                              {staticPageChecker['organ-transplant-compliance'] && (
+                                <li>
+                                  <a href={basePath + "/organ-transplant-compliance"}>
+                                    {staticTexts['Organ Transplant Compliance']}
+                                  </a>
+                                </li>
+                              )}
+                              {staticPageChecker['patients-rights-and-responsibilities'] && (
+                                <li>
+                                  <a href={basePath + "/patients-rights-and-responsibilities"}>
+                                    {staticTexts['Patient Rights']}
+                                  </a>
+                                </li>
+                              )}
+                              {staticPageChecker['room-category-and-tariffs'] && (
+                                <li>
+                                  <a href={basePath + "/room-category-and-tariffs"}>
+                                    {staticTexts['Room Category and Tariffs']}
+                                  </a>
+                                </li>
+                              )}
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  
                   <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['csr-policy'] && !staticPageChecker['csr-initiative'] ? 'd-none-menu' : ''}`}>
                     <a href="#" className="anchor-menu">{staticTexts['CSR']}</a>
                     <div className="sub-menu">
@@ -498,7 +545,6 @@ const HeaderUnit = ({ hospital }) => {
                   <li
                     className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['testimonial'] &&
                       !staticPageChecker['patient-stories'] &&
-                      !staticPageChecker['patients-rights-and-responsibilities'] &&
                       !staticPageChecker['guidebook-for-tpa-patients']
                       ? 'd-none-menu'
                       : ''
@@ -521,13 +567,6 @@ const HeaderUnit = ({ hospital }) => {
                                 <li>
                                   <a href={basePath + "/patient-stories"}>
                                     {staticTexts['Patient Stories']}
-                                  </a>
-                                </li>
-                              )}
-                              {staticPageChecker['patients-rights-and-responsibilities'] && (
-                                <li>
-                                  <a href={basePath + "/patients-rights-and-responsibilities"}>
-                                    {staticTexts['Patient Rights']}
                                   </a>
                                 </li>
                               )}
@@ -666,6 +705,9 @@ const HeaderUnit = ({ hospital }) => {
                       </a>
                     </li>
                   )}
+                  {staticPageChecker['corporate'] && (<li className="quicklink-header">
+                    <a href={basePath + "/corporate"} className="anchor-menu">{staticTexts['Investor Relations']}</a>
+                  </li>)}
                   {staticPageChecker['medical-representatives-appointments'] && (
                     <li className="quicklink-header">
                       <a href={"https://medrep.khmlonline.com:6005"} target='_blank'>
@@ -721,14 +763,7 @@ const HeaderUnit = ({ hospital }) => {
                                   </a>
                                 </li>
                               )}
-                              
-                              {staticPageChecker['organ-transplant-compliance'] && (
-                                <li>
-                                  <a href={basePath + "/organ-transplant-compliance"}>
-                                    {staticTexts['Organ Transplant Compliance']}
-                                  </a>
-                                </li>
-                              )}
+
                               {staticPageChecker['ews-services'] && (
                                 <li>
                                   <a href={basePath + "/ews-services"}>
@@ -740,13 +775,6 @@ const HeaderUnit = ({ hospital }) => {
                                 <li>
                                   <a href={basePath + "/blood-bank"}>
                                     {staticTexts['Blood Bank']}
-                                  </a>
-                                </li>
-                              )}
-                              {staticPageChecker['bmw-report'] && (
-                                <li>
-                                  <a href={basePath + "/bmw-report"}>
-                                    {staticTexts['BMW Reports']}
                                   </a>
                                 </li>
                               )}
@@ -893,15 +921,51 @@ const HeaderUnit = ({ hospital }) => {
                         <li> <a href={basePath + "/blood-bank"} className="menu-item "> {staticTexts['Blood Bank']} </a> </li>
                       }
 
-                      {staticPageChecker['bmw-report'] &&
-                        <li> <a href={basePath + "/bmw-report"} className="menu-item ">{staticTexts['BMW Reports']}</a> </li>
-                      }
+                      
                       {staticPageChecker['career'] && (
                         <li> <a href={basePath + "/career"} className="menu-item "> {staticTexts['Careers']} </a> </li>
                       )}
-                      {staticPageChecker['corporate'] && (
-                        <li> <a href={basePath + "/corporate"} className="menu-item">{staticTexts['Investor Relations']}</a> </li>
-                      )}
+
+                       <li className={`has-dropdown ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities'] && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
+                        <a href="#" className="menu-item">{staticTexts['CE Compliance']}<i className="fa-solid fa-angle-down"></i></a>
+                        <ul className="submenu">
+                          {staticPageChecker['bmw-report'] && (
+                            <li className="submenu-item">
+                              <a href={basePath + "/bmw-report"}>
+                                {staticTexts['BMW Reports']}
+                              </a>
+                            </li>
+                          )}
+                          {staticPageChecker['facilities'] && (
+                            <li className="submenu-item">
+                              <a href={basePath + "/facilities"}>
+                                {staticTexts['Facilities']}
+                              </a>
+                            </li>
+                          )}
+                          {staticPageChecker['organ-transplant-compliance'] && (
+                            <li className="submenu-item">
+                              <a href={basePath + "/organ-transplant-compliance"}>
+                                {staticTexts['Organ Transplant Compliance']}
+                              </a>
+                            </li>
+                          )}
+                          {staticPageChecker['patients-rights-and-responsibilities'] && (
+                            <li className="submenu-item">
+                              <a href={basePath + "/patients-rights-and-responsibilities"}>
+                                {staticTexts['Patient Rights']}
+                              </a>
+                            </li>
+                          )}
+                          {staticPageChecker['room-category-and-tariffs'] && (
+                            <li className="submenu-item">
+                              <a href={basePath + "/room-category-and-tariffs"}>
+                                {staticTexts['Room Category and Tariffs']}
+                              </a>
+                            </li>
+                          )}
+                        </ul>
+                      </li>
                       <li className={`has-dropdown ${!staticPageChecker['csr-policy'] && !staticPageChecker['csr-initiative'] ? 'd-none-menu' : ''}`}>
                         <a href="#" className="menu-item">{staticTexts['CSR']}<i className="fa-solid fa-angle-down"></i></a>
                         <ul className="submenu">
@@ -932,17 +996,20 @@ const HeaderUnit = ({ hospital }) => {
                       {staticPageChecker['all-companies-on-panel'] &&
                         <li> <a href={basePath + "/all-companies-on-panel"} className="menu-item ">{staticTexts['Insurance Providers']}</a> </li>
                       }
+                      {staticPageChecker['corporate'] && (
+                        <li> <a href={basePath + "/corporate"} className="menu-item">{staticTexts['Investor Relations']}</a> </li>
+                      )}
                       {staticPageChecker['medical-representatives-appointments'] &&
                         <li> <a href={"https://medrep.khmlonline.com:6005"} target='_blank' className="menu-item ">{staticTexts['Medical Representatives - Appointments']}</a> </li>
                       }
-                      
-                              {staticPageChecker['organ-transplant-compliance'] && (
-                                <li>
-                                  <a href={basePath + "/organ-transplant-compliance"}  className="menu-item ">
-                                    {staticTexts['Organ Transplant Compliance']}
-                                  </a>
-                                </li>
-                              )}
+
+                      {staticPageChecker['organ-transplant-compliance'] && (
+                        <li>
+                          <a href={basePath + "/organ-transplant-compliance"} className="menu-item ">
+                            {staticTexts['Organ Transplant Compliance']}
+                          </a>
+                        </li>
+                      )}
 
                       {staticPageChecker['knee-implant-list'] && (
                         <li> <a href={basePath + "/knee-implant-list"} className="menu-item "> {staticTexts['Knee Implant List']} </a> </li>
