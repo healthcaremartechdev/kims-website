@@ -533,7 +533,6 @@ const Footer = () => {
                     <div className="midle-footer py-2">
                         <div className="container">
                             <div className="d-flex justify-content-center gap-4 align-items-center main-btn">
-                                {staticPageChecker['bmw-report'] && <a href={basePath + "/bmw-report"}>{staticTexts['BMW Reports']}</a>}
                                 {staticPageChecker['terms-and-conditions'] && <a href={basePath + "/terms-and-conditions"}>{staticTexts['Terms and Conditions']}</a>}
                                 {staticPageChecker['privacy-policy'] && <a href={basePath + "/privacy-policy"}>{staticTexts['Privacy Policies']}</a>}
                                 {staticPageChecker['quality-indicator'] && <a href='https://web-admin.kimshealth.org/uploads/KIMS_NGL_KPI_PRESENTATION_MAY_OCTOBER_2025_a3f90b9920.pdf' target='_blank'>{staticTexts['Quality Indicator']}</a>}
@@ -908,7 +907,6 @@ const Footer = () => {
                 <div className="midle-footer mt-3">
                     <div className="container">
                         <div className="d-flex justify-content-center gap-4 align-items-center main-btn">
-                            {staticPageChecker['bmw-report'] && <a href={basePath + "/bmw-report"}>{staticTexts['BMW Reports']}</a>}
                             {staticPageChecker['terms-and-conditions'] && <a href={basePath + "/terms-and-conditions"}>{staticTexts['Terms and Conditions']}</a>}
                             {staticPageChecker['privacy-policy'] && <a href={basePath + "/privacy-policy"}>{staticTexts['Privacy Policies']}</a>}
                             {staticPageChecker['quality-indicator'] && <a href='https://web-admin.kimshealth.org/uploads/KIMS_NGL_KPI_PRESENTATION_MAY_OCTOBER_2025_a3f90b9920.pdf'  target='_blank'>{staticTexts['Quality Indicator']}</a>}

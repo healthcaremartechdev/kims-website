@@ -1003,13 +1003,7 @@ const HeaderUnit = ({ hospital }) => {
                         <li> <a href={"https://medrep.khmlonline.com:6005"} target='_blank' className="menu-item ">{staticTexts['Medical Representatives - Appointments']}</a> </li>
                       }
 
-                      {staticPageChecker['organ-transplant-compliance'] && (
-                        <li>
-                          <a href={basePath + "/organ-transplant-compliance"} className="menu-item ">
-                            {staticTexts['Organ Transplant Compliance']}
-                          </a>
-                        </li>
-                      )}
+                      
 
                       {staticPageChecker['knee-implant-list'] && (
                         <li> <a href={basePath + "/knee-implant-list"} className="menu-item "> {staticTexts['Knee Implant List']} </a> </li>
@@ -1017,7 +1011,6 @@ const HeaderUnit = ({ hospital }) => {
                       <li
                         className={`has-dropdown ${!staticPageChecker['testimonial'] &&
                           !staticPageChecker['patient-stories'] &&
-                          !staticPageChecker['patients-rights-and-responsibilities'] &&
                           !staticPageChecker['guidebook-for-tpa-patients']
                           ? 'd-none-menu'
                           : ''
@@ -1030,9 +1023,6 @@ const HeaderUnit = ({ hospital }) => {
                           )}
                           {staticPageChecker['patient-stories'] && (
                             <li className="submenu-item"> <a href={basePath + "/patient-stories"}> {staticTexts['Patient Stories']} </a> </li>
-                          )}
-                          {staticPageChecker['patients-rights-and-responsibilities'] && (
-                            <li className="submenu-item"> <a href={basePath + "/patients-rights-and-responsibilities"}> {staticTexts['Patient Rights']} </a> </li>
                           )}
                           {staticPageChecker['guidebook-for-tpa-patients'] && (
                             <li className="submenu-item"> <a href={basePath + "/guidebook-for-tpa-patients"}> {staticTexts['Guidelines']} </a> </li>
