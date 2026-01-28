@@ -11,7 +11,7 @@ import AcademicTab from '@/components/AcademicTab';
 
 const Academic = async () => {
     const getLangLoc = await getCurrentLangLoc()
-    const field = "populate[0]=pageContent&populate[1]=pageContent.contentCard&populate[2]=pageContent.contentCard.image&populate[3]=pageContent.socomer&populate[4]=pageContent.socomer.socomerItem&populate[5]=pageContent.socomer.socomerItem.file&populate[6]=pageContent.logoSlider&populate[7]=pageContent.logoSlider.image&populate[8]=pageContent.image";
+    const field = "populate[0]=pageContent&populate[1]=pageContent.contentCard&populate[2]=pageContent.contentCard.image&populate[3]=pageContent.socomer&populate[4]=pageContent.socomer.socomerItem&populate[5]=pageContent.socomer.socomerItem.file&populate[6]=pageContent.logoSlider&populate[7]=pageContent.logoSlider.image&populate[8]=pageContent.image&populate[9]=pageContent.bannerItem&populate[10]=pageContent.bannerItem.bannerImageDesktop&populate[11]=pageContent.bannerItem.bannerImageMobile";
     const data = await getStaticPageContent("academic", field);
     const pageContent = data?.data[0]?.pageContent;
     const pageMeta = data?.data[0]?.metaSection;
@@ -25,25 +25,10 @@ const Academic = async () => {
             <Header />
             <div role="main" className="main">
                 <div className="find-doctor-main-page academic-new-page-2026">
-                    <div className="page-header">
-                        <div className="container">
-                            <h2>{pageContent[0]?.title}</h2>
-                        </div>
-                    </div>
-                    <section className="breadcrumb-wrapper py-2">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-12">
-                                    <Breadcrumb activeTitle={pageContent[0]?.title} middleTitle={""} middleURL={""} />
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                     <AcademicTab
                         pageContent={pageContent}
                         baseUrl={baseUrl}
                     />
-
                 </div>
             </div>
             <Footer />

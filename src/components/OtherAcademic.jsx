@@ -1,8 +1,29 @@
 "use client"
+import { useEffect, useState } from "react";
 import AcademicGalleryViewer from "./AcademicGalleryViewer";
 import { marked } from "marked";
 
 const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
+    const [drpValue, setDrpValue] = useState('');
+
+    useEffect(() => {
+        if (highlight === "rank-holder") {
+            setDrpValue("3")
+        }
+        else if (highlight === "skill") {
+            setDrpValue("5")
+        }
+        else if (highlight === "international-training") {
+            setDrpValue("6")
+        }
+        else if (highlight === "research") {
+            setDrpValue("7")
+        }
+        else if (highlight === "alumini") {
+            setDrpValue("8")
+        }
+
+    }, []);
 
     return (
         <section className="section">
@@ -60,22 +81,26 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                         </button>
                                     </div>
                                     <div className="visa-select d-md-none d-block">
-                                        <select className="form-select" aria-label="Default select example" onChange={(e) => {
-                                            let value = e.target.value;
-                                            if (value === '3')
-                                                window.location.href = `${baseUrl}/rank-holders`
-                                            else if (value === '5')
-                                                window.location.href = `${baseUrl}/skills-and-simulation-lab`
-                                            else if (value === '6')
-                                                window.location.href = `${baseUrl}/international-training-programs`
-                                            else if (value === '7')
-                                                window.location.href = `${baseUrl}/outstanding-research-work`
-                                            else if (value === '8')
-                                                window.location.href = `${baseUrl}/our-alumini`
-                                            else
-                                                window.location.href = `${baseUrl}/academic?tab=${e.target.value}`
+                                        <select
+                                            className="form-select"
+                                            aria-label="Default select example"
+                                            value={drpValue}
+                                            onChange={(e) => {
+                                                let value = e.target.value;
+                                                if (value === '3')
+                                                    window.location.href = `${baseUrl}/rank-holders`
+                                                else if (value === '5')
+                                                    window.location.href = `${baseUrl}/skills-and-simulation-lab`
+                                                else if (value === '6')
+                                                    window.location.href = `${baseUrl}/international-training-programs`
+                                                else if (value === '7')
+                                                    window.location.href = `${baseUrl}/outstanding-research-work`
+                                                else if (value === '8')
+                                                    window.location.href = `${baseUrl}/our-alumini`
+                                                else
+                                                    window.location.href = `${baseUrl}/academic?tab=${e.target.value}`
 
-                                        }}>
+                                            }}>
                                             <option value="about">About Academic</option>
                                             <option value="leader">Academic Leaders</option>
                                             <option value="course">Courses We Offer</option>
