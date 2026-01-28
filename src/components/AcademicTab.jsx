@@ -57,43 +57,51 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
 
     return (
         <>
-            {/* <div className="page-header">
-                <div className="container">
-                    <h2>{pageTitle}</h2>
-                </div>
-            </div> */}
-            <section className="d-lg-block d-none">
-                <div className="container-wrapper">
-                    <div className="owl-carousel owl-theme homepage-slider">
-                        {
-                            pageContent[12]?.bannerItem.map((banner, index) => {
-                                return <div className="item" key={index}>
-                                    <a href={banner.hyperlink}>
-                                        <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${banner.bannerImageDesktop.url}`}
-                                            className="img-fluid" alt={banner.title} />
-                                    </a>
-                                </div>
-                            })
-                        }
+            {
+                pageTitle?.toLowerCase() !== "About Academics".toLowerCase() && (
+                    <div className="page-header">
+                        <div className="container">
+                            <h2>{pageTitle}</h2>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section className="d-lg-none d-block" >
-                <div className="container-wrapper">
-                    <div className="owl-carousel owl-theme homepage-slider">
-                        {
-                            pageContent[12]?.bannerItem.map((banner, index) => {
-                                return <div className="item" key={index}>
-                                    <a href={banner.hyperlink}>
-                                        <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${banner.bannerImageMobile.url}`}
-                                            className="img-fluid" alt={banner.title} />
-                                    </a>
-                                </div>
-                            })
-                        }
+                )
+            }
+
+            <div style={{ display: `${pageTitle?.toLowerCase() == "ABOUT ACADEMICS".toLowerCase() ? 'block' : 'none'}` }}>
+                <section className="d-lg-block d-none">
+                    <div className="container-wrapper">
+                        <div className="owl-carousel owl-theme homepage-slider">
+                            {
+                                pageContent[12]?.bannerItem.map((banner, index) => {
+                                    return <div className="item" key={index}>
+                                        <a href={banner.hyperlink}>
+                                            <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${banner.bannerImageDesktop.url}`}
+                                                className="img-fluid" alt={banner.title} />
+                                        </a>
+                                    </div>
+                                })
+                            }
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
+                <section className="d-lg-none d-block" >
+                    <div className="container-wrapper">
+                        <div className="owl-carousel owl-theme homepage-slider">
+                            {
+                                pageContent[12]?.bannerItem.map((banner, index) => {
+                                    return <div className="item" key={index}>
+                                        <a href={banner.hyperlink}>
+                                            <img src={`${process.env.NEXT_PUBLIC_IMAGE_URL}${banner.bannerImageMobile.url}`}
+                                                className="img-fluid" alt={banner.title} />
+                                        </a>
+                                    </div>
+                                })
+                            }
+                        </div>
+                    </div>
+                </section>
+            </div>
+
 
             <section className="section">
                 <div className="container">
