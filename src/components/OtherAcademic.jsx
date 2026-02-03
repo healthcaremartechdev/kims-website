@@ -130,7 +130,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                 highlight === "rank-holder" && (
                                     <div className="container main-heading sub-heading main-list">
                                         <h2>{pageContent[0]?.title}</h2>
-                                        <section className="section expert-section">
+                                        <section className="section expert-section pt-0">
                                             <div className="container">
                                                 <div className="row">
                                                     {
@@ -163,7 +163,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                 highlight === "skill" && (
                                     <div className="container main-heading sub-heading main-list">
                                         <h2>{pageContent[0]?.title}</h2>
-                                        <section className="section">
+                                        <section className="section pt-0">
                                             <div className="container">
                                                 <div className="main-heading">
                                                     <h2>{pageContent[1].title}</h2>
@@ -200,7 +200,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                 highlight === "international-training" && (
                                     <div className="container main-heading sub-heading main-list">
                                         <h2>{pageContent[0]?.title}</h2>
-                                        <section className="section">
+                                        <section className="section pt-0">
                                             <div className="container">
                                                 <div className="main-heading sub-heading main-list">
                                                     <div
@@ -219,7 +219,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                 highlight === "research" && (
                                     <div className="container main-heading sub-heading main-list">
                                         <h2>{pageContent[0]?.title}</h2>
-                                        <section className="section">
+                                        <section className="section pt-0">
                                             <div className="container">
                                                 <div className="main-heading sub-heading main-list">
                                                     <div
@@ -242,7 +242,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                     <div className="container main-heading sub-heading main-list">
                                         <h2>{pageContent[0]?.title}</h2>
 
-                                        <section className="section">
+                                        <section className="section pt-0">
                                             <div className="container">
                                                 <div className="faq-card p-4">
                                                     <div className="accordion" id="accordionExample">
