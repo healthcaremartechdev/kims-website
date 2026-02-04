@@ -253,7 +253,7 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                             <div className="treat-box" id="omega1" style={{ display: "none" }}>
                                 <div className="container">
                                     {
-                                        pageContent[1].contentCard.map((d, i) => {
+                                        pageContent[1].contentCard.slice(0, 1).map((d, i) => {
                                             return <div className="col-12">
                                                 <div className="card mb-3">
                                                     <div className="row g-0">
@@ -279,6 +279,29 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                                             </div>
                                         })
                                     }
+                                    <div className="row">
+                                        {
+                                            pageContent[1].contentCard.slice(1, pageContent[1].contentCard.length).map((d, i) => {
+                                                return <div className="col-3">
+                                                    <div className="card mb-3">
+                                                        <div className="card-body p-2 sub-heading main-heading">
+                                                            <img
+                                                                src={d.image?.url ? `${process.env.NEXT_PUBLIC_IMAGE_URL}${d.image.url}` : '/img/no-image.jpg'}
+                                                                className="img-fluid w-100 card-img"
+                                                                alt={d.title}
+                                                            />
+                                                            <p><strong>{d.title}</strong></p>
+                                                            <p
+                                                                className="card-text"
+                                                                dangerouslySetInnerHTML={{ __html: marked(d.details) }}
+                                                            ></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            })
+                                        }
+                                    </div>
+
                                 </div>
                             </div>
 
