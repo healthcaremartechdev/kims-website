@@ -466,7 +466,7 @@ const HeaderUnit = ({ hospital }) => {
                     <a href={basePath + "/teletriage"} className="anchor-menu">{staticTexts['Teletriage']}</a>
                   </li>)}
 
-                  <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities']  && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
+                  <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities']  && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patient-grievance-redressal'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
                     <a href="#" className="anchor-menu">{staticTexts['CE Compliance']}</a>
                     <div className="sub-menu">
                       <div className="row">
@@ -498,6 +498,13 @@ const HeaderUnit = ({ hospital }) => {
                                 <li>
                                   <a href={basePath + "/patients-rights-and-responsibilities"}>
                                     {staticTexts['Patient Rights']}
+                                  </a>
+                                </li>
+                              )}
+                              {staticPageChecker['patient-grievance-redressal'] && (
+                                <li>
+                                  <a href={basePath + "/patient-grievance-redressal"}>
+                                    {staticTexts['Patient Grievance Redressal']}
                                   </a>
                                 </li>
                               )}
@@ -926,7 +933,7 @@ const HeaderUnit = ({ hospital }) => {
                         <li> <a href={basePath + "/career"} className="menu-item "> {staticTexts['Careers']} </a> </li>
                       )}
 
-                       <li className={`has-dropdown ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities'] && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
+                       <li className={`has-dropdown ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities'] && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patient-grievance-redressals'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
                         <a href="#" className="menu-item">{staticTexts['CE Compliance']}<i className="fa-solid fa-angle-down"></i></a>
                         <ul className="submenu">
                           {staticPageChecker['bmw-report'] && (
@@ -954,6 +961,13 @@ const HeaderUnit = ({ hospital }) => {
                             <li className="submenu-item">
                               <a href={basePath + "/patients-rights-and-responsibilities"}>
                                 {staticTexts['Patient Rights']}
+                              </a>
+                            </li>
+                          )}
+                           {staticPageChecker['patient-grievance-redressal'] && (
+                            <li className="submenu-item">
+                              <a href={basePath + "/patient-grievance-redressal"}>
+                                {staticTexts['Patient Grievance Redressal']}
                               </a>
                             </li>
                           )}
