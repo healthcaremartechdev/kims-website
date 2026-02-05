@@ -57,7 +57,7 @@ const HealthPackage = async ({ searchParams }) => {
                             </div>
 
                             <div className="row">
-                                <div className="col-md-3 mb-4">
+                                {/* <div className="col-md-3 mb-4">
                                     <div className="find-doctor-left-col filter-form">
                                         <h4>Select Filters</h4>
                                         <div className="find-doc-box">
@@ -263,13 +263,13 @@ const HealthPackage = async ({ searchParams }) => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
-                                <div className="col-md-9 health-pack-details-main-page">
+                                <div className="col-md-12 health-pack-details-main-page">
                                     <div className="row">
                                         {
                                             allHealthPackage.map((data, index) => {
-                                                return <div className="col-md-4 col-6 mb-3" key={index}>
+                                                return <div className="col-md-3 col-6 mb-3" key={index}>
                                                     <div className="custom-hospital-top-card">
                                                         <div className="hospital-img">
                                                             <a href={basePath + "/health-package/" + data.slug}><img src={data.featuredImage ? process.env.NEXT_PUBLIC_IMAGE_URL + data.featuredImage.url : "/img/no-image.jpg"} alt={data?.title}
@@ -295,7 +295,7 @@ const HealthPackage = async ({ searchParams }) => {
 
                                                             <div className="d-lg-flex d-block align-items-center justify-content-between pt-3">
                                                                 <a href={basePath + "/health-package/" + data.slug} className="btn mb-lg-0 mb-2 hospital-primarybtn">{staticText['View Details']}</a>
-                                                                <a href="#" className="btn mb-lg-0 mb-3 hospital-secondarybtn">{staticText['Book Now']}</a>
+                                                                <a href={basePath + "/health-package/" + data.slug+"#book-now"} className="btn mb-lg-0 mb-3 hospital-secondarybtn">{staticText['Book Now']}</a>
                                                             </div>
                                                         </div>
 

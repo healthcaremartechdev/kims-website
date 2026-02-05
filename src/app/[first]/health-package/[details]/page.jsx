@@ -76,8 +76,8 @@ const HealthPackageDetails = async ({ params }) => {
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="association-form-card mb-5">
-                                        <Form1 title="GET A CALLBACK FROM OUR HEALTH ADVISOR" type={"Bookhealth Checkup"}/>
+                                    <div className="association-form-card mb-5" id='book-now'>
+                                        <Form1 title="GET A CALLBACK FROM OUR HEALTH ADVISOR" type={"Bookhealth Checkup"} subject={data.title}/>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@ const HealthPackageDetails = async ({ params }) => {
 
                                                 <div className="d-lg-flex d-block align-items-center justify-content-between pt-3">
                                                     <a href={basePath + "/health-package/" + data.slug} className="btn mb-lg-0 mb-2 hospital-primarybtn">{staticText['View Details']}</a>
-                                                    <a href="#" className="btn mb-lg-0 mb-3 hospital-secondarybtn">{staticText['Book Now']}</a>
+                                                    <a href={basePath + "/health-package/" + data.slug+"#book-now"} className="btn mb-lg-0 mb-3 hospital-secondarybtn">{staticText['Book Now']}</a>
                                                 </div>
                                             </div>
                                         </div>
