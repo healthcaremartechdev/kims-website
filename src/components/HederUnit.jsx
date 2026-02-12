@@ -466,7 +466,7 @@ const HeaderUnit = ({ hospital }) => {
                     <a href={basePath + "/teletriage"} className="anchor-menu">{staticTexts['Teletriage']}</a>
                   </li>)}
 
-                  <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities']  && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patient-grievance-redressal'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
+                  <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities'] && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patient-grievance-redressal'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
                     <a href="#" className="anchor-menu">{staticTexts['CE Compliance']}</a>
                     <div className="sub-menu">
                       <div className="row">
@@ -521,7 +521,7 @@ const HeaderUnit = ({ hospital }) => {
                       </div>
                     </div>
                   </li>
-                  
+
                   <li className={`menu-item-has-children show-submenu quicklink-header ${!staticPageChecker['csr-policy'] && !staticPageChecker['csr-initiative'] ? 'd-none-menu' : ''}`}>
                     <a href="#" className="anchor-menu">{staticTexts['CSR']}</a>
                     <div className="sub-menu">
@@ -615,6 +615,61 @@ const HeaderUnit = ({ hospital }) => {
                         <div className="col-lg-4">
                           <div className="sub-menu-details">
                             <ul>
+                              {staticPageChecker['academic'] && (
+                                <>
+                                  <li>
+                                    <a href={basePath + "/academic"}>
+                                      About Academics
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/academic?tab=leader"}>
+                                      Academic Leaders
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/academic?tab=course"}>
+                                      Courses We Offer
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/rank-holders"}>
+                                      Rank Holders
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/academic?tab=publication"}>
+                                      Scientific Publications
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/skills-and-simulation-lab"}>
+                                      Skills & Simulation Lab
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/international-training-programs"}>
+                                      International Training
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/outstanding-research-work"}>
+                                      Research Work
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/our-alumini"}>
+                                      Our Alumni
+                                    </a>
+                                  </li>
+                                  <li>
+                                    <a href={basePath + "/academic?tab=gallery"}>
+                                      Gallery
+                                    </a>
+                                  </li>
+                                </>
+
+                              )}
                               {staticPageChecker['kisa-kimshealth-institute-of-skill-acquisition'] && (
                                 <li>
                                   <a href={basePath + "/kisa-kimshealth-institute-of-skill-acquisition"}>
@@ -884,6 +939,61 @@ const HeaderUnit = ({ hospital }) => {
                       >
                         <a href="#" className="menu-item">{staticTexts['Academics']}<i className="fa-solid fa-angle-down"></i></a>
                         <ul className="submenu">
+                          {staticPageChecker['academic'] && (
+                            <>
+                              <li className="submenu-item">
+                                <a href={basePath + "/academic"}>
+                                  About Academics
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/academic?tab=leader"}>
+                                  Academic Leaders
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/academic?tab=course"}>
+                                  Courses We Offer
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/rank-holders"}>
+                                  Rank Holders
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/academic?tab=publication"}>
+                                  Scientific Publications
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/skills-and-simulation-lab"}>
+                                  Skills & Simulation Lab
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/international-training-programs"}>
+                                  International Training
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/outstanding-research-work"}>
+                                  Research Work
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/our-alumini"}>
+                                  Our Alumni
+                                </a>
+                              </li>
+                              <li className="submenu-item">
+                                <a href={basePath + "/academic?tab=gallery"}>
+                                  Gallery
+                                </a>
+                              </li>
+                            </>
+
+                          )}
                           {staticPageChecker['kisa-kimshealth-institute-of-skill-acquisition'] && (
                             <li className="submenu-item"> <a href={basePath + "/kisa-kimshealth-institute-of-skill-acquisition"}> {staticTexts['KISA (KIMSHEALTH Institute of Skill Acquisition)']} </a> </li>
                           )}
@@ -928,12 +1038,12 @@ const HeaderUnit = ({ hospital }) => {
                         <li> <a href={basePath + "/blood-bank"} className="menu-item "> {staticTexts['Blood Bank']} </a> </li>
                       }
 
-                      
+
                       {staticPageChecker['career'] && (
                         <li> <a href={basePath + "/career"} className="menu-item "> {staticTexts['Careers']} </a> </li>
                       )}
 
-                       <li className={`has-dropdown ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities'] && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patient-grievance-redressals'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
+                      <li className={`has-dropdown ${!staticPageChecker['bmw-report'] && !staticPageChecker['facilities'] && !staticPageChecker['organ-transplant-compliance'] && !staticPageChecker['patients-rights-and-responsibilities'] && !staticPageChecker['patient-grievance-redressals'] && !staticPageChecker['room-category-and-tariffs'] ? 'd-none-menu' : ''}`}>
                         <a href="#" className="menu-item">{staticTexts['CE Compliance']}<i className="fa-solid fa-angle-down"></i></a>
                         <ul className="submenu">
                           {staticPageChecker['bmw-report'] && (
@@ -964,7 +1074,7 @@ const HeaderUnit = ({ hospital }) => {
                               </a>
                             </li>
                           )}
-                           {staticPageChecker['patient-grievance-redressal'] && (
+                          {staticPageChecker['patient-grievance-redressal'] && (
                             <li className="submenu-item">
                               <a href={basePath + "/patient-grievance-redressal"}>
                                 {staticTexts['Patient Grievance Redressal']}
@@ -1017,7 +1127,7 @@ const HeaderUnit = ({ hospital }) => {
                         <li> <a href={"https://medrep.khmlonline.com:6005"} target='_blank' className="menu-item ">{staticTexts['Medical Representatives - Appointments']}</a> </li>
                       }
 
-                      
+
 
                       {staticPageChecker['knee-implant-list'] && (
                         <li> <a href={basePath + "/knee-implant-list"} className="menu-item "> {staticTexts['Knee Implant List']} </a> </li>
