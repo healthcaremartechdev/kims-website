@@ -69,7 +69,7 @@ const emailData = {
     "Career": ["hr.ngl@kimshealth.org"],
     "Contact": ["relations.ngl@kimshealth.org"],
     "Corporate": ["relations@kimskerala.com"],
-    "Health At Home Services": ["appointments.ngl@kimsglobal.com"],
+    "Health At Home Services": ["appointments.ngl@kimsglobal.com", "dno.ngl@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
   ip: {
