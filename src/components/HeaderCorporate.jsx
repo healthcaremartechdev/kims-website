@@ -803,11 +803,11 @@ const HeaderCorporate = ({ hospital }) => {
                   )}
 
 
-                  {staticPageChecker['telehealth'] && (
+                  {/* {staticPageChecker['telehealth'] && (
                     <li>
                       <a target='_blank' href={locationData?.teleMedicineLink}>{staticTexts['Telehealth']}</a>
                     </li>
-                  )}
+                  )} */}
 
                   <li className="menu-item-has-children show-submenu quicklink-header">
                     <a href="#" className="anchor-menu">{staticTexts['Others']}</a>
