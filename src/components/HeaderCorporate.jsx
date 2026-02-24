@@ -459,9 +459,9 @@ const HeaderCorporate = ({ hospital }) => {
 
 
 
-                  {staticPageChecker['telehealth'] && (<li className="quicklink-header">
+                  {/* {staticPageChecker['telehealth'] && (<li className="quicklink-header">
                     <a target='_blank' href={locationData?.teleMedicineLink} className="anchor-menu">{staticTexts['Telehealth']}</a>
-                  </li>)}
+                  </li>)} */}
                   {staticPageChecker['teletriage'] && (<li className="quicklink-header">
                     <a href={basePath + "/teletriage"} className="anchor-menu">{staticTexts['Teletriage']}</a>
                   </li>)}
