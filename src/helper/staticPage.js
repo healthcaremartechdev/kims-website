@@ -20,7 +20,7 @@ const getStaticPage = async () => {
 
 
         const slugMap = Object.fromEntries(
-            json.data.map(item => [item.pageCategory.slug, true])
+            json.data.map(item => [item.pageCategory?.slug, true])
         );
 
         staticData = { ...staticData, ...slugMap };

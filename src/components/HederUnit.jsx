@@ -804,6 +804,13 @@ const HeaderUnit = ({ hospital }) => {
                     </li>
                   )}
 
+
+                  {staticPageChecker['telehealth'] && (
+                    <li>
+                      <a target='_blank' href={locationData?.teleMedicineLink}>{staticTexts['Telehealth']}</a>
+                    </li>
+                  )}
+
                   <li className="menu-item-has-children show-submenu quicklink-header">
                     <a href="#" className="anchor-menu">{staticTexts['Others']}</a>
                     <div className="sub-menu">

@@ -803,6 +803,11 @@ const HeaderCorporate = ({ hospital }) => {
                   )}
 
 
+                  {staticPageChecker['telehealth'] && (
+                    <li>
+                      <a target='_blank' href={locationData?.teleMedicineLink}>{staticTexts['Telehealth']}</a>
+                    </li>
+                  )}
 
                   <li className="menu-item-has-children show-submenu quicklink-header">
                     <a href="#" className="anchor-menu">{staticTexts['Others']}</a>
@@ -939,7 +944,7 @@ const HeaderCorporate = ({ hospital }) => {
                       >
                         <a href="#" className="menu-item">{staticTexts['Academics']}<i className="fa-solid fa-angle-down"></i></a>
                         <ul className="submenu">
-                           {staticPageChecker['academic'] && (
+                          {staticPageChecker['academic'] && (
                             <>
                               <li className="submenu-item">
                                 <a href={basePath + "/academic"}>
