@@ -17,6 +17,7 @@ const emailData = {
     "American Heart Association": ["socomer@kimsglobal.com"],
     "Doctoral courses": ["academics.tvm@kimsglobal.com"],
     "Nusring Recruitment": ["nursing.secretary@kimsglobal.com"],
+    "Health At Home Services": ["healthathome.tvm@kimsglobal.com"],
     "Paramedical courses": ["paramedical@kimskerala.com"],
     "KIMSHEALTH Clinical Skills and Simulation Centre": ["socomer@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
@@ -68,6 +69,7 @@ const emailData = {
     "Career": ["hr.ngl@kimshealth.org"],
     "Contact": ["relations.ngl@kimshealth.org"],
     "Corporate": ["relations@kimskerala.com"],
+    "Health At Home Services": ["appointments.ngl@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
   ip: {

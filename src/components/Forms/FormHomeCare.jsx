@@ -56,7 +56,7 @@ const FormHomeCare = ({ title, type, subject }) => {
         'headers': {
           "Content-type": "application/json",
         },
-        body: JSON.stringify({ data: htmlMsg, formType: type ? type : "Contact", locationData: "trivandrum" }),
+        body: JSON.stringify({ data: htmlMsg, formType: type ? type : "Contact" }),
       });
 
       const res = await req.json();
