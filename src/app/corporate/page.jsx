@@ -237,7 +237,21 @@ const Investor = async () => {
 
                     </div>
                 </section>}
-                {pageContent[4]?.item[0]?.title && <div className="line-divider"> </div>}
+                
+<div className="line-divider"> </div>
+
+                {pageContent[6].title && <section className="section journal-section">
+                    <div className="container">
+                        <div className="main-heading">
+                            <h2>{pageContent[6]?.title}</h2>
+                        </div>
+
+                        <div className='main-heading sub-heading main-list'
+                            dangerouslySetInnerHTML={{ __html: pageContent[6]?.details }}>
+                        </div>
+                    </div>
+                </section>}
+                <div className="line-divider"> </div>
 
 
                 {pageContent[5].title && <section className="section journal-section">
