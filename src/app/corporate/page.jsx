@@ -33,7 +33,7 @@ const Investor = async () => {
 
 
 
-    
+
     const corporateDataSet = {
         generalMeeting: await corporateFile.getAll({ langLoc: getLangLoc, type: 'Notice of General Meetings' }),
         annualReport: await corporateFile.getAll({ langLoc: getLangLoc, type: 'Download Annual Report' }),
@@ -128,63 +128,63 @@ const Investor = async () => {
                 {pageContent[2].title && <div className="line-divider"> </div>}
 
 
-                    <section className="section">
-                        <div className="container">
-                            <div className="main-heading">
-                                <h2>{pageContent[3].title}</h2>
-                            </div>
+                <section className="section">
+                    <div className="container">
+                        <div className="main-heading">
+                            <h2>{pageContent[3].title}</h2>
+                        </div>
 
-                            {pageContent[3].title && (
-                                <div className="row">
-                                    {pageContent[3].socomer?.map((sp, i) => (
-                                        <div className="col-md-6" key={i}>
-                                            <div className="socomer-tab">
-                                                <div className="procedure-acc-card mb-0">
-                                                    <div className="accordion-item">
-                                                        <h2 className="accordion-header">
-                                                            <button
-                                                                className="accordion-button"
-                                                                type="button"
-                                                            >
-                                                                <span>{sp.title}</span>
-                                                            </button>
-                                                        </h2>
-                                                        <div
-                                                            className="accordion-collapse collapse show"
+                        {pageContent[3].title && (
+                            <div className="row">
+                                {pageContent[3].socomer?.map((sp, i) => (
+                                    <div className="col-md-6" key={i}>
+                                        <div className="socomer-tab">
+                                            <div className="procedure-acc-card mb-0">
+                                                <div className="accordion-item">
+                                                    <h2 className="accordion-header">
+                                                        <button
+                                                            className="accordion-button"
+                                                            type="button"
                                                         >
-                                                            <div className="accordion-body px-0 pt-0">
-                                                                <ul>
-                                                                    {sp.socomerItem.map((spI, j) => (
-                                                                        <li key={j}>
-                                                                            - {spI.title}
-                                                                            <a
-                                                                                href={
-                                                                                    spI.file?.url
-                                                                                        ? `${process.env.NEXT_PUBLIC_IMAGE_URL}${spI.file.url}`
-                                                                                        : spI.link
-                                                                                }
-                                                                                target="_blank"
-                                                                                rel="noopener noreferrer"
-                                                                            >
-                                                                                <i className="custom-download"></i>
-                                                                                {spI.buttonText}
-                                                                            </a>
-                                                                        </li>
-                                                                    ))}
-                                                                </ul>
-                                                            </div>
+                                                            <span>{sp.title}</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div
+                                                        className="accordion-collapse collapse show"
+                                                    >
+                                                        <div className="accordion-body px-0 pt-0">
+                                                            <ul>
+                                                                {sp.socomerItem.map((spI, j) => (
+                                                                    <li key={j}>
+                                                                        - {spI.title}
+                                                                        <a
+                                                                            href={
+                                                                                spI.file?.url
+                                                                                    ? `${process.env.NEXT_PUBLIC_IMAGE_URL}${spI.file.url}`
+                                                                                    : spI.link
+                                                                            }
+                                                                            target="_blank"
+                                                                            rel="noopener noreferrer"
+                                                                        >
+                                                                            <i className="custom-download"></i>
+                                                                            {spI.buttonText}
+                                                                        </a>
+                                                                    </li>
+                                                                ))}
+                                                            </ul>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    ))}
-                                </div>
-                            )}
+                                    </div>
+                                ))}
+                            </div>
+                        )}
 
-                            <CorporateForm dataSet={corporateDataSet} />
-                        </div>
-                    </section>
+                        <CorporateForm dataSet={corporateDataSet} />
+                    </div>
+                </section>
 
                 {pageContent[3].title && <div className="line-divider"> </div>}
 
@@ -237,10 +237,10 @@ const Investor = async () => {
 
                     </div>
                 </section>}
-                
-<div className="line-divider"> </div>
 
-                {pageContent[6].title && <section className="section journal-section">
+                <div className="line-divider"> </div>
+
+                {pageContent[6]?.title && <section className="section journal-section">
                     <div className="container">
                         <div className="main-heading">
                             <h2>{pageContent[6]?.title}</h2>
@@ -254,7 +254,7 @@ const Investor = async () => {
                 <div className="line-divider"> </div>
 
 
-                {pageContent[5].title && <section className="section journal-section">
+                {pageContent[5]?.title && <section className="section journal-section">
                     <div className="container">
                         <div className="main-heading">
                             <h2>{pageContent[5]?.title}</h2>
