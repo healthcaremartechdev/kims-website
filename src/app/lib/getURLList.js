@@ -238,6 +238,33 @@ const urlList = {
         return data;
 
     },
+    
+    getDiseaseAll: async () => {
+        const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
+        const limit = 100;
+
+        // Step 1: Get total count
+        const initialReq = await fetch(
+            `${baseUrl}/disease-details?populate=*&pagination[limit]=5&sort=manageAppearance.orderInMasterList:asc,title:asc`
+        );
+        const initialRes = await initialReq.json();
+
+        return initialRes.data;
+    },
+
+
+    getProcedureAll: async () => {
+        const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
+        const limit = 100;
+
+        // Step 1: Get total count
+        const initialReq = await fetch(
+            `${baseUrl}/procedure-details?populate=*&pagination[limit]=5&sort=manageAppearance.orderInMasterList:asc,title:asc`
+        );
+        const initialRes = await initialReq.json();
+
+        return initialRes.data;
+    },
 }
 
 

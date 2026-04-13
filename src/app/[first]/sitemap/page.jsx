@@ -13,6 +13,7 @@ const SiteMapPage = async ({ searchParams }) => {
     const URLParams = await searchParams;
     const getLangLoc = await getCurrentLangLoc()
     const basePath = await getBaseUrl(true, true);
+    const basePath2 = await getBaseUrl(false, false);
     const data = await getStaticPageContent("sitemap");
     const pageContent = data?.data[0]?.pageContent;
     const staticText = await getStaticText();
@@ -26,6 +27,8 @@ const SiteMapPage = async ({ searchParams }) => {
     const allDoctorTalk = await urlList.getDoctorTalk({ langLoc: getLangLoc });
     const allAtHomeServices = await urlList.getAtHomeService({ langLoc: getLangLoc });
     const allSpecialist = await urlList.getSpecialist({ langLoc: getLangLoc });
+    const allProcedure = await urlList.getProcedureAll();
+    const allDisease = await urlList.getDiseaseAll();
 
 
 
@@ -43,7 +46,7 @@ const SiteMapPage = async ({ searchParams }) => {
                                     Copy Data
                                 </button>
                                 <div>
-                                    <table className="table table-bordered" id='sitemap-table'> 
+                                    <table className="table table-bordered" id='sitemap-table'>
                                         <thead>
                                             <tr>
                                                 <th>Title</th>
@@ -58,10 +61,10 @@ const SiteMapPage = async ({ searchParams }) => {
                                                         <td colSpan="2"><strong>{staticText['Pages']}</strong></td>
                                                     </tr>
                                                     {allPages.map((data, index) => {
-                                                        const url = basePath + "/" + data.pageCategory.slug;
+                                                        const url = basePath + "/" + data.pageCategory?.slug;
                                                         return (
                                                             <tr key={"pages" + index}>
-                                                                <td><a href={url}>{data.pageCategory.title}</a></td>
+                                                                <td><a href={url}>{data.pageCategory?.title}</a></td>
                                                                 <td>{url}</td>
                                                             </tr>
                                                         );
@@ -213,6 +216,42 @@ const SiteMapPage = async ({ searchParams }) => {
                                                     })}
                                                 </>
                                             )}
+
+                                            {/* Procedure */}
+                                            {allProcedure.length > 0 && (
+                                                <>
+                                                    <tr>
+                                                        <td colSpan="2"><strong>{staticText['Procedures']}</strong></td>
+                                                    </tr>
+                                                    {allProcedure.map((data, index) => {
+                                                        const url = basePath2 + "/procedure/" + data.procedure?.slug;
+                                                        return (
+                                                            <tr key={"procedure" + index}>
+                                                                <td><a href={url}>{data.title}</a></td>
+                                                                <td>{url}</td>
+                                                            </tr>
+                                                        );
+                                                    })}
+                                                </>
+                                            )}
+
+                                            {/* Disease */}
+                                            {allDisease.length > 0 && (
+                                                <>
+                                                    <tr>
+                                                        <td colSpan="2"><strong>{staticText['Diseases']}</strong></td>
+                                                    </tr>
+                                                    {allDisease.map((data, index) => {
+                                                        const url = basePath2 + "/disease/" + data.disease?.slug;
+                                                        return (
+                                                            <tr key={"disease" + index}>
+                                                                <td><a href={url}>{data.title}</a></td>
+                                                                <td>{url}</td>
+                                                            </tr>
+                                                        );
+                                                    })}
+                                                </>
+                                            )}
                                         </tbody>
                                     </table>
                                 </div>
@@ -273,7 +312,7 @@ const SiteMapPage = async ({ searchParams }) => {
                                             {
                                                 allPages.map((data, index) => {
                                                     return <li key={"pages" + index}>
-                                                        <a href={basePath + "/" + data.pageCategory.slug}>{data.pageCategory.title}</a>
+                                                        <a href={basePath + "/" + data.pageCategory?.slug}>{data.pageCategory?.title}</a>
                                                     </li>
                                                 })
                                             }
@@ -477,7 +516,53 @@ const SiteMapPage = async ({ searchParams }) => {
                         <div className="line-divider"></div>
                     </>
                     }
+                    {/* Procedure*/}
+                    {allProcedure.length > 0 && <>
+                        <section className="section">
+                            <div className="container">
+                                <div className="main-heading main-list sub-heading">
+                                    <h2>{staticText['Procedures']}</h2>
+                                    <div>
+                                        <ul>
+                                            {
+                                                allProcedure.map((data, index) => {
+                                                    return <li key={"procedure" + index}>
+                                                        <a href={basePath + "/procedure/" + data.procedure?.slug}>{data.title}</a>
+                                                    </li>
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div className="line-divider"></div>
+                    </>
+                    }
 
+                    {/* Disease*/}
+                    {allDisease.length > 0 && <>
+                        <section className="section">
+                            <div className="container">
+                                <div className="main-heading main-list sub-heading">
+                                    <h2>{staticText['Diseases']}</h2>
+                                    <div>
+                                        <ul>
+                                            {
+                                                allDisease.map((data, index) => {
+                                                    return <li key={"disease" + index}>
+                                                        <a href={basePath + "/disease/" + data.disease?.slug}>{data.title}</a>
+                                                    </li>
+                                                })
+                                            }
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div className="line-divider"></div>
+                    </>
+                    }
                 </div>
             </div>
             <Footer />
