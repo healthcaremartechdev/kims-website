@@ -1,10 +1,10 @@
 const urlList = {
 
-    getPages: async ({langLoc }) => {
+    getPages: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/static-page-contents?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/static-page-contents?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -25,12 +25,12 @@ const urlList = {
 
         return data;
     },
-    
-    getHospital: async ({langLoc }) => {
+
+    getHospital: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/hospitals?populate=*&filters[location][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/hospitals?populate=*&filters[location][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -76,11 +76,11 @@ const urlList = {
         return data;
     },
 
-    getDoctor: async ({langLoc }) => {
+    getDoctor: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/doctor-details?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/doctor-details?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -102,11 +102,11 @@ const urlList = {
         return data;
     },
 
-    allBlog: async ({langLoc }) => {
+    allBlog: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/blog-posts?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/blog-posts?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -128,11 +128,11 @@ const urlList = {
         return data;
     },
 
-    getTestimonial: async ({langLoc }) => {
+    getTestimonial: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/testimonials?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/testimonials?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -154,11 +154,11 @@ const urlList = {
         return data;
     },
 
-    getDoctorTalk: async ({langLoc }) => {
+    getDoctorTalk: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/doctor-talks?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/doctor-talks?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -179,12 +179,12 @@ const urlList = {
 
         return data;
     },
-    
-    getAtHomeService: async ({langLoc }) => {
+
+    getAtHomeService: async ({ langLoc }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
 
         // Get total count
-        const countURL =baseUrl + `/home-service-details?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
+        const countURL = baseUrl + `/home-service-details?populate=*&filters[locations][id][$eq]=${langLoc.loc.id}`;
         const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
         const totalCount = initialRes.meta.pagination.total;
@@ -238,33 +238,73 @@ const urlList = {
         return data;
 
     },
-    
+
     getDiseaseAll: async () => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
-        const limit = 100;
 
         // Step 1: Get total count
-        const initialReq = await fetch(
-            `${baseUrl}/disease-details?populate=*&pagination[limit]=5&sort=manageAppearance.orderInMasterList:asc,title:asc`
-        );
+        const countURL = `${baseUrl}/disease-details?populate=*`;
+        const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
 
-        return initialRes.data;
+        const totalCount = initialRes.meta.pagination.total;
+
+        const limit = 100;
+        const pages = Math.ceil(totalCount / limit);
+
+        let data = [];
+
+        // Step 2: Loop through all pages
+        for (let i = 0; i < pages; i++) {
+            const start = i * limit;
+
+            const url = `${baseUrl}/disease-details?populate=*&pagination[start]=${start}&pagination[limit]=${limit}&sort=manageAppearance.orderInMasterList:asc,title:asc`;
+
+            const res = await fetch(url);
+            const json = await res.json();
+
+            data = [...data, ...json.data];
+        }
+
+        return data;
     },
 
 
     getProcedureAll: async () => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
-        const limit = 100;
 
         // Step 1: Get total count
-        const initialReq = await fetch(
-            `${baseUrl}/procedure-details?populate=*&pagination[limit]=5&sort=manageAppearance.orderInMasterList:asc,title:asc`
-        );
+        const countURL = `${baseUrl}/procedure-details?populate=*`;
+        const initialReq = await fetch(countURL);
         const initialRes = await initialReq.json();
 
-        return initialRes.data;
+        const totalCount = initialRes.meta.pagination.total;
+
+        const limit = 100;
+        const pages = Math.ceil(totalCount / limit);
+
+        let data = [];
+
+        // Step 2: Loop through all pages
+        for (let i = 0; i < pages; i++) {
+            const start = i * limit;
+
+            const url = `${baseUrl}/procedure-details?populate=*&pagination[start]=${start}&pagination[limit]=${limit}&sort=manageAppearance.orderInMasterList:asc,title:asc`;
+
+            const res = await fetch(url);
+            const json = await res.json();
+
+            data = [...data, ...json.data];
+        }
+
+        return data;
     },
+
+
+
+
+
+
 }
 
 
