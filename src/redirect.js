@@ -25837,6 +25837,60 @@ const redirect = [
 	{
 		source: "/trivandrum/doctor/dr-naveen-jain",
 		destination: "/trivandrum/doctor/dr-naveen-jain-neonatologist-trivandrum"
+	},
+
+
+	{
+		source: "/trivandrum/doctor/dr-madhu-sasidharan",
+		destination: "/trivandrum/doctor/dr-madhu-sasidharan-gastroenterologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-anees-thajudeen",
+		destination: "/trivandrum/doctor/dr-anees-thajudeen-electrophysiologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-shaji-palangadan",
+		destination: "/trivandrum/doctor/dr-shaji-palangadan-heart-and-cardiac-surgeon-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-ajith-r",
+		destination: "/trivandrum/doctor/dr-ajith-r-neurosurgeon-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-shiraz-ahmad-rather",
+		destination: "/trivandrum/doctor/dr-shiraz-ahmad-rather-surgical-gastro-surgeon-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-rafeekha-p",
+		destination: "/trivandrum/doctor/dr-rafeekha-p-gynecologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-lumiya-malik",
+		destination: "/trivandrum/doctor/dr-lumiya-malik-gynecologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-praveen-murlidharan",
+		destination: "/trivandrum/doctor/dr-praveen-murlidharan-nephrologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-satish-balan",
+		destination: "/trivandrum/doctor/dr-satish-balan-nephrologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-muhammed-nazeer",
+		destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-manoj-haridas",
+		destination: "/trivandrum/doctor/dr-manoj-haridas-hand-surgeon-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-santhosh-joseph",
+		destination: "/trivandrum/doctor/dr-santhosh-joseph-interventional-radiologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/dr-manish-kumar-yadav",
+		destination: "/trivandrum/doctor/dr-manish-kumar-yadav-neuro-interventional-radiologist-trivandrum"
 	}
 ];
 
