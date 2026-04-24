@@ -36,10 +36,10 @@ export default async function RootLayout({ children }) {
       <head>
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>{meta.metaData?.metaTitle || meta.metaDefaultData?.metaTitle }</title>
-        <meta name="description" content={meta.metaData?.metaDescription || meta.metaDefaultData?.metaTitle }/>
-        <meta name="keywords" content={meta.metaData?.metaKeyword || meta.metaDefaultData?.metaTitle }/>
-        {meta.metaData?.extraHeaderCode &&<>{parse(meta.metaData?.extraHeaderCode)}</>}
+        <title>{meta.metaData?.metaTitle || meta.metaDefaultData?.metaTitle}</title>
+        <meta name="description" content={meta.metaData?.metaDescription || meta.metaDefaultData?.metaTitle} />
+        <meta name="keywords" content={meta.metaData?.metaKeyword || meta.metaDefaultData?.metaTitle} />
+        {meta.metaData?.extraHeaderCode && <>{parse(meta.metaData?.extraHeaderCode)}</>}
         <link rel="icon" href="/img/favicon.ico" sizes="any" />
         {/* <!-- bootstrap cdn --> */}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
@@ -55,7 +55,7 @@ export default async function RootLayout({ children }) {
         <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" />
 
-        
+
         {/* <link rel="stylesheet" href="/css/responsive.css" /> */}
 
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -66,14 +66,12 @@ export default async function RootLayout({ children }) {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css" />
         {/* <link rel="stylesheet" href="/css/multislider.css" /> */}
 
-        <link rel="stylesheet" href="/css/styles.min.css"/>
+        <link rel="stylesheet" href="/css/styles.min.css" />
         <link rel="stylesheet" href="/css/custom.css" />
 
 
-        {/* <link rel="stylesheet" href="/css/alumini.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" /> */}
+        <link rel="stylesheet" href="/css/alumini.css" />
+        
 
 
         {/* All Scripts */}
@@ -90,11 +88,11 @@ export default async function RootLayout({ children }) {
         <Script src="/js/custom.min.js" strategy="afterInteractive"></Script>
         <Script src="/js/script.js" strategy="afterInteractive"></Script>
 
-        {meta.analyticsCode &&<>{parse(meta.analyticsCode)}</>}
+        {meta.analyticsCode && <>{parse(meta.analyticsCode)}</>}
       </head>
 
       <body>
-        {meta.analyticsCodeBody &&<>{parse(meta.analyticsCodeBody)}</>}
+        {meta.analyticsCodeBody && <>{parse(meta.analyticsCodeBody)}</>}
         {children}
         <CookieConsent /> {/* Banner appears above footer */}
       </body>

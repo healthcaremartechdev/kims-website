@@ -239,41 +239,181 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                             {/* Our Alumini */}
                             {
                                 highlight === "alumini" && (
-                                    <div className="container main-heading sub-heading main-list">
-                                        <h2>{pageContent[0]?.title}</h2>
+                                    <div className="kims-alumini-page">
 
-                                        <section className="section pt-0">
-                                            <div className="container">
-                                                <div className="faq-card p-4">
-                                                    <div className="accordion" id="accordionExample">
-                                                        <div className="accordion-item">
-                                                            <h2 className="accordion-header">
-                                                                <button className={`accordion-button collapsed`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse0`}
-                                                                    aria-expanded={`false`} aria-controls={`collapse0`}>
-                                                                    <span>{pageContent[1]?.title}</span>
-                                                                </button>
-                                                            </h2>
-                                                            <div id={`collapse0`} className={`accordion-collapse collapse`} data-bs-parent="#accordionExample">
-                                                                <div className="accordion-body main-list" dangerouslySetInnerHTML={{ __html: marked(pageContent[1]?.details || "") || "" }}>
-                                                                </div>
+                                        {/* <!-- MAIN --> */}
+                                        <main className="kims-alumini-main">
+
+                                            {/* <!-- HERO --> */}
+                                            <section className="kims-alumini-hero">
+                                                <div className="kims-alumini-hero-left">
+                                                    <span className="kims-alumini-badge"><span className="kims-alumini-dot"></span>KIMSHEALTH Alumni Association</span>
+                                                    <h2>Once a <em>KIMSian</em>,<br />always a KIMSian.</h2>
+                                                    <p>Reconnect with your batchmates, mentors and the institution that shaped your clinical journey. Register today to stay informed about reunions, CMEs and alumni initiatives across the KIMSHEALTH network.</p>
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScLV5LqIMi0H95KaMdTUiv8dC2s6K7pDOaQRAc_u7pkerIR2g/viewform" target="_blank" rel="noopener" className="kims-alumini-hero-cta">
+                                                        Register as Alumni <span className="kims-alumini-arrow">→</span>
+                                                    </a>
+                                                    <a href="#" className="kims-alumini-hero-sub-cta">Learn more</a>
+                                                </div>
+                                                <div className="kims-alumini-hero-mark overflow-hidden" aria-hidden="true">
+                                                    {/* <div className="kims-alumini-kmark"></div> */}
+                                                    <img src="/img/1000069285.jpeg" alt="KIMSHEALTH Alumni" className="img-fluid" />
+                                                </div>
+                                            </section>
+
+                                            {/* <!-- STATS --> */}
+                                            <section className="kims-alumini-stats">
+                                                <div className="kims-alumini-stat"><div className="kims-alumini-num">1,200+</div><div className="kims-alumini-lbl">Alumni Worldwide</div></div>
+                                                <div className="kims-alumini-stat"><div className="kims-alumini-num">35+</div><div className="kims-alumini-lbl">Countries</div></div>
+                                                <div className="kims-alumini-stat"><div className="kims-alumini-num">25</div><div className="kims-alumini-lbl">Years of Legacy</div></div>
+                                                <div className="kims-alumini-stat"><div className="kims-alumini-num">40+</div><div className="kims-alumini-lbl">Specialties</div></div>
+                                            </section>
+
+                                            {/* <!-- WRITEUP + ASIDE --> */}
+                                            <section className="kims-alumini-content-row">
+                                                <article className="kims-alumini-card kims-alumini-writeup">
+                                                    <div className="kims-alumini-eyebrow">About the Association</div>
+                                                    <div className="kims-alumini-section-title"><span className="kims-alumini-bar"></span><h2>Alumni Association Writeup</h2></div>
+                                                    <p>The KIMSHEALTH Alumni Association (KAA) is a dedicated platform that fosters lifelong connections among postgraduates and fellows, promoting a strong sense of institutional identity and collaboration. It aims to build an active network of trained specialists across diverse disciplines, encouraging mentorship, knowledge exchange, and career guidance for current trainees. KAA will support continuing medical education, research initiatives, and academic engagement, contributing to the growth of both alumni and the institution. By aligning alumni efforts with the vision of KIMS Health, the association aspires to create a vibrant, globally connected community committed to excellence, innovation, and leadership in healthcare.</p>
+                                                    <div className="d-lg-block d-none">
+                                                        <div className="kims-alumini-pillars">
+                                                            <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>CME &amp; Research</b><span>Access ongoing academic programmes and publications.</span></div></div>
+                                                            <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>Reunions</b><span>Annual and batch-wise alumni meets across chapters.</span></div></div>
+                                                            <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>Mentorship</b><span>Guide the next generation of KIMSHEALTH trainees.</span></div></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="d-lg-none d-block">
+                                                        <div className="kims-alumini-pillars">
+                                                            <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>CME &amp; Research</b><span>Access ongoing academic programmes and publications.</span></div></div>
+                                                            <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>Reunions</b><span>Annual and batch-wise alumni meets across chapters.</span></div></div>
+                                                            <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>Mentorship</b><span>Guide the next generation of KIMSHEALTH trainees.</span></div></div>
+                                                        </div>
+
+                                                    </div>
+                                                </article>
+
+                                                <aside className="kims-alumini-aside">
+                                                    <div>
+                                                        <div className="kims-alumini-eyebrow">Get in touch</div>
+                                                        <h3>Alumni Relations Office</h3>
+                                                    </div>
+
+                                                    <div>
+                                                        <div className="kims-alumini-contact-item">
+                                                            <div className="kims-alumini-ic"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" /></svg></div>
+                                                            <div>
+                                                                <div className="kims-alumini-lbl">Email</div>
+                                                                <div className="kims-alumini-val">alumni@kimsglobal.com</div>
                                                             </div>
                                                         </div>
-                                                        <div className="accordion-item">
-                                                            <h2 className="accordion-header">
-                                                                <button className={`accordion-button collapsed`} type="button" data-bs-toggle="collapse" data-bs-target={`#collapse1`}
-                                                                    aria-expanded={`false`} aria-controls={`collapse1`}>
-                                                                    <span>{pageContent[2]?.title}</span>
-                                                                </button>
-                                                            </h2>
-                                                            <div id={`collapse1`} className={`accordion-collapse collapse`} data-bs-parent="#accordionExample">
-                                                                <div className="accordion-body main-list" dangerouslySetInnerHTML={{ __html: marked(pageContent[2]?.details || "") || "" }}>
-                                                                </div>
+                                                        <div className="kims-alumini-contact-item">
+                                                            <div className="kims-alumini-ic"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.5 0 .9.4.9.9V20c0 .5-.4 1-1 1C10.4 21 3 13.6 3 4.5c0-.6.4-1 1-1h3.5c.5 0 .9.4.9.9 0 1.2.2 2.4.6 3.6.1.3 0 .7-.2 1l-2.2 1.8z" /></svg></div>
+                                                            <div>
+                                                                <div className="kims-alumini-lbl">Phone</div>
+                                                                <div className="kims-alumini-val">+91 471 294 1000</div>
+                                                            </div>
+                                                        </div>
+                                                        <div className="kims-alumini-contact-item">
+                                                            <div className="kims-alumini-ic"><svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /></svg></div>
+                                                            <div>
+                                                                <div className="kims-alumini-lbl">Office</div>
+                                                                <div className="kims-alumini-val">Academics Block, KIMSHEALTH<br />Trivandrum, Kerala</div>
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScLV5LqIMi0H95KaMdTUiv8dC2s6K7pDOaQRAc_u7pkerIR2g/viewform" target="_blank" rel="noopener" className="kims-alumini-aside-cta">Register as Alumni →</a>
+                                                </aside>
+                                            </section>
+
+                                            {/* <!-- BEARERS --> */}
+                                            <article className="kims-alumini-card kims-alumini-bearers">
+                                                <div className="kims-alumini-bearers-head">
+                                                    <div>
+                                                        <div className="kims-alumini-eyebrow">Leadership</div>
+                                                        <div className="kims-alumini-section-title"><span className="kims-alumini-bar"></span><h2>Office Bearers</h2></div>
+                                                    </div>
+                                                    <div className="kims-alumini-right">
+                                                        <button className="kims-alumini-filter kims-alumini-active">Executive</button>
+                                                        <button className="kims-alumini-filter">Council</button>
+                                                        <button className="kims-alumini-filter">Chapter Heads</button>
+                                                    </div>
+                                                </div>
+                                                <div className="kims-alumini-bearers-grid">
+                                                    {/* <!-- Card 1 --> */}
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <span className="kims-alumini-tag">President</span>
+                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Ramesh Pillai</p>
+                                                            <p className="kims-alumini-role">President</p>
+                                                            <p className="kims-alumini-meta">Batch of 2006<br />Cardiology</p>
+                                                        </div>
+                                                    </div>
+                                                    {/* <!-- Card 2 --> */}
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <span className="kims-alumini-tag">Vice President</span>
+                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Anjali Menon</p>
+                                                            <p className="kims-alumini-role">Vice President</p>
+                                                            <p className="kims-alumini-meta">Batch of 2008<br />Gynaecology</p>
+                                                        </div>
+                                                    </div>
+                                                    {/* <!-- Card 3 --> */}
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <span className="kims-alumini-tag">Secretary</span>
+                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Sreejith Kumar</p>
+                                                            <p className="kims-alumini-role">General Secretary</p>
+                                                            <p className="kims-alumini-meta">Batch of 2010<br />Orthopaedics</p>
+                                                        </div>
+                                                    </div>
+                                                    {/* <!-- Card 4 --> */}
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <span className="kims-alumini-tag">Treasurer</span>
+                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Lakshmi Nair</p>
+                                                            <p className="kims-alumini-role">Treasurer</p>
+                                                            <p className="kims-alumini-meta">Batch of 2011<br />Internal Medicine</p>
+                                                        </div>
+                                                    </div>
+                                                    {/* <!-- Card 5 --> */}
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <span className="kims-alumini-tag">Jt. Secretary</span>
+                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Arun Varghese</p>
+                                                            <p className="kims-alumini-role">Joint Secretary</p>
+                                                            <p className="kims-alumini-meta">Batch of 2013<br />Pulmonology</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </article>
+
+                                            {/* <!-- Footer strip CTA --> */}
+                                            <div className="kims-alumini-footer-strip">
+                                                <div className="kims-alumini-left">Are you a KIMSHEALTH graduate? <em>Join the family.</em></div>
+                                                <div className="kims-alumini-right">
+                                                    <a href="#" className="text-light">Download Brochure</a>
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScLV5LqIMi0H95KaMdTUiv8dC2s6K7pDOaQRAc_u7pkerIR2g/viewform" target="_blank" rel="noopener" className="kims-alumini-prim">Register Now →</a>
                                                 </div>
                                             </div>
-                                        </section>
+
+                                        </main>
                                     </div>
                                 )
                             }
