@@ -220,7 +220,7 @@ const getSpecialityData = {
         // get speciality id;
         const getIdReq = await fetch(process.env.NEXT_PUBLIC_CMS_API_URL + `/specialities?filters[slug][$eq]=${slug}`);
         const getIdRes = await getIdReq.json();
-        
+
 
         const id = getIdRes.data[0].id;
 
@@ -301,7 +301,7 @@ const getSpecialityData = {
         const pages = Math.ceil(totalCount / limit);
         let data = [];
 
-        const subSpecFilter = (hospital == "kimshealth-cancer-center") ? `` : `filters[$or][0][speciality][specialities][$null]=true&filters[$or][1][id][$eq]=3616&`;
+        const subSpecFilter = (hospital == "kimshealth-cancer-center") ? `` : `&filters[$or][0][speciality][specialities][$null]=true&filters[$or][1][id][$eq]=3616&`;
 
         // Actual Data
         for (let i = 0; i < pages; i++) {
@@ -311,8 +311,9 @@ const getSpecialityData = {
             const json = await res.json();
             data = [...data, ...json.data];
 
+            console.log("Header speciality of hospital======", url)
         }
-
+        console.log(data)
 
         return data;
     },
