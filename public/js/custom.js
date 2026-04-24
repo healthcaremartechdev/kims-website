@@ -143,7 +143,25 @@ $('.hospital-details-slider2').owlCarousel({
     }
 })
 
-
+$('.alumni-article-slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: false
+        },
+        600: {
+            items: 1,
+            nav: false
+        },
+        1000: {
+            items: 1,
+            nav: false
+        }
+    }
+})
 
 // exellence-slider
 

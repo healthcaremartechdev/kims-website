@@ -50,7 +50,7 @@ const getSpecialityData = {
 
         // First request to get total count
         const initialUrl = `${baseUrl}/specialities?filters[hospitals][slug][$eq]=${hospitalSlug}&filters[specialities][$null]=true`;
-        
+
 
         const initialReq = await fetch(initialUrl);
         const initialRes = await initialReq.json();
@@ -122,7 +122,7 @@ const getSpecialityData = {
             ? `&filters[speciality][hospitals][slug][$eq]=${URLParams.hospital}`
             : ``;
 
-        const subSpecFilter=(URLParams?.hospital==="kimshealth-cancer-center")?``:`&filters[speciality][specialities][$null]=true`;
+        const subSpecFilter = (URLParams?.hospital === "kimshealth-cancer-center") ? `` : `&filters[speciality][specialities][$null]=true`;
 
         // Get total count
         const initialReq = await fetch(`${baseUrl}/specialty-details?filters[locations][id][$eq]=${langLoc.loc.id}${hospitalFilter}${subSpecFilter}`);
@@ -220,8 +220,8 @@ const getSpecialityData = {
         // get speciality id;
         const getIdReq = await fetch(process.env.NEXT_PUBLIC_CMS_API_URL + `/specialities?filters[slug][$eq]=${slug}`);
         const getIdRes = await getIdReq.json();
-
         
+
         const id = getIdRes.data[0].id;
 
         // Get speciality data using id;
@@ -279,7 +279,7 @@ const getSpecialityData = {
         // Actual Data
         for (let i = 0; i < pages; i++) {
             const start = i * limit;
-            const url = `${baseUrl}/specialty-details?populate[0]=speciality&populate[1]=manageAppearance&populate[2]=speciality.iconImage&populate[3]=speciality.featuredImage&populate[4]=overviewSection&filters[manageAppearance][showingHeader][$eq]=true&pagination[start]=${start}&pagination[limit]=${limit}&filters[locations][id][$eq]=${LangLoc.loc.id}&filters[speciality][specialities][$null]=true&sort=manageAppearance.orderInMasterList:asc,title:asc`;
+            const url = `${baseUrl}/specialty-details?populate[0]=speciality&populate[1]=manageAppearance&populate[2]=speciality.iconImage&populate[3]=speciality.featuredImage&populate[4]=overviewSection&filters[manageAppearance][showingHeader][$eq]=true&pagination[start]=${start}&pagination[limit]=${limit}&filters[locations][id][$eq]=${LangLoc.loc.id}&filters[$or][0][speciality][specialities][$null]=true&filters[$or][1][id][$eq]=3616&sort=manageAppearance.orderInMasterList:asc,title:asc`;
             const res = await fetch(url);
             const json = await res.json();
             data = [...data, ...json.data];
@@ -290,7 +290,7 @@ const getSpecialityData = {
     },
 
 
-    getHeaderSpecialityByHospital: async ({ LangLoc,hospital }) => {
+    getHeaderSpecialityByHospital: async ({ LangLoc, hospital }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_CLIENT_API_URL;
         // Get total count
         const initialReq = await fetch(`${baseUrl}/specialty-details`);
@@ -301,7 +301,7 @@ const getSpecialityData = {
         const pages = Math.ceil(totalCount / limit);
         let data = [];
 
-        const subSpecFilter=(hospital=="kimshealth-cancer-center")?``:`&filters[speciality][specialities][$null]=true`;
+        const subSpecFilter = (hospital == "kimshealth-cancer-center") ? `` : `filters[$or][0][speciality][specialities][$null]=true&filters[$or][1][id][$eq]=3616&`;
 
         // Actual Data
         for (let i = 0; i < pages; i++) {
@@ -443,7 +443,7 @@ const getSpecialityData = {
     },
 
 
-    getAllSubSpeciality: async ({ langLoc, id , hospital}) => {
+    getAllSubSpeciality: async ({ langLoc, id, hospital }) => {
         const baseUrl = process.env.NEXT_PUBLIC_CMS_API_URL;
         // Get total count
         const initialReq = await fetch(`${baseUrl}/specialty-details`);
