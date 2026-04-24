@@ -70,7 +70,7 @@ export default async function RootLayout({ children }) {
         <link rel="stylesheet" href="/css/custom.css" />
 
 
-        <link rel="stylesheet" href="/css/alumini.css" />
+        <link rel="stylesheet" href="/css/alumini-only.css" />
         
 
 
