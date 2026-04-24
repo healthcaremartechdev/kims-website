@@ -344,11 +344,11 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                     {/* <!-- Card 1 --> */}
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            <span className="kims-alumini-tag">President</span>
+                                                            {/* <span className="kims-alumini-tag">President</span> */}
                                                             <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            <p className="kims-alumini-name">Dr. Ramesh Pillai</p>
+                                                            {/* <p className="kims-alumini-name">Dr. Ramesh Pillai</p> */}
                                                             <p className="kims-alumini-role">President</p>
                                                             <p className="kims-alumini-meta">Batch of 2006<br />Cardiology</p>
                                                         </div>
@@ -356,11 +356,11 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                     {/* <!-- Card 2 --> */}
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            <span className="kims-alumini-tag">Vice President</span>
+                                                            {/* <span className="kims-alumini-tag">Vice President</span> */}
                                                             <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            <p className="kims-alumini-name">Dr. Anjali Menon</p>
+                                                            {/* <p className="kims-alumini-name">Dr. Anjali Menon</p> */}
                                                             <p className="kims-alumini-role">Vice President</p>
                                                             <p className="kims-alumini-meta">Batch of 2008<br />Gynaecology</p>
                                                         </div>
@@ -368,11 +368,11 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                     {/* <!-- Card 3 --> */}
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            <span className="kims-alumini-tag">Secretary</span>
+                                                            {/* <span className="kims-alumini-tag">Secretary</span> */}
                                                             <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            <p className="kims-alumini-name">Dr. Sreejith Kumar</p>
+                                                            {/* <p className="kims-alumini-name">Dr. Sreejith Kumar</p> */}
                                                             <p className="kims-alumini-role">General Secretary</p>
                                                             <p className="kims-alumini-meta">Batch of 2010<br />Orthopaedics</p>
                                                         </div>
@@ -380,27 +380,41 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                     {/* <!-- Card 4 --> */}
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            <span className="kims-alumini-tag">Treasurer</span>
+                                                            {/* <span className="kims-alumini-tag">Jt. Secretary</span> */}
                                                             <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            <p className="kims-alumini-name">Dr. Lakshmi Nair</p>
-                                                            <p className="kims-alumini-role">Treasurer</p>
-                                                            <p className="kims-alumini-meta">Batch of 2011<br />Internal Medicine</p>
+                                                            {/* <p className="kims-alumini-name">Dr. Arun Varghese</p> */}
+                                                            <p className="kims-alumini-role">Joint Secretary</p>
+                                                            <p className="kims-alumini-meta">Batch of 2013<br />Pulmonology</p>
                                                         </div>
                                                     </div>
                                                     {/* <!-- Card 5 --> */}
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            <span className="kims-alumini-tag">Jt. Secretary</span>
+                                                            {/* <span className="kims-alumini-tag">Treasurer</span> */}
                                                             <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            <p className="kims-alumini-name">Dr. Arun Varghese</p>
-                                                            <p className="kims-alumini-role">Joint Secretary</p>
-                                                            <p className="kims-alumini-meta">Batch of 2013<br />Pulmonology</p>
+                                                            {/* <p className="kims-alumini-name">Dr. Lakshmi Nair</p> */}
+                                                            <p className="kims-alumini-role">Treasurer</p>
+                                                            <p className="kims-alumini-meta">Batch of 2011<br />Internal Medicine</p>
                                                         </div>
                                                     </div>
+                                                    {/* <!-- Card 6 --> */}
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            {/* <span className="kims-alumini-tag">Treasurer</span> */}
+                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            {/* <p className="kims-alumini-name">Dr. Lakshmi Nair</p> */}
+                                                            <p className="kims-alumini-role">Academic Committee</p>
+                                                            <p className="kims-alumini-meta">Batch of 2011<br />Internal Medicine</p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    
                                                 </div>
                                             </article>
 
