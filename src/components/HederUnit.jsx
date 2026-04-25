@@ -628,6 +628,11 @@ const HeaderUnit = ({ hospital }) => {
                                     </a>
                                   </li>
                                   <li>
+                                    <a href={basePath + "/our-alumini"}>
+                                      Alumni
+                                    </a>
+                                  </li>
+                                  <li>
                                     <a href={basePath + "/academic?tab=course"}>
                                       Courses We Offer
                                     </a>
@@ -655,11 +660,6 @@ const HeaderUnit = ({ hospital }) => {
                                   <li>
                                     <a href={basePath + "/outstanding-research-work"}>
                                       Research Work
-                                    </a>
-                                  </li>
-                                  <li>
-                                    <a href={basePath + "/our-alumini"}>
-                                      Our Alumni
                                     </a>
                                   </li>
                                   <li>
@@ -959,6 +959,11 @@ const HeaderUnit = ({ hospital }) => {
                                 </a>
                               </li>
                               <li className="submenu-item">
+                                <a href={basePath + "/our-alumini"}>
+                                  Alumni
+                                </a>
+                              </li>
+                              <li className="submenu-item">
                                 <a href={basePath + "/academic?tab=course"}>
                                   Courses We Offer
                                 </a>
@@ -986,11 +991,6 @@ const HeaderUnit = ({ hospital }) => {
                               <li className="submenu-item">
                                 <a href={basePath + "/outstanding-research-work"}>
                                   Research Work
-                                </a>
-                              </li>
-                              <li className="submenu-item">
-                                <a href={basePath + "/our-alumini"}>
-                                  Our Alumni
                                 </a>
                               </li>
                               <li className="submenu-item">

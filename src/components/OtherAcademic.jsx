@@ -44,6 +44,10 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                             onClick={() => window.location.href = `${baseUrl}/academic?tab=leader`}>
                                             Academic Leaders
                                         </button>
+                                        <button type="button" className={`${highlight === "alumini" ? 'active' : ''} btn-tab treat-tab py-3`}
+                                            onClick={() => window.location.href = `${baseUrl}/our-alumini`}>
+                                            Alumni
+                                        </button>
 
                                         <button type="button" className="btn-tab treat-tab py-3"
                                             onClick={() => window.location.href = `${baseUrl}/academic?tab=course`}>
@@ -70,10 +74,6 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                         <button type="button" className={`${highlight === "research" ? 'active' : ''} btn-tab treat-tab py-3`}
                                             onClick={() => window.location.href = `${baseUrl}/outstanding-research-work`}>
                                             Research Work
-                                        </button>
-                                        <button type="button" className={`${highlight === "alumini" ? 'active' : ''} btn-tab treat-tab py-3`}
-                                            onClick={() => window.location.href = `${baseUrl}/our-alumini`}>
-                                            Our Alumni
                                         </button>
                                         <button type="button" className="btn-tab treat-tab py-3 omega9"
                                             onClick={() => window.location.href = `${baseUrl}/academic?tab=gallery`}>
@@ -103,13 +103,13 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                             }}>
                                             <option value="about">About Academic</option>
                                             <option value="leader">Academic Leaders</option>
+                                            <option value="8">Alumni</option>
                                             <option value="course">Courses We Offer</option>
                                             <option value="3">Rank Holders</option>
                                             <option value="publication">Scientific Publications</option>
                                             <option value="5">Skills & Simulation Lab</option>
                                             <option value="6">International Training</option>
                                             <option value="7">Research Work</option>
-                                            <option value="8">Our Alumni</option>
                                             <option value="gallery">Gallery</option>
                                         </select>
                                     </div>
@@ -236,7 +236,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
 
 
 
-                            {/* Our Alumini */}
+                            {/* Alumini */}
                             {
                                 highlight === "alumini" && (
                                     <div className="kims-alumini-page">
@@ -272,8 +272,8 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                             {/* <!-- WRITEUP + ASIDE --> */}
                                             <section className="kims-alumini-content-row">
                                                 <article className="kims-alumini-card kims-alumini-writeup">
-                                                    <div className="kims-alumini-eyebrow">About the Association</div>
-                                                    <div className="kims-alumini-section-title"><span className="kims-alumini-bar"></span><h2>Alumni Association Writeup</h2></div>
+                                                    <div className="kims-alumini-eyebrow">KIMSHEALTH</div>
+                                                    <div className="kims-alumini-section-title"><span className="kims-alumini-bar"></span><h2>Alumni Association (KAA)</h2></div>
                                                     <p>The KIMSHEALTH Alumni Association (KAA) is a dedicated platform that fosters lifelong connections among postgraduates and fellows, promoting a strong sense of institutional identity and collaboration. It aims to build an active network of trained specialists across diverse disciplines, encouraging mentorship, knowledge exchange, and career guidance for current trainees. KAA will support continuing medical education, research initiatives, and academic engagement, contributing to the growth of both alumni and the institution. By aligning alumni efforts with the vision of KIMS Health, the association aspires to create a vibrant, globally connected community committed to excellence, innovation, and leadership in healthcare.</p>
                                                     <div className="d-lg-block d-none">
                                                         <div className="kims-alumini-pillars">
@@ -318,7 +318,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                             <div className="kims-alumini-ic"><svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /></svg></div>
                                                             <div>
                                                                 <div className="kims-alumini-lbl">Office</div>
-                                                                <div className="kims-alumini-val">Academics Block, KIMSHEALTH<br />Trivandrum, Kerala</div>
+                                                                <div className="kims-alumini-val">Academics Department, VFive Building, KIMSHEALTH</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -341,80 +341,104 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                     </div>
                                                 </div>
                                                 <div className="kims-alumini-bearers-grid">
-                                                    {/* <!-- Card 1 --> */}
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            {/* <span className="kims-alumini-tag">President</span> */}
-                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                            <img src="/img/alumni/1-Shameem A.jpg" alt="Dr. Shameem A" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            {/* <p className="kims-alumini-name">Dr. Ramesh Pillai</p> */}
+                                                            <p className="kims-alumini-name">Dr. Shameem A</p>
                                                             <p className="kims-alumini-role">President</p>
-                                                            <p className="kims-alumini-meta">Batch of 2006<br />Cardiology</p>
+                                                            <p className="kims-alumini-meta">Critical Care Physician</p>
                                                         </div>
                                                     </div>
-                                                    {/* <!-- Card 2 --> */}
+
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            {/* <span className="kims-alumini-tag">Vice President</span> */}
-                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                            <img src="/img/alumni/2-KrishnaSree KS.jpg" alt="Dr. KrishnaSree K S" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            {/* <p className="kims-alumini-name">Dr. Anjali Menon</p> */}
+                                                            <p className="kims-alumini-name">Dr. KrishnaSree K S</p>
                                                             <p className="kims-alumini-role">Vice President</p>
-                                                            <p className="kims-alumini-meta">Batch of 2008<br />Gynaecology</p>
+                                                            <p className="kims-alumini-meta">Neurologist</p>
                                                         </div>
                                                     </div>
-                                                    {/* <!-- Card 3 --> */}
+
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            {/* <span className="kims-alumini-tag">Secretary</span> */}
-                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                            <img src="/img/alumni/3-Mohamad Safwan.jpg" alt="Dr. Mohamad Safwan A" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            {/* <p className="kims-alumini-name">Dr. Sreejith Kumar</p> */}
+                                                            <p className="kims-alumini-name">Dr. Mohamad Safwan A</p>
                                                             <p className="kims-alumini-role">General Secretary</p>
-                                                            <p className="kims-alumini-meta">Batch of 2010<br />Orthopaedics</p>
+                                                            <p className="kims-alumini-meta">General Surgeon</p>
                                                         </div>
                                                     </div>
-                                                    {/* <!-- Card 4 --> */}
+
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            {/* <span className="kims-alumini-tag">Jt. Secretary</span> */}
-                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                            <img src="/img/alumni/4-Vishnu BS.jpg" alt="Dr. Vishnu BS" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            {/* <p className="kims-alumini-name">Dr. Arun Varghese</p> */}
+                                                            <p className="kims-alumini-name">Dr. Vishnu BS</p>
                                                             <p className="kims-alumini-role">Joint Secretary</p>
-                                                            <p className="kims-alumini-meta">Batch of 2013<br />Pulmonology</p>
+                                                            <p className="kims-alumini-meta">Family Physician</p>
                                                         </div>
                                                     </div>
-                                                    {/* <!-- Card 5 --> */}
+
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            {/* <span className="kims-alumini-tag">Treasurer</span> */}
-                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                            <img src="/img/alumni/5-Hashim Abdul Latheef.jpg" alt="Dr. Hashim Abdul Latheef" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            {/* <p className="kims-alumini-name">Dr. Lakshmi Nair</p> */}
+                                                            <p className="kims-alumini-name">Dr. Hashim Abdul Latheef</p>
                                                             <p className="kims-alumini-role">Treasurer</p>
-                                                            <p className="kims-alumini-meta">Batch of 2011<br />Internal Medicine</p>
+                                                            <p className="kims-alumini-meta">Emergency Physician</p>
                                                         </div>
                                                     </div>
-                                                    {/* <!-- Card 6 --> */}
+
                                                     <div className="kims-alumini-bearer">
                                                         <div className="kims-alumini-photo">
-                                                            {/* <span className="kims-alumini-tag">Treasurer</span> */}
-                                                            <svg viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-4 0-8 2-8 6v2h16v-2c0-4-4-6-8-6z" /></svg>
+                                                            <img src="/img/alumni/6-Sujith Varghese Abraham.jpg" alt="Dr. Sujith Varghese Abraham" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            {/* <p className="kims-alumini-name">Dr. Lakshmi Nair</p> */}
+                                                            <p className="kims-alumini-name">Dr. Sujith Varghese Abraham</p>
                                                             <p className="kims-alumini-role">Academic Committee</p>
-                                                            <p className="kims-alumini-meta">Batch of 2011<br />Internal Medicine</p>
+                                                            <p className="kims-alumini-meta">Pulmonologist</p>
                                                         </div>
                                                     </div>
-                                                    
-                                                    
+
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <img src="/img/alumni/7-Arathi Raj.jpg" alt="Dr. Arathi Raj" />
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Arathi Raj</p>
+                                                            <p className="kims-alumini-role">Executive Member</p>
+                                                            <p className="kims-alumini-meta">Pediatrician</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <img src="/img/alumni/8-Parvathy Vijayamohan.jpg" alt="Dr. Parvathy Vijayamohan" />
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Parvathy Vijayamohan</p>
+                                                            <p className="kims-alumini-role">Executive Member</p>
+                                                            <p className="kims-alumini-meta">General Physician</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div className="kims-alumini-bearer">
+                                                        <div className="kims-alumini-photo">
+                                                            <img src="/img/alumni/9-Anu K Vasu.jpg" alt="Dr. Anu K Vasu" />
+                                                        </div>
+                                                        <div className="kims-alumini-info">
+                                                            <p className="kims-alumini-name">Dr. Anu K Vasu</p>
+                                                            <p className="kims-alumini-role">Executive Member</p>
+                                                            <p className="kims-alumini-meta">Pediatric Gastroenterologist</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </article>
 
