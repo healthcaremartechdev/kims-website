@@ -331,7 +331,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                             <article className="kims-alumini-card kims-alumini-bearers">
                                                 <div className="kims-alumini-bearers-head">
                                                     <div>
-                                                        <div className="kims-alumini-eyebrow">Leadership</div>
+                                                        <div className="kims-alumini-eyebrow">KIMSHEALTH ALUMNI ASSOCIATION (KAA)</div>
                                                         <div className="kims-alumini-section-title"><span className="kims-alumini-bar"></span><h2>Office Bearers</h2></div>
                                                     </div>
                                                     <div className="kims-alumini-right">
