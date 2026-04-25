@@ -274,7 +274,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                 <article className="kims-alumini-card kims-alumini-writeup">
                                                     <div className="kims-alumini-eyebrow">KIMSHEALTH</div>
                                                     <div className="kims-alumini-section-title"><span className="kims-alumini-bar"></span><h2>Alumni Association (KAA)</h2></div>
-                                                    <p>The KIMSHEALTH Alumni Association (KAA) is a dedicated platform that fosters lifelong connections among postgraduates and fellows, promoting a strong sense of institutional identity and collaboration. It aims to build an active network of trained specialists across diverse disciplines, encouraging mentorship, knowledge exchange, and career guidance for current trainees. KAA will support continuing medical education, research initiatives, and academic engagement, contributing to the growth of both alumni and the institution. By aligning alumni efforts with the vision of KIMS Health, the association aspires to create a vibrant, globally connected community committed to excellence, innovation, and leadership in healthcare.</p>
+                                                    <p>The KIMSHEALTH Alumni Association (KAA) is a dedicated platform that fosters lifelong connections among postgraduates and fellows, promoting a strong sense of institutional identity and collaboration. It aims to build an active network of trained specialists across diverse disciplines, encouraging mentorship, knowledge exchange, and career guidance for current trainees. KAA will support continuing medical education, research initiatives, and academic engagement, contributing to the growth of both alumni and the institution. By aligning alumni efforts with the vision of KIMSHEALTH, the association aspires to create a vibrant, globally connected community committed to excellence, innovation, and leadership in healthcare.</p>
                                                     <div className="d-lg-block d-none">
                                                         <div className="kims-alumini-pillars">
                                                             <div className="kims-alumini-pillar"><div className="kims-alumini-ic">✦</div><div><b>CME &amp; Research</b><span>Access ongoing academic programmes and publications.</span></div></div>
@@ -318,7 +318,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                             <div className="kims-alumini-ic"><svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" /></svg></div>
                                                             <div>
                                                                 <div className="kims-alumini-lbl">Office</div>
-                                                                <div className="kims-alumini-val">Academics Department, VFive Building, KIMSHEALTH</div>
+                                                                <div className="kims-alumini-val">Academics Department, KIMSHEALTH, Trivandrum</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -357,7 +357,7 @@ const OtherAcademic = ({ pageContent, baseUrl, highlight }) => {
                                                             <img src="/img/alumni/2-KrishnaSree KS.jpg" alt="Dr. KrishnaSree K S" />
                                                         </div>
                                                         <div className="kims-alumini-info">
-                                                            <p className="kims-alumini-name">Dr. KrishnaSree K S</p>
+                                                            <p className="kims-alumini-name">Dr. Krishnasree K S</p>
                                                             <p className="kims-alumini-role">Vice President</p>
                                                             <p className="kims-alumini-meta">Neurologist</p>
                                                         </div>
