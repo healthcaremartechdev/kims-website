@@ -5,6 +5,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import getStaticText from '@/app/lib/getStaticTextServer';
 import getCurrentLangLoc from '@/app/lib/getCurrentLangLoc';
 import Form1 from '@/components/Forms/Form1';
+import InternalMedicineForm from '@/components/Forms/InternalMedicineForm';
 
 const ClinicalSkills = async () => {
     const getLangLoc = await getCurrentLangLoc()
@@ -119,6 +120,9 @@ const ClinicalSkills = async () => {
                             </div>
                         </section>
                     </>}
+
+                    <div className="line-divider" id='imtApply'> </div>
+                    <InternalMedicineForm title={"Internal Medicine Foundation Programme"} type={"IMT"} subject={"Internal Medicine Foundation Programme Application"} />
 
                 </div>
             </div>

@@ -28,9 +28,9 @@ const InternalMedicineForm = ({ type, title, subject }) => {
     languageWrite: "",
     dateOfBirth: "",
     // Eligibility
-    undergradDegreeYear: "2025",
+    undergradDegreeYear: new Date().getFullYear(),
     ugCollegeUniversityName: "",
-    mdmsPart1Year: "2025",
+    mdmsPart1Year: new Date().getFullYear(),
     mdmsPart1Details: "",
     mdmsCollegeUniversityName: "",
     collegeMailingAddress: "",
@@ -194,11 +194,11 @@ const InternalMedicineForm = ({ type, title, subject }) => {
       toast("Application submitted successfully", { type: "success" });
 
       // Redirect with encoded htmlMsg
-            const encoded = encodeURIComponent(htmlMsg);
-            // Store in localStorage
-            localStorage.setItem('msg', encoded);
-            // Redirect
-            window.location.href = `${basePath}/thank-you`;
+      const encoded = encodeURIComponent(htmlMsg);
+      // Store in localStorage
+      localStorage.setItem('msg', encoded);
+      // Redirect
+      window.location.href = `${basePath}/thank-you`;
     } catch (err) {
       console.error(err);
       toast(err?.message || "Something went wrong", { type: "error" });
@@ -372,48 +372,12 @@ const InternalMedicineForm = ({ type, title, subject }) => {
                 <label>Undergraduate Degree Year</label>
                 <select className="form-select" value={formData.undergradDegreeYear}
                   onChange={(e) => setFormData({ ...formData, undergradDegreeYear: e.target.value })}>
-                  <option value="1984">1984</option>
-                  <option value="1985">1985</option>
-                  <option value="1986">1986</option>
-                  <option value="1987">1987</option>
-                  <option value="1988">1988</option>
-                  <option value="1989">1989</option>
-                  <option value="1990">1990</option>
-                  <option value="1991">1991</option>
-                  <option value="1992">1992</option>
-                  <option value="1993">1993</option>
-                  <option value="1994">1994</option>
-                  <option value="1995">1995</option>
-                  <option value="1996">1996</option>
-                  <option value="1997">1997</option>
-                  <option value="1998">1998</option>
-                  <option value="1999">1999</option>
-                  <option value="2000">2000</option>
-                  <option value="2001">2001</option>
-                  <option value="2002">2002</option>
-                  <option value="2003">2003</option>
-                  <option value="2004">2004</option>
-                  <option value="2005">2005</option>
-                  <option value="2006">2006</option>
-                  <option value="2007">2007</option>
-                  <option value="2008">2008</option>
-                  <option value="2009">2009</option>
-                  <option value="2010">2010</option>
-                  <option value="2011">2011</option>
-                  <option value="2012">2012</option>
-                  <option value="2013">2013</option>
-                  <option value="2014">2014</option>
-                  <option value="2015">2015</option>
-                  <option value="2016">2016</option>
-                  <option value="2017">2017</option>
-                  <option value="2018">2018</option>
-                  <option value="2019">2019</option>
-                  <option value="2020">2020</option>
-                  <option value="2021">2021</option>
-                  <option value="2022">2022</option>
-                  <option value="2023">2023</option>
-                  <option value="2024">2024</option>
-                  <option value="2025">2025</option>
+                  {Array.from({ length: new Date().getFullYear() - 1984 + 1 }, (_, i) => (
+                    <option key={1984 + i} value={1984 + i}>
+                      {1984 + i}
+                    </option>
+                  ))}
+
                 </select>
               </div>
 
@@ -427,48 +391,11 @@ const InternalMedicineForm = ({ type, title, subject }) => {
                 <label>MD/DNB/MRCP Part 1</label>
                 <select className="form-select" value={formData.mdmsPart1Year}
                   onChange={(e) => setFormData({ ...formData, mdmsPart1Year: e.target.value })}>
-                  <option value="1984">1984</option>
-                  <option value="1985">1985</option>
-                  <option value="1986">1986</option>
-                  <option value="1987">1987</option>
-                  <option value="1988">1988</option>
-                  <option value="1989">1989</option>
-                  <option value="1990">1990</option>
-                  <option value="1991">1991</option>
-                  <option value="1992">1992</option>
-                  <option value="1993">1993</option>
-                  <option value="1994">1994</option>
-                  <option value="1995">1995</option>
-                  <option value="1996">1996</option>
-                  <option value="1997">1997</option>
-                  <option value="1998">1998</option>
-                  <option value="1999">1999</option>
-                  <option value="2000">2000</option>
-                  <option value="2001">2001</option>
-                  <option value="2002">2002</option>
-                  <option value="2003">2003</option>
-                  <option value="2004">2004</option>
-                  <option value="2005">2005</option>
-                  <option value="2006">2006</option>
-                  <option value="2007">2007</option>
-                  <option value="2008">2008</option>
-                  <option value="2009">2009</option>
-                  <option value="2010">2010</option>
-                  <option value="2011">2011</option>
-                  <option value="2012">2012</option>
-                  <option value="2013">2013</option>
-                  <option value="2014">2014</option>
-                  <option value="2015">2015</option>
-                  <option value="2016">2016</option>
-                  <option value="2017">2017</option>
-                  <option value="2018">2018</option>
-                  <option value="2019">2019</option>
-                  <option value="2020">2020</option>
-                  <option value="2021">2021</option>
-                  <option value="2022">2022</option>
-                  <option value="2023">2023</option>
-                  <option value="2024">2024</option>
-                  <option value="2025">2025</option>
+                  {Array.from({ length: new Date().getFullYear() - 1984 + 1 }, (_, i) => (
+                    <option key={1984 + i} value={1984 + i}>
+                      {1984 + i}
+                    </option>
+                  ))}
                 </select>
               </div>
 
@@ -649,64 +576,64 @@ const InternalMedicineForm = ({ type, title, subject }) => {
         </div>
 
 
-<div class="modal fade" id="bankAccount" tabindex="-1" aria-hidden="true" style={{zIndex:'9999'}}>
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content border-0 shadow-lg rounded-4">
-      <div class="modal-header text-white rounded-top-4" style={{backgroundColor: '#c13434'}}>
-        <h5 class="modal-title fw-semibold">
-          Bank Details for Application Fee
-        </h5>
-        <button
-          type="button"
-          class="btn-close btn-close-white"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-        ></button>
-      </div>
+        <div class="modal fade" id="bankAccount" tabindex="-1" aria-hidden="true" style={{ zIndex: '9999' }}>
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 shadow-lg rounded-4">
+              <div class="modal-header text-white rounded-top-4" style={{ backgroundColor: '#c13434' }}>
+                <h5 class="modal-title fw-semibold">
+                  Bank Details for Application Fee
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
 
-      <div class="modal-body  p-4">
-        <div class="text-center mb-4">
-          <h4 class="fw-bold mb-1">Application Fee ₹ 2,000 /-</h4>
+              <div class="modal-body  p-4">
+                <div class="text-center mb-4">
+                  <h4 class="fw-bold mb-1">Application Fee ₹ 2,000 /-</h4>
+                </div>
+
+                <ul class="list-group list-group-flush border rounded-3">
+                  <li class="list-group-item">
+                    <strong>Name of Beneficiary:</strong> KIMS Healthcare Management Ltd
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Beneficiary Contact No:</strong> 0471-3041396, 3041393
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Beneficiary Email ID:</strong>
+                    <a href="mailto:rajakumar.m@kimshealth.org">rajakumar.m@kimshealth.org</a> /
+                    <a href="mailto:vishnu.ms@kimshealth.org">vishnu.ms@kimshealth.org</a>
+                  </li>
+                  <li class="list-group-item">
+                    <strong>Name &amp; Address of Bank:</strong><br />
+                    State Bank of India, Commercial Branch,<br />
+                    Sree Ganesh Kripa, Jas Hotel Road, Thycaud,<br />
+                    Trivandrum – 695014, Kerala, India<br />
+                    <strong>Phone:</strong> 0471-2339891
+                  </li>
+                  <li class="list-group-item"><strong>MICR Code:</strong> 695002021</li>
+                  <li class="list-group-item"><strong>Account Type:</strong> Cash Credit Account</li>
+                  <li class="list-group-item"><strong>Account Number:</strong> 30123158726</li>
+                  <li class="list-group-item"><strong>IFSC Code:</strong> SBIN0004350</li>
+                </ul>
+              </div>
+
+              <div class="modal-footer justify-content-center border-0 pb-4">
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary px-4"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <ul class="list-group list-group-flush border rounded-3">
-          <li class="list-group-item">
-            <strong>Name of Beneficiary:</strong> KIMS Healthcare Management Ltd
-          </li>
-          <li class="list-group-item">
-            <strong>Beneficiary Contact No:</strong> 0471-3041396, 3041393
-          </li>
-          <li class="list-group-item">
-            <strong>Beneficiary Email ID:</strong>
-            <a href="mailto:rajakumar.m@kimshealth.org">rajakumar.m@kimshealth.org</a> /
-            <a href="mailto:vishnu.ms@kimshealth.org">vishnu.ms@kimshealth.org</a>
-          </li>
-          <li class="list-group-item">
-            <strong>Name &amp; Address of Bank:</strong><br />
-            State Bank of India, Commercial Branch,<br />
-            Sree Ganesh Kripa, Jas Hotel Road, Thycaud,<br />
-            Trivandrum – 695014, Kerala, India<br />
-            <strong>Phone:</strong> 0471-2339891
-          </li>
-          <li class="list-group-item"><strong>MICR Code:</strong> 695002021</li>
-          <li class="list-group-item"><strong>Account Type:</strong> Cash Credit Account</li>
-          <li class="list-group-item"><strong>Account Number:</strong> 30123158726</li>
-          <li class="list-group-item"><strong>IFSC Code:</strong> SBIN0004350</li>
-        </ul>
-      </div>
-
-      <div class="modal-footer justify-content-center border-0 pb-4">
-        <button
-          type="button"
-          class="btn btn-outline-secondary px-4"
-          data-bs-dismiss="modal"
-        >
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
 
 
       </div>
