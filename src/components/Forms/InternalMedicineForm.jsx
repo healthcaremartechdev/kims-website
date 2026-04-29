@@ -9,6 +9,7 @@ const InternalMedicineForm = ({ type, title, subject }) => {
   const [staticText, setStaticText] = useState({});
   const APPLICATION_FEE = 2000;
 
+
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     // Personal Details
@@ -555,11 +556,10 @@ const InternalMedicineForm = ({ type, title, subject }) => {
                 </label>
               </div>
 
-              <div className="mb-3">
-                <strong>Application Fee</strong>
-                {/*<strong>Application Fee: </strong> ₹{APPLICATION_FEE}*/}
+              {title === "Internal Medicine Training Programme" && <div className="mb-3">
+                <strong>Application Fee: </strong> ₹{APPLICATION_FEE}
 
-              </div>
+              </div>}
 
               <div class="from-btn text-center">
                 <button type="button" onClick={handleSubmit} disabled={loading} class="btn d-inline-block w-auto mt-2">Submit {loading && <i className="fas fa-spinner fa-spin ms-2 "></i>}</button>
@@ -593,9 +593,9 @@ const InternalMedicineForm = ({ type, title, subject }) => {
               </div>
 
               <div class="modal-body  p-4">
-                {/* <div class="text-center mb-4">
-                  <h4 class="fw-bold mb-1">Application Fee ₹ 2,000 /-</h4>
-                </div> */}
+                {title === "Internal Medicine Training Programme" &&  <div class="text-center mb-4">
+                  <h4 class="fw-bold mb-1">Application Fee ₹{APPLICATION_FEE} /-</h4>
+                </div>}
 
                 <ul class="list-group list-group-flush border rounded-3">
                   <li class="list-group-item">

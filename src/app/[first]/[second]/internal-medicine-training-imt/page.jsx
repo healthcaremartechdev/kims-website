@@ -112,7 +112,7 @@ const InternalMedicine = async () => {
 
                     
                     <div className="line-divider"  id='imtApply'> </div>
-                    <InternalMedicineForm title={"Internal Medicine Foundation Programme"} type={"IMT"} subject={"Internal Medicine Foundation Programme Application"}/>
+                    <InternalMedicineForm title={"Internal Medicine Training Programme"} type={"IMT"} subject={"Internal Medicine Training Programme Application"}/>
                         
 
                     {pageContent[6]?.title && <>
