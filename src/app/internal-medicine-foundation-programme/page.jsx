@@ -20,7 +20,7 @@ const ClinicalSkills = async () => {
         <>
             <Header />
             <div role="main" className="main">
-                <div className="emergency-medicine-main-page">
+                <div className="emergency-medicine-main-page book-appointment-main-page">
 
                     <div className="page-header">
                         <div className="container">
