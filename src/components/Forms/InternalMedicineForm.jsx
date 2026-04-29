@@ -556,7 +556,8 @@ const InternalMedicineForm = ({ type, title, subject }) => {
               </div>
 
               <div className="mb-3">
-                <strong>Application Fee: </strong> ₹{APPLICATION_FEE}
+                <strong>Application Fee</strong>
+                {/*<strong>Application Fee: </strong> ₹{APPLICATION_FEE}*/}
 
               </div>
 
@@ -592,9 +593,9 @@ const InternalMedicineForm = ({ type, title, subject }) => {
               </div>
 
               <div class="modal-body  p-4">
-                <div class="text-center mb-4">
+                {/* <div class="text-center mb-4">
                   <h4 class="fw-bold mb-1">Application Fee ₹ 2,000 /-</h4>
-                </div>
+                </div> */}
 
                 <ul class="list-group list-group-flush border rounded-3">
                   <li class="list-group-item">
