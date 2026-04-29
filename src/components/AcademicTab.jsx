@@ -127,6 +127,10 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                                                 }}>
                                                 Academic Leaders
                                             </button>
+                                            <button type="button" className="btn-tab treat-tab py-3 omega8"
+                                                onClick={() => window.location.href = `${baseUrl}/our-alumini`}>
+                                                Alumni
+                                            </button>
 
                                             <button type="button" className="btn-tab treat-tab py-3 omega2"
                                                 onClick={() => {
@@ -159,10 +163,6 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                                             <button type="button" className="btn-tab treat-tab py-3 omega7"
                                                 onClick={() => window.location.href = `${baseUrl}/outstanding-research-work`}>
                                                 Research Work
-                                            </button>
-                                            <button type="button" className="btn-tab treat-tab py-3 omega8"
-                                                onClick={() => window.location.href = `${baseUrl}/our-alumini`}>
-                                                Our Alumni
                                             </button>
                                             <button type="button" className="btn-tab treat-tab py-3 omega9"
                                                 onClick={() => {
@@ -213,13 +213,13 @@ const AcademicTab = ({ pageContent, baseUrl }) => {
                                             >
                                                 <option value="">About Academic</option>
                                                 <option value="1">Academic Leaders</option>
+                                                <option value="8">Alumni</option>
                                                 <option value="2">Courses We Offer</option>
                                                 <option value="3">Rank Holders</option>
                                                 <option value="4">Scientific Publications</option>
                                                 <option value="5">Skills & Simulation Lab</option>
                                                 <option value="6">International Training</option>
                                                 <option value="7">Research Work</option>
-                                                <option value="8">Our Alumni</option>
                                                 <option value="9">Gallery</option>
                                             </select>
                                         </div>
