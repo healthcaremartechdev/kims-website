@@ -1,49 +1,225 @@
-import React from 'react'
+import React from 'react';
 
 const InternationalMenu = () => {
-
     return (
         <>
-            <div className="row">
+            <div className="row international-menu-row">
                 <div className="col-md-6 mb-3">
-                    <h3>Bahrain</h3>
-                    <ul className='location-menu-red-color'>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.bh/bahrain/ummalhassam-2/">Umm Al Hassam (Hospital)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.royalbahrainhospital.com/">Salmaniya (Hospital)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.bh/bahrain/ummalhassam">Umm Al Hassam (Medical Center)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.bh/bahrain/muharraq/">Muharraq (Medical Center)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.bh/bahrain/ummalhassam-2/">Askar (Medical Center)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.royalbahrainhospital.com/rbhmc/">Janabiyah (Medical Center)</a></li>
-                    </ul>
-                    <h3 className='mt-2'>Oman</h3>
-                    <ul>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.om/">Darsait, Muscat (Hospital)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.om/about-us/al-khuwair/">Al Khuwair, Muscat (Medical Center)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.om/about-us/duqm/">Duqm (Medical Complex)</a></li>
-                    </ul>
+
+                    <div className="international-menu-col mb-3">
+                        {/* Bahrain */}
+                        <a
+                            href="https://www.kimshealth.co/bahrain"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                        >
+                            <h3>Bahrain</h3>
+                        </a>
+
+                        <ul className="location-menu-red-color">
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/bahrain/facilities/kimshealth-hospital-umm-al-hassam"
+                                >
+                                    Umm Al Hassam (Hospital)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/bahrain/facilities/kimshealth-medical-center-muharraq"
+                                >
+                                    Muharraq (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/bahrain/facilities/kimshealth-medical-center-umm-al-hassam"
+                                >
+                                    Umm Al Hassam (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/bahrain/facilities/kimshealth-medical-center-askar"
+                                >
+                                    Askar (Medical Center)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="international-menu-col mb-3">
+                        <a
+                            href="https://www.kimshealth.co/oman"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                        >
+                            <h3>Oman</h3>
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/oman/facilities/kimshealth-hospital-darsait"
+                                >
+                                    Darsait, Muscat (Hospital)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/oman/facilities/kimshealth-medcal-center-al-khuwair"
+                                >
+                                    Al Khuwair, Muscat (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/oman/facilities/kimshealth-medical-complex-duqm"
+                                >
+                                    Duqm (Medical Complex)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    {/* Oman */}
+
                 </div>
 
                 <div className="col-md-6 mb-3">
-                    <h3>Qatar</h3>
-                    <ul>
-                        <li><a target='_blank' href="https://www.kimshealth.qa/alwakra/">Al-Wakra (Medical Center)</a></li>
-                        <li><a target='_blank' href="https://www.kimshealth.qa/almashaf/">Al-Mashaf (Medical Center)</a></li>
-                        <li><a target='_blank' href="https://www.kimshealth.qa/barwacity/">Barwa City (Medical Center)</a></li>
-                    </ul>
-                    <h3>Saudi Arabia</h3>
-                    <ul>
-                        <li><a target='_blank' href="https://kimshealth.sa/">Jubail (Medical Center)</a></li>
-                        <li><a target='_blank' href="https://kimshealth.sa/riyadh/">Riyadh (Medical Center)</a></li>
-                    </ul>
-                    <h3 className='mt-2'>UAE</h3>
-                    <ul>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.ae/">Deira (Medical Center)</a></li>
-                        <li><a target='_blank' rel="nofollow noopener noreferrer" href="https://www.kimshealth.ae/burdubai/">Bur Dubai (Medical Center)</a></li>
-                    </ul>
+
+                    <div className="international-menu-col mb-3">
+                        {/* Qatar */}
+                        <a
+                            href="https://www.kimshealth.co/qatar"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                        >
+                            <h3>Qatar</h3>
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/qatar/facilities/kimshealth-medcal-center-wakra"
+                                >
+                                    Al-Wakra (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/qatar/facilities/kimshealth-medical-center-meshaf"
+                                >
+                                    Al-Mashaf (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/qatar/facilities/kimshealth-medical-center-barwa"
+                                >
+                                    Barwa City (Medical Center)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="international-menu-col mb-3">
+
+                        {/* Saudi Arabia */}
+                        <a
+                            href="https://www.kimshealth.co/saudi-arabia"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                        >
+                            <h3>Saudi Arabia</h3>
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/saudi-arabia/facilities/kimshealth-medical-center-jubail"
+                                >
+                                    Jubail (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/saudi-arabia/facilities/kimshealth-medical-center-riyadh"
+                                >
+                                    Riyadh (Medical Center)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className="international-menu-col mb-3">
+                        {/* UAE */}
+                        <a
+                            href="https://www.kimshealth.co/uae"
+                            target="_blank"
+                            rel="nofollow noopener noreferrer"
+                        >
+                            <h3 className="mt-2">UAE</h3>
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/uae/facilities/kimshealth-medical-center-deira"
+                                >
+                                    Deira (Medical Center)
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    target="_blank"
+                                    rel="nofollow noopener noreferrer"
+                                    href="https://www.kimshealth.co/uae/facilities/kimshealth-medical-center-bur-dubai"
+                                >
+                                    Bur Dubai (Medical Center)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default InternationalMenu
+export default InternationalMenu;

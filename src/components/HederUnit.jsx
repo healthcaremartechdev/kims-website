@@ -322,7 +322,7 @@ const HeaderUnit = ({ hospital }) => {
                                     className={`tab ${selectedLoc?.slug === loc.slug ? 'active' : ''}`}
                                     data-tab={"tab" + i} key={loc.documentId}
                                   >
-                                    <a href={loc?.slug !== "ip" ? basePathOnlyLang + "/" + loc?.slug : "#"}>{loc?.title} <i className="fa-solid fa-chevron-right"></i></a>
+                                    <a href={loc?.slug !== "ip" ? basePathOnlyLang + "/" + loc?.slug : "https://www.kimshealth.co/"}>{loc?.title} <i className="fa-solid fa-chevron-right"></i></a>
                                   </div>
                                 })
                               }
@@ -394,7 +394,7 @@ const HeaderUnit = ({ hospital }) => {
                               <div className={`accordion-item ${isOpen ? "active" : ""}`} key={index}>
                                 <div className="accordion-header" onClick={() => toggleAccordion(index)}>
                                   <h3>
-                                    <a href={l?.slug !== "ip" ? basePathOnlyLang + "/" + l?.slug : "#"}>{l.title}</a>
+                                    <a href={l?.slug !== "ip" ? basePathOnlyLang + "/" + l?.slug : "https://www.kimshealth.co/"}>{l.title}</a>
                                   </h3>
                                   <div className="accordion-icon"></div>
                                 </div>

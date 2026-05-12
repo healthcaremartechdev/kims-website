@@ -59,7 +59,9 @@
 .scientyfic-proceding-faq .accordion-header .accordion-button:focus{
     box-shadow: none;
 }
-
+.international-menu-row .col-md-6 .international-menu-col a:first-child{
+    padding: 0;
+}
 @media only screen and (max-width:768px) {
     .academic-new-page-2026 .course-we-offer-section-new ul {
         column-count: 1;
