@@ -25891,6 +25891,14 @@ const redirect = [
 	{
 		source: "/trivandrum/doctor/dr-manish-kumar-yadav",
 		destination: "/trivandrum/doctor/dr-manish-kumar-yadav-neuro-interventional-radiologist-trivandrum"
+	},
+	{
+		source: "/trivandrum/doctor/ajith-m",
+		destination: "/trivandrum/doctor/dr-ajith-m-neurologist-trivandrum"
+	},
+	{
+		source: "/doctor/ajith-m",
+		destination: "/doctor/dr-ajith-m-neurologist-trivandrum"
 	}
 ];
 
