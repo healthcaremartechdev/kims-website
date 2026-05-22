@@ -65,11 +65,11 @@ const SpecialityDetails = async ({ params, searchParams }) => {
     const diseaseProcedureDataSet = {
         sectionTitle: data.diseasesAndProceduresSection?.title,
 
-        buttonTextDiseas: 'View All Diseases', 
-        buttonTextProcedure: 'View all Procedures', 
+        buttonTextDiseas: 'View All Diseases',
+        buttonTextProcedure: 'View all Procedures',
 
-        buttonURLDisease: `${baseUrlLangOnly + "/disease?speciality="+data.speciality.slug}`,
-        buttonURLProcedure: `${baseUrlLangOnly + "/procedure?speciality="+data.speciality.slug}`,
+        buttonURLDisease: `${baseUrlLangOnly + "/disease?speciality=" + data.speciality.slug}`,
+        buttonURLProcedure: `${baseUrlLangOnly + "/procedure?speciality=" + data.speciality.slug}`,
 
         dataDiseas: await diseaseData.getDiseaseBySpeciality({ langLoc: getLangLoc, speciality: data.speciality?.slug }),
         dataProcedure: await procedureData.getProcedureBySpeciality({ langLoc: getLangLoc, speciality: data.speciality?.slug }),
@@ -84,6 +84,7 @@ const SpecialityDetails = async ({ params, searchParams }) => {
         data: data.faq?.faqData,
         baseUrl: baseUrl
     }
+
 
     return (
         <>
@@ -180,7 +181,7 @@ const SpecialityDetails = async ({ params, searchParams }) => {
                                                         <div className="details-card text-center">
                                                             <div className="card-content custom-min-height-content">
                                                                 <h4>{subS.title}</h4>
-                                                                <p dangerouslySetInnerHTML={{__html: marked(subS.overviewSection?.details?.slice(0, 140)+"...")}}></p>
+                                                                <p dangerouslySetInnerHTML={{ __html: marked(subS.overviewSection?.details?.slice(0, 140) + "...") }}></p>
                                                                 <div className="main-btn-speciality ">
 
                                                                     {staticText["Read More"]}
@@ -198,7 +199,7 @@ const SpecialityDetails = async ({ params, searchParams }) => {
                                                         <div className="details-card text-center">
                                                             <div className="card-content custom-min-height-content">
                                                                 <h4>{subS.title}</h4>
-                                                                <p dangerouslySetInnerHTML={{__html: marked(subS.overviewSection?.details?.slice(0, 140)+"...")}}></p>
+                                                                <p dangerouslySetInnerHTML={{ __html: marked(subS.overviewSection?.details?.slice(0, 140) + "...") }}></p>
                                                                 <div className="main-btn-speciality ">
                                                                     {staticText['Read More']}
                                                                     <span>
@@ -256,6 +257,59 @@ const SpecialityDetails = async ({ params, searchParams }) => {
                             </div>
                         </div>
                     </section>
+
+                    {data.usp?.uspItem?.length > 0 &&
+                        <section className="section international-counter-section">
+                            <div className="container">
+                                <div className="row">
+                                    {
+                                        data.usp.uspItem.map((u, i) => {
+                                            return <div className="col-md-3 col-6 mb-3" key={i}>
+                                                <div className="international-counter-box text-lg-start text-center">
+                                                    <h2><span className="counter">{u.number}</span> <span>{u.suffix}</span></h2>
+                                                    <div className="international-counter-bottom-content">
+                                                        <div>
+                                                            <img src={u.icon?.url ? process.env.NEXT_PUBLIC_IMAGE_URL + u.icon?.url : "no-image.jpg"} alt="" className="img-fluid" />
+                                                        </div>
+                                                        <div>
+                                                            <h3>{u.title}</h3>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        })
+                                    }
+                                </div>
+                            </div>
+                        </section>
+                    }
+
+                    {
+                        data.facility?.title && (
+                            <>
+                                <div className="line-divider"></div>
+                                <section className="section">
+                                    <div className="container">
+                                        <div className="row mb-lg-5">
+
+                                            <div className="col-md-12 mb-3  order-lg-2 order-1">
+                                                <div className="main-heading sub-heading">
+                                                    <h2>{data.facility.title}</h2>
+                                                    <div dangerouslySetInnerHTML={{ __html: marked(data.facility.details || "") || "" }}></div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </section>
+
+
+                            </>
+                        )
+                    }
 
                     <div className="line-divider"> </div>
                     <DiseaseAndProcedure dataSet={diseaseProcedureDataSet} />
