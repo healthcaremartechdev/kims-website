@@ -268,9 +268,9 @@ const SpecialityDetails = async ({ params, searchParams }) => {
                                                 <div className="international-counter-box text-lg-start text-center">
                                                     <h2><span className="counter">{u.number}</span> <span>{u.suffix}</span></h2>
                                                     <div className="international-counter-bottom-content">
-                                                        <div>
+                                                        {/* <div>
                                                             <img src={u.icon?.url ? process.env.NEXT_PUBLIC_IMAGE_URL + u.icon?.url : "no-image.jpg"} alt="" className="img-fluid" />
-                                                        </div>
+                                                        </div> */}
                                                         <div>
                                                             <h3>{u.title}</h3>
                                                         </div>
