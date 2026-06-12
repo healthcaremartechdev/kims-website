@@ -25900,6 +25900,2135 @@ const redirect = [
 	},
 
 
+
+
+
+	
+  {
+    source: "/trivandrum/doctor/shyma-basheer",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/anees-thajudeen",
+    destination: "/trivandrum/doctor/dr-anees-thajudeen-electrophysiologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-pg-jayaprakash/",
+    destination: "/trivandrum/doctor/dr-p-g-jayaprakash"
+  },
+  {
+    source: "/trivandrum/doctors/dr-vidyalekshmy-r/",
+    destination: "/trivandrum/doctor/dr-vidyalekshmy-r"
+  },
+  {
+    source: "/trivandrum/doctor/dr-aseefa-ghouse",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/ashika-kannan",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-amal-velse",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-shabeerali-tu",
+    destination: "/trivandrum/doctor/dr-shabeerali-t-u"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mohammed-shan-s",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-m-bhuvanesh/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-safdar-basheer/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-d-kalpana/",
+    destination: "/trivandrum/doctor/dr-kalpana-d"
+  },
+  {
+    source: "/trivandrum/doctors/dr-l-mahadevan/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-nahas/",
+    destination: "/trivandrum/doctor/Nahas-A"
+  },
+  {
+    source: "/trivandrum/doctor/dr-m-bhuvanesh",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-thanu-subramoniam-s",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-archa-m-nair/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/doctor/megha-murali",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-m-r-vasudevan-nampoothiri/dummy/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/specialities/emergency-medical-service/feed/",
+    destination: "/trivandrum/speciality/emergency-medicine"
+  },
+  {
+    source: "/trivandrum/doctor/dr-sonymol-a",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-susi-alex/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-gopakumar-k-p/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-s-hariharan/",
+    destination: "/trivandrum/doctor/dr-hariharan-s"
+  },
+  {
+    source: "/trivandrum/doctors/dr-athish-jayakumar/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/fahmi-thabassam-k",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-gopinatha-menon/dr-gopinatha-menon/",
+    destination: "/trivandrum/doctor/dr-gopinatha-menon"
+  },
+  {
+    source: "/trivandrum/doctors/dr-gopinatha-menon/dr-gopinatha-menon/",
+    destination: "/trivandrum/doctor/dr-gopinatha-menon"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jayaprakash-madhavan/dr-jayaprakash-madhavan-3/",
+    destination: "/trivandrum/doctor/dr-jayaprakash-madhavan"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-aleena-j-b/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/doctors/dr-aijiv-thulaseedharan/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-hariharan-s-2/",
+    destination: "/trivandrum/doctor/dr-hariharan-s"
+  },
+  {
+    source: "/trivandrum/doctor/dr-hariharan-s-2/",
+    destination: "/trivandrum/doctor/dr-hariharan-s"
+  },
+  {
+    source: "/trivandrum/doctor/dr-shabin-k-sidhique-1",
+    destination: "/trivandrum/doctor/dr-shabin-k-sidhique-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-amrita-b-rao",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas-2/1000",
+    destination: "/trivandrum/doctor/dr-renu-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas-2/",
+    destination: "/trivandrum/doctor/dr-renu-thomas"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-abitha-aliyar/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/doctors/dr-vinoo-balakrishnan/dr-vinoo-balakrishnan/",
+    destination: "/trivandrum/doctor/dr-vinoo-balakrishnan"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-aravind-s/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas/",
+    destination: "/trivandrum/doctor/dr-renu-thomas"
+  },
+  {
+    source: "/trivandrum/doctor/dr-renu-thomas/dr-renu-thomas/",
+    destination: "/trivandrum/doctor/dr-renu-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan-2/",
+    destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
+  },
+  {
+    source: "/trivandrum/doctor/dr-naveen-jain/dr-naveen-jain/",
+    destination: "/trivandrum/doctor/dr-naveen-jain-neonatologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-naveen-jain/dr-naveen-jain/",
+    destination: "/trivandrum/doctor/dr-naveen-jain-neonatologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-r-nithya/",
+    destination: "/trivandrum/doctor/dr-nithya-r"
+  },
+  {
+    source: "/trivandrum/doctors/dr-bindu-purushothaman/dr-bindu-purushothaman-2/",
+    destination: "/trivandrum/doctor/dr-bindu-purushothaman"
+  },
+  {
+    source: "/trivandrum/doctors/dr-bindu-purushothaman/dr-bindu-purushothaman-2/1000",
+    destination: "/trivandrum/doctor/dr-bindu-purushothaman"
+  },
+  {
+    source: "/trivandrum/blog/breathing-exercises-after-heart-surgery/1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/doctor/dr-aijiv-thulaseedharan",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/nayana-nemani",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-hari-t-a/",
+    destination: "/trivandrum/doctor/dr-hari-t-a"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/hospital",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-fousiya-yoonus/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-nisha-nair-n-u/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/doctors/dr-balakrishnan-vedivachankoil/",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/specialities/cardiology/consult.bestdocapp.com/home/KIMSTVM",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-meera-r/dr-meera-r/",
+    destination: "/trivandrum/doctor/dr-meera-r"
+  },
+  {
+    source: "/trivandrum/specialities/cardiology/feed/",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/doctors/dr-meera-r/dr-meera-r/",
+    destination: "/trivandrum/doctor/dr-meera-r"
+  },
+  {
+    source: "/trivandrum/doctors/dr-oommen-aju-jacob/dr-oommen-aju-jacob/",
+    destination: "/trivandrum/doctor/dr-oommen-aju-jacob"
+  },
+  {
+    source: "/trivandrum/departments/cardiology/feed/",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-oommen-aju-jacob/dr-oommen-aju-jacob/",
+    destination: "/trivandrum/doctor/dr-oommen-aju-jacob"
+  },
+  {
+    source: "/trivandrum/doctors/dr-narayanan-r/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-susha-john//1000",
+    destination: "/trivandrum/doctor/dr-susha-john"
+  },
+  {
+    source: "/trivandrum/doctors/dr-susha-john/1000",
+    destination: "/trivandrum/doctor/dr-susha-john"
+  },
+  {
+    source: "/trivandrum/doctors/dr-biju-sebastian//1000",
+    destination: "/trivandrum/doctor/dr-biju-sebastian"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vijayalekshmi-n/dr-vijayalekshmi-n/",
+    destination: "/trivandrum/doctor/dr-vijayalekshmi-n"
+  },
+  {
+    source: "/trivandrum/doctors/dr-prameela-joji//1000",
+    destination: "/trivandrum/doctor/dr-prameela-joji"
+  },
+  {
+    source: "/trivandrum/doctors/dr-prameela-joji/1000",
+    destination: "/trivandrum/doctor/dr-prameela-joji"
+  },
+  {
+    source: "/trivandrum/doctors/dr-s-hariharan",
+    destination: "/trivandrum/doctor/dr-hariharan-s"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan/",
+    destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan/",
+    destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
+  },
+  {
+    source: "/trivandrum/doctor/dr-rajitha-l/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-meera-b/",
+    destination: "/trivandrum/doctor/dr-meera-r"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ameer-k-a/",
+    destination: "/trivandrum/doctor/dr-ameer-k-a"
+  },
+  {
+    source: "/trivandrum/doctors/dr-muralidharan/",
+    destination: "/trivandrum/doctor/dr-muraleedharan-k-k"
+  },
+  {
+    source: "/trivandrum/doctors/dr-gopinath-s-sunil/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-vattiyoorkavu/doctors/dr-anu-elizabeth-jacob-vattiyoorkavu/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-vattiyoorkavu"
+  },
+  {
+    source: "/trivandrum/doctors/dr-vijayan-k-n/dr-vijayan-k-n/",
+    destination: "/trivandrum/doctor/dr-vijayan-k-n"
+  },
+  {
+    source: "/trivandrum/doctors/dr-muhammed-nazeer/dr-muhammed-nazeer/",
+    destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor/dr-muhammed-nazeer/dr-muhammed-nazeer/",
+    destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor/dr-praveen-s-v/dr-praveen-s-v-3/feed/",
+    destination: "/trivandrum/doctor/dr-praveen-s-v"
+  },
+  {
+    source: "/trivandrum/doctors/dr-rajesh-s/dr-rajesh-s/",
+    destination: "/trivandrum/doctor/dr-rajesh-s"
+  },
+  {
+    source: "/trivandrum/doctor/dr-rajesh-s/dr-rajesh-s/",
+    destination: "/trivandrum/doctor/dr-rajesh-s"
+  },
+  {
+    source: "/trivandrum/doctors/dr-roshini-ambat/dr-roshini-ambat/",
+    destination: "/trivandrum/doctor/dr-roshini-ambat"
+  },
+  {
+    source: "/trivandrum/doctors/dr-neetu-gupta/dr-neetu-gupta/",
+    destination: "/trivandrum/doctor/dr-neetu-gupta"
+  },
+  {
+    source: "/trivandrum/doctor/dr-neetu-gupta/dr-neetu-gupta/",
+    destination: "/trivandrum/doctor/dr-neetu-gupta"
+  },
+  {
+    source: "/trivandrum/doctors/dr-harish-kareem/Our",
+    destination: "/trivandrum/doctor/hashir-kareem"
+  },
+  {
+    source: "/trivandrum/departments/orthopaedics-and-trauma/",
+    destination: "/trivandrum/speciality/orthopaedics"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/Our",
+    destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
+  },
+  {
+    source: "/trivandrum/doctors/dr-madhu-sasidharan/dr-madhu-sasidharan-2/",
+    destination: "/trivandrum/doctor/dr-madhu-sasidharan-gastroenterologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-madhu-sasidharan/Our",
+    destination: "/trivandrum/doctor/dr-madhu-sasidharan-gastroenterologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/photo-gallery/amrutham/",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/doctor/dr-thushanth-thomas/dr-thushanth-thomas/",
+    destination: "/trivandrum/doctor/dr-thushanth-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-thushanth-thomas/dr-thushanth-thomas-2/",
+    destination: "/trivandrum/doctor/dr-thushanth-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-raj-mohan-l/dr-raj-mohan-l/",
+    destination: "/trivandrum/doctor/dr-raj-mohan-l"
+  },
+  {
+    source: "/trivandrum/doctors/dr-thushanth-thomas/dr-thushanth-thomas/",
+    destination: "/trivandrum/doctor/dr-thushanth-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-sanuja-titus-santosh/dr-sanuja-titus-santosh/",
+    destination: "/trivandrum/doctor/dr-sanuja-titus-santosh"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ashraf-ali/ https://www.kimshealth.qa/",
+    destination: "/trivandrum/doctor/dr-ashraf-ali-a"
+  },
+  {
+    source: "/trivandrum/doctors/dr-renu-thomas/1000",
+    destination: "/trivandrum/doctor/dr-renu-thomas"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/contact-us",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-raj-mohan-l/dr-raj-mohan-l-2/feed/",
+    destination: "/trivandrum/doctor/dr-raj-mohan-l"
+  },
+  {
+    source: "/trivandrum/doctor/dr-satish-b/dr-satish-b-2/feed/",
+    destination: "/trivandrum/doctor/dr-satish-balan-nephrologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ashraf-ali/ https:/www.kimshealth.qa/",
+    destination: "/trivandrum/doctor/dr-ashraf-ali-a"
+  },
+  {
+    source: "/trivandrum/doctors/dr-sumithran-gangadharan/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-raj-mohan-l/dr-raj-mohan-l-2/feed/",
+    destination: "/trivandrum/doctor/dr-raj-mohan-l"
+  },
+  {
+    source: "/trivandrum/doctors/dr-praveen-s-v//1000",
+    destination: "/trivandrum/doctor/dr-praveen-s-v"
+  },
+  {
+    source: "/trivandrum/doctors/dr-suresh-chandran-c-j//1000",
+    destination: "/trivandrum/doctor/dr-suresh-chandran-c-j"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ashraf-ali/1000",
+    destination: "/trivandrum/doctor/dr-ashraf-ali-a"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-krishnan-v/dr-vinod-krishnan-v-2/",
+    destination: "/trivandrum/doctor/dr-vinod-krishnan-v"
+  },
+  {
+    source: "/trivandrum/doctors/dr-suresh-chandran-c-j/1000",
+    destination: "/trivandrum/doctor/dr-suresh-chandran-c-j"
+  },
+  {
+    source: "/trivandrum/doctors/dr-amrita-b-rao/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-mathew-thomas//1000",
+    destination: "/trivandrum/doctor/dr-mathew-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-shabeerali-t-u/dr-shabeerali-t-u-2/feed/",
+    destination: "/trivandrum/doctor/dr-shabeerali-t-u"
+  },
+  {
+    source: "/trivandrum/doctors/dr-vikraman-k-r/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-manesh-senan/dr-manesh-senan/",
+    destination: "/trivandrum/doctor/dr-manesh-senan"
+  },
+  {
+    source: "/trivandrum/doctor/dr-shabeerali-t-u/dr-shabeerali-t-u-2/feed/",
+    destination: "/trivandrum/doctor/dr-shabeerali-t-u"
+  },
+  {
+    source: "/trivandrum/doctors/dr-shabeerali-t-u/dr-shabeerali-t-u/",
+    destination: "/trivandrum/doctor/dr-shabeerali-t-u"
+  },
+  {
+    source: "/trivandrum/doctor/dr-shabeerali-t-u/dr-shabeerali-t-u/",
+    destination: "/trivandrum/doctor/dr-shabeerali-t-u"
+  },
+  {
+    source: "/trivandrum/doctor/dr-p-arjun/dr-p-arjun/",
+    destination: "/trivandrum/doctor/dr-p-arjun"
+  },
+  {
+    source: "/trivandrum/doctor/dr-manesh-senan/dr-manesh-senan/",
+    destination: "/trivandrum/doctor/dr-manesh-senan"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/specialities/pediatrics-vedavichonkoli/",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-p-arjun/dr-p-arjun/",
+    destination: "/trivandrum/doctor/dr-p-arjun"
+  },
+  {
+    source: "/trivandrum/doctors/dr-m-suresh-kumar/dr-m-suresh-kumar/",
+    destination: "/trivandrum/doctor/dr-m-suresh-kumar"
+  },
+  {
+    source: "/trivandrum/doctor/dr-m-suresh-kumar/dr-m-suresh-kumar/",
+    destination: "/trivandrum/doctor/dr-m-suresh-kumar"
+  },
+  {
+    source: "/trivandrum/doctor/dr-raj-mohan-l/dr-raj-mohan-l/",
+    destination: "/trivandrum/doctor/dr-raj-mohan-l"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-migita-michael-dcruz/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/doctor/akhil-krishna",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-subhalal-ms/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-arjun-athmaram",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-muhammed-nazeer/&sa",
+    destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/specialities/fertility-clinic/feed/",
+    destination: "/trivandrum/speciality/fertility-and-ivf-clinic"
+  },
+  {
+    source: "/trivandrum/doctors/dr-asha-zacharia/dr-asha-zacharia/",
+    destination: "/trivandrum/doctor/dr-asha-zacharia"
+  },
+  {
+    source: "/trivandrum/doctor/dr-asha-zacharia/dr-asha-zacharia/",
+    destination: "/trivandrum/doctor/dr-asha-zacharia"
+  },
+  {
+    source: "/trivandrum/doctors/dr-rema-devi-t-j/dr-rema-devi-t-j/",
+    destination: "/trivandrum/doctor/dr-rema-devi-t-j"
+  },
+  {
+    source: "/trivandrum/doctor/dr-rema-devi-t-j/dr-rema-devi-t-j/",
+    destination: "/trivandrum/doctor/dr-rema-devi-t-j"
+  },
+  {
+    source: "/trivandrum/doctor/dr-muhammed-nazeer/&sa",
+    destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/specialities/other/",
+    destination: "/trivandrum/speciality"
+  },
+  {
+    source: "/trivandrum/doctor/dr-muhammad-nooruddeen-a",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-manoj-haridas/1000",
+    destination: "/trivandrum/doctor/dr-manoj-haridas-hand-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum//doctors/dr-amrita-b-rao",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-shiraz-ahmad-rather/dr-shiraz-ahmad-rather/",
+    destination: "/trivandrum/doctor/dr-shiraz-ahmad-rather-surgical-gastro-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ajay-kumar",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ramesh-kumar-g/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/speciality/radiology",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-febina-k-t",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/international-patient",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/ambulance-services",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/ethics-committee",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/at-home-services",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/second-opinion",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/null/book-an-appointment",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/about-us",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/contact-us",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/hospital",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/visa-medical",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/null/ambulance-services",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor-talk/null/doctor",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor-talk/null/speciality",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/speciality",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor-talk/undefined/doctor",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/international-patient",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/ambulance-services",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/ethics-committee",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/speciality",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/contact-us",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/visa-medical",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/about-us",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/doctor",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/null/speciality",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/at-home-services",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/hospital",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/undefined/second-opinion",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/null/ambulance-services",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/null/book-an-appointment",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/media-and-events/null/doctor",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/doctors/dr-evana-m-roy/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-sushama-devi-r/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-jalaja",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/ms-resmi-wilson",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-chaithanya-c-das",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-jerry-john",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-fathima-r-konari",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/ms-sneha-a-manuel-1",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ajeesh-sankaran",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ashina-b-muneer",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-cancer-center",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/doctor/ramesh-kumar-g",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-adarsh-s",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-b-",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/ms-greeni-tressa-k-g",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-jinsha-j-r",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-shiraz-ahmad-rather/dr-shiraz-ahmad-rather/",
+    destination: "/trivandrum/doctor/dr-shiraz-ahmad-rather-surgical-gastro-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor/dr-aysha-aboobaker",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/specialities/pediatric-gastroenterology-hepatology-and-liver-transplantation",
+    destination: "/trivandrum/speciality/hepatobiliary-pancreatic-and-liver-transplant-surgery"
+  },
+  {
+    source: "/trivandrum/doctor/dr-blesson",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-evana-m-roy/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-chaithanya-c-das",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-chaithanya-c-das/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jalaja",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jalaja/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-ashina-b-muneer/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jerry-john",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-resmi-wilson",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-resmi-wilson/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-ashina-b-muneer",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-aysha-aboobaker/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-adarsh-s/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ranj",
+    destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-adarsh-s",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-jinsha-j-r/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-sneha-manuel/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/visa_medicals/thankyou/",
+    destination: "/visa-medical"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-aysha-aboobaker",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-greeni-tressa-k-g",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-greeni-tressa-k-g/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-jinsha-j-r",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jerry-john/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/doctors/ms-sneha-manuel",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/ms-sneha-manuel/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-sneha-manuel",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre-varkala",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-kottayam",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vishal-balan-pillai",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-nagercoil",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-al-shifa",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-trivandrum",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-kollam",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-blesson",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-blesson/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre-kamaleswaram-manacaud",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/about-us",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/contact-us",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-rajalekshmi-a/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre-ayoor",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre-vattiyoorkavu",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-vattiyoorkavu"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre-pothencode",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre-attingal",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/speciality/radiology?hospital=kimshealth-medical-centre",
+    destination: "/trivandrum/speciality/imaging-and-interventional-radiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-gautam-raghu",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/specialities/dental-clinical-oral-and-maxillofacial-surgery/",
+    destination: "/trivandrum/speciality/dental-clinical-oral-and-maxillofacial-surgery"
+  },
+  {
+    source: "/trivandrum/specialities/ophthalmologys/1000",
+    destination: "/trivandrum/speciality/ophthalmology"
+  },
+  {
+    source: "/trivandrum/departments/holistic-medicine/feed/",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/specialities/holistic-medicine/",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/doctor/ms-praseetha-g-s",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/visa-medical",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-vineetha-g-gopal/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praylyn-rubysha/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-dhanya-louis/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-balakrishnan/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/specialities/pediatric-gastroenterology-hepatology-liver-transplantation",
+    destination: "/trivandrum/speciality/hepatobiliary-pancreatic-and-liver-transplant-surgery"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-praveen-s-v/",
+    destination: "/trivandrum/doctor/dr-praveen-s-v"
+  },
+  {
+    source: "/trivandrum/doctor/null/speciality",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/ethics-committee",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-rajalekshmi-a/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/ambulance-services",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-anju-carmel/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/doctor",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/navna-panchami-ravindran",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/blog/anaesthesiology-teg-machine/1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/doctors/dr-praveen-murlidha/",
+    destination: "/trivandrum/doctor/dr-praveen-murlidharan-nephrologist-trivandrum"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-angel-sr/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/hospital",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-vattiyoorkavu/doctors/dr-aparna-mp/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-vattiyoorkavu"
+  },
+  {
+    source: "/trivandrum/doctors/dr-atul-abraham/",
+    destination: "/trivandrum/doctor/Atul-Abraham"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-shahabaz/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
+  },
+  {
+    source: "/trivandrum/doctors/dr-dhanasekaran-vk/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-vijaya-sekhar/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/doctor/null/doctor",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/doctors/dr-ramesh-gopi-b/",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-asok-kumar-g/",
+    destination: "/trivandrum/doctor/dr-asok-kumar-g-m"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/greeni-tressa-k-g/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/null/ambulance-services",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/doctors/dr-akash-sasidharan/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/undefined/speciality",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/departments/dental-clinical-oral-and-maxillofacial-surgery/",
+    destination: "/trivandrum/speciality/dental-clinical-oral-and-maxillofacial-surgery"
+  },
+  {
+    source: "/trivandrum/doctor/null/book-an-appointment",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/null/ambulance-services",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-abitha-aliyar/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/ms-praseetha-g-s",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/specialities/respiratory-medicine-and-critical-care/",
+    destination: "/trivandrum/speciality/respiratory-medicine"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ranjith-",
+    destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
+  },
+  {
+    source: "/trivandrum/doctors/ms-praseetha-g-s/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praseetha-g-s/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/doctor/dr-anshon-a",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-sasidharan/",
+    destination: "/trivandrum/doctor/dr-sasidharan-k"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ms-arathy-s-v",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praseetha-g-s",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/doctor/ms-aswathy-chandran",
+    destination: "/trivandrum/doctor/aswathy-chandran"
+  },
+  {
+    source: "/trivandrum/doctor/ajinya-john",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-rajesh-v-pilal/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/trivandrum/kimshealth-medical-centre-attingal/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam//services",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/specialities/orthopedics",
+    destination: "/trivandrum/speciality/orthopaedics"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam//accessibility",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/null/book-an-appointment",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/null/doctor",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//telehealth",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/visa-medical",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/speciality",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/international-patient",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/bleeding-wound-top-10-fastest-remedies-cure-your-bleeding-wounds//1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/doctors/dr-padmaja-n-p//telehealth",
+    destination: "/trivandrum/doctor/dr-padmaja-n-p"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//accessibility",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/doctor/suseela-b-nair",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-r",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/ethics-committee",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/trivandrum/kimshealth-medical-centre-ayoor/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/null/speciality",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/doctor",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/trivandrum/kimshealth-medical-centre-manacaud/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/doctors/dr-s-sreejith/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-greeni-tressa-k-g/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/blog/sex-determination-in-india-illegal-and-fatal//1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/sex-determination-in-india-illegal-and-fatal/1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/sex-determination-in-india-illegal-and-fatal/ \r\n(last",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/doctor/dr-p-m-c-nair",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-b",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-jobin-mathew-jose",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/departments/respiratory-medicine-and-critical-care/",
+    destination: "/trivandrum/speciality/respiratory-medicine"
+  },
+  {
+    source: "/trivandrum/blog/where-find-6-essential-sources-nutrients//1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/where-find-6-essential-sources-nutrients/1000",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/doctor/dr-binish-paul",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/media-room/effective-skin-treatments-kims/",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/doctors/ms-aswathy-chandran",
+    destination: "/trivandrum/doctor/aswathy-chandran"
+  },
+  {
+    source: "/trivandrum/doctors/ms-aswathy-chandran/",
+    destination: "/trivandrum/doctor/aswathy-chandran"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-arathy-s-v",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-arathy-s-v/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/undefined/null/book-an-appointment",
+    destination: "/trivandrum/book-an-appointment"
+  },
+  {
+    source: "/trivandrum/doctor/dr-bagatheesh-s",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ramesh-kumar-g",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam//telehealth",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/at-home-services",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/about-us",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/international-patient",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/at-home-services",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/visa-medical",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/visa-medical",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/visa-medical",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/doctor",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/ambulance-services",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/contact-us",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/about-us",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/null/speciality",
+    destination: "/trivandrum/speciality/cardiac-sciences"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/hospital",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/doctor",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/null/speciality",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/null/ambulance-services",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/ethics-committee/null/speciality",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/null/ambulance-services",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/about-us/null/speciality",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/about-us/null/book-an-appointment",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/about-us/null/doctor",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/null/speciality",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/ethics-committee",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/doctor",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/hospital",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/ambulance-services",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/speciality",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/international-patient",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/null/speciality",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/ethics-committee",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/hospital",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/doctor",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/at-home-services",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/about-us",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/null/ambulance-services",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/null/book-an-appointment",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/null/speciality",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/ambulance-services",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/contact-us",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/ethics-committee",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/hospital",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/doctor",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/ethics-committee",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/null/doctor",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/null/book-an-appointment",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/ambulance-services",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/visa-medical",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/null/ambulance-services",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/second-opinion",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/null/book-an-appointment",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/visa-medical",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/second-opinion",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/ethics-committee",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/null/book-an-appointment",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/contact-us",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/null/ambulance-services",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/null/book-an-appointment",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/null/book-an-appointment",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/blog/how-often-should-a-female-visit-her-gynecologist-after-puberty/undefined/at-home-services",
+    destination: "/trivandrum/blog"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/speciality",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/ethics-committee",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/null/doctor",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/contact-us",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/null/ambulance-services",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/ambulance-services",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/about-us",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/hospital",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/doctor",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/about-us",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/speciality",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/null/doctor",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/about-us",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/speciality/developmental-pediatrics-1/undefined/speciality",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/contact-us",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/null/doctor",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/ethics-committee",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/null/book-an-appointment",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/ambulance-services",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/about-us/null/ambulance-services",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/visa-medical",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/at-home-services",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/hospital",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/international-patient",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/doctor",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/null/ambulance-services",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/ambulance-services",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/contact-us",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/about-us",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/null/doctor",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/ambulance-services",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/speciality",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/hospital",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/at-home-services",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/international-patient",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/second-opinion",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/second-opinion",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/null/speciality",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/speciality",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/at-home-services",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/international-patient",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/second-opinion",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/null/doctor",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/at-home-services",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/speciality",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/about-us",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mini-p-n/undefined/contact-us",
+    destination: "/trivandrum/doctor/dr-mini-p-n"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/hospital",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/speciality",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/at-home-services",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/second-opinion",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/second-opinion",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/international-patient",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/international-patient",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/null/doctor",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/ambulance-services",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-mathew-p-varghese/undefined/contact-us",
+    destination: "/trivandrum/doctor/dr-mathew-p-varghese"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/second-opinion",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/ethics-committee/undefined/visa-medical",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/doctor/dr-k-p-s-vinayakhram/undefined/second-opinion",
+    destination: "/trivandrum/doctor/dr-k-p-s-vinayakhram"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/ethics-committee",
+    destination: "/trivandrum/ethics-committee"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/international-patient",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/visa-medical",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1/undefined/about-us",
+    destination: "/trivandrum/doctor/dr-vinod-kumar-kesavan-1"
+  },
+  {
+    source: "/trivandrum/speciality/cardiology/undefined/doctor",
+    destination: "/trivandrum/speciality/cardiology"
+  },
+  {
+    source: "/trivandrum/about-us/undefined/contact-us",
+    destination: "/trivandrum/about-us"
+  },
+  {
+    source: "/trivandrum/doctors/dr-padmaja-n-p//services",
+    destination: "/trivandrum/doctor/dr-padmaja-n-p"
+  },
+  {
+    source: "/trivandrum/doctors/dr-padmaja-n-p//patient-portal",
+    destination: "/trivandrum/doctor/dr-padmaja-n-p"
+  },
+  {
+    source: "/trivandrum/doctors/dr-padmaja-n-p//insurance",
+    destination: "/trivandrum/doctor/dr-padmaja-n-p"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//patient-portal",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//forms",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//insurance",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam//appointment",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//services",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ananthu-jayan",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam//patient-portal",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre"
+  },
+  {
+    source: "/trivandrum/doctors/dr-padmaja-n-p//accessibility",
+    destination: "/trivandrum/doctor/dr-padmaja-n-p"
+  },
+  {
+    source: "/trivandrum/doctors/dr-padmaja-n-p//forms",
+    destination: "/trivandrum/doctor/dr-padmaja-n-p"
+  },
+  {
+    source: "/trivandrum//doctors/dr-jacob-mm",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum//doctors/dr-jacob-mm/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jacob-mm/?page=2",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jacob-mm/?page=5",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jacob-mm/?page=8",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/media-room/why-your-child-doesnt-need-stem-toys-to-be-a-stem/",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jacob-m-m/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-jacob-m-m/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-pmc-nair/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-aiswarya-vijay-v-j",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-vijaya-sekhar",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/doctors/dr-bindu-purushothaman/1000",
+    destination: "/trivandrum/doctor/dr-bindu-purushothaman"
+  },
+  {
+    source: "/trivandrum/doctors/dr-saffia-p-m//1000",
+    destination: "/trivandrum/doctor/dr-saffia-p-m"
+  },
+  {
+    source: "/trivandrum/undefined/undefined/second-opinion",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-jamila-k-warrier-vedivachankoil/",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
+  },
+  {
+    source: "/trivandrum/doctors/dr-kumar-k-a/",
+    destination: "/trivandrum/doctor/dr-kumar-k-a"
+  },
+  {
+    source: "/trivandrum/doctors/dr-neetu-gupta//1000",
+    destination: "/trivandrum/doctor/dr-neetu-gupta"
+  },
+  {
+    source: "/trivandrum/doctors/dr-binish-paul/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/specialities/dental-clinical-oral-maxillofacial-surgery/1000",
+    destination: "/trivandrum/speciality/dental-clinical-oral-and-maxillofacial-surgery"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/about-us?hospital=kimshealth-nagercoil",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-praveen-s-v/dr-praveen-s-v-3/feed/",
+    destination: "/trivandrum/doctor/dr-praveen-s-v"
+  },
+  {
+    source: "/trivandrum/specialities/holistic-medicine/feed/",
+    destination: "/trivandrum/speciality/holistic-child-development-center"
+  },
+  {
+    source: "/trivandrum/doctors/dr-neetu-gupta/1000",
+    destination: "/trivandrum/doctor/dr-neetu-gupta"
+  },
+  {
+    source: "/trivandrum/doctors/dr-rajesh-s//1000",
+    destination: "/trivandrum/doctor/dr-rajesh-s"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ragitha-binu-krishnan/1000",
+    destination: "/trivandrum/doctor/dr-ragitha-binu-krishnan"
+  },
+  {
+    source: "/trivandrum/doctor/dr-m-r-vasudevan-nampoothiri",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/kimshealth-medical-centre-attingal//appointment",
+    destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
+  },
+  {
+    source: "/trivandrum/doctors/dr-bindu-purushothaman//1000",
+    destination: "/trivandrum/doctor/dr-bindu-purushothaman"
+  },
+  {
+    source: "/trivandrum/doctors/dr-binish-paul",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctor/dr-jazeel-s-a",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jobin-mathew-jose/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-renu-thomas//1000",
+    destination: "/trivandrum/doctor/dr-renu-thomas"
+  },
+  {
+    source: "/trivandrum/doctors/dr-manoj-haridas//1000",
+    destination: "/trivandrum/doctor/dr-manoj-haridas-hand-surgeon-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ashraf-ali//1000",
+    destination: "/trivandrum/doctor/dr-ashraf-ali-a"
+  },
+  {
+    source: "/trivandrum/trivandrum/hospital/undefined/about-us?hospital=kimshealth-medical-centre-vattiyoorkavu",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-subin-sugath/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum//doctors/dr-sherin-nazeer/",
+    destination: "/trivandrum/doctor/sherine-nazeer"
+  },
+  {
+    source: "/trivandrum/doctors/dr-sherin-nazeer/?page=2",
+    destination: "/trivandrum/doctor/sherine-nazeer"
+  },
+  {
+    source: "/trivandrum/doctors/ms-anju-carmel/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-rajitha-l/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/doctors/dr-praveen-s-v/1000",
+    destination: "/trivandrum/doctor/dr-praveen-s-v"
+  },
+  {
+    source: "/trivandrum/publication/successful-bowel-surgery-hemoglobin-2-g-dl-without-blood-transfusion/",
+    destination: "/trivandrum/gallery"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/doctor?hospital=kimshealth-medical-centre",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-sufina-n-sulfi/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/book-app/ajax-bookapp/",
+    destination: "/trivandrum/book-an-appointment"
+  },
+  {
+    source: "/trivandrum/undefined/undefined/contact-us",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/about-us?hospital=kimshealth-kottayam",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctor/dr-ragitha-",
+    destination: "/trivandrum/doctor/dr-ragitha-binu-krishnan"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/doctor?hospital=kimshealth-kottayam",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/speciality?hospital=kimshealth-kottayam",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-jobin-mathew-jose",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/doctor?hospital=kimshealth-nagercoil",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/hospital/undefined/speciality?hospital=kimshealth-nagercoil",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/undefined/undefined/doctor",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/trivandrum/hospital/undefined/at-home-services",
+    destination: "/trivandrum/hospital/kimshealth-trivandrum"
+  },
+  {
+    source: "/trivandrum/doctors/dr-ragitha-binu-krishnan//1000",
+    destination: "/trivandrum/doctor/dr-ragitha-binu-krishnan"
+  },
+  {
+    source: "/trivandrum/doctors/dr-anjana-raj/",
+    destination: "/trivandrum/doctor"
+  },
+  {
+    source: "/trivandrum/specialities/dental-clinical-oral-maxillofacial-surgery//1000",
+    destination: "/trivandrum/speciality/dental-clinical-oral-and-maxillofacial-surgery"
+  },
+  {
+    source: "/trivandrum/doctor/dr-sivadas-arun",
+    destination: "/trivandrum/doctor"
+  }
+
 	
 ];
 
