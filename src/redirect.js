@@ -25903,6 +25903,8 @@ const redirect = [
 
 
 
+	// =========================================================
+
 	
   {
     source: "/trivandrum/doctor/shyma-basheer",
@@ -25913,11 +25915,11 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-anees-thajudeen-electrophysiologist-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-pg-jayaprakash/",
+    source: "/trivandrum/doctors/dr-pg-jayaprakash",
     destination: "/trivandrum/doctor/dr-p-g-jayaprakash"
   },
   {
-    source: "/trivandrum/doctors/dr-vidyalekshmy-r/",
+    source: "/trivandrum/doctors/dr-vidyalekshmy-r",
     destination: "/trivandrum/doctor/dr-vidyalekshmy-r"
   },
   {
@@ -25941,23 +25943,23 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-m-bhuvanesh/",
+    source: "/trivandrum/doctors/dr-m-bhuvanesh",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-safdar-basheer/",
+    source: "/trivandrum/doctors/dr-safdar-basheer",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-d-kalpana/",
+    source: "/trivandrum/doctors/dr-d-kalpana",
     destination: "/trivandrum/doctor/dr-kalpana-d"
   },
   {
-    source: "/trivandrum/doctors/dr-l-mahadevan/",
+    source: "/trivandrum/doctors/dr-l-mahadevan",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-nahas/",
+    source: "/trivandrum/doctors/dr-nahas",
     destination: "/trivandrum/doctor/Nahas-A"
   },
   {
@@ -25969,7 +25971,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-archa-m-nair/",
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-archa-m-nair",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
   },
   {
@@ -25977,11 +25979,11 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-m-r-vasudevan-nampoothiri/dummy/",
+    source: "/trivandrum/doctors/dr-m-r-vasudevan-nampoothiri/dummy",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/specialities/emergency-medical-service/feed/",
+    source: "/trivandrum/specialities/emergency-medical-service/feed",
     destination: "/trivandrum/speciality/emergency-medicine"
   },
   {
@@ -25989,19 +25991,19 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-susi-alex/",
+    source: "/trivandrum/doctors/dr-susi-alex",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-gopakumar-k-p/",
+    source: "/trivandrum/doctors/dr-gopakumar-k-p",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-s-hariharan/",
+    source: "/trivandrum/doctors/dr-s-hariharan",
     destination: "/trivandrum/doctor/dr-hariharan-s"
   },
   {
-    source: "/trivandrum/doctors/dr-athish-jayakumar/",
+    source: "/trivandrum/doctors/dr-athish-jayakumar",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26009,31 +26011,31 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctor/dr-gopinatha-menon/dr-gopinatha-menon/",
+    source: "/trivandrum/doctor/dr-gopinatha-menon/dr-gopinatha-menon",
     destination: "/trivandrum/doctor/dr-gopinatha-menon"
   },
   {
-    source: "/trivandrum/doctors/dr-gopinatha-menon/dr-gopinatha-menon/",
+    source: "/trivandrum/doctors/dr-gopinatha-menon/dr-gopinatha-menon",
     destination: "/trivandrum/doctor/dr-gopinatha-menon"
   },
   {
-    source: "/trivandrum/doctors/dr-jayaprakash-madhavan/dr-jayaprakash-madhavan-3/",
+    source: "/trivandrum/doctors/dr-jayaprakash-madhavan/dr-jayaprakash-madhavan-3",
     destination: "/trivandrum/doctor/dr-jayaprakash-madhavan"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-aleena-j-b/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-aleena-j-b",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/doctors/dr-aijiv-thulaseedharan/",
+    source: "/trivandrum/doctors/dr-aijiv-thulaseedharan",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-hariharan-s-2/",
+    source: "/trivandrum/doctors/dr-hariharan-s-2",
     destination: "/trivandrum/doctor/dr-hariharan-s"
   },
   {
-    source: "/trivandrum/doctor/dr-hariharan-s-2/",
+    source: "/trivandrum/doctor/dr-hariharan-s-2",
     destination: "/trivandrum/doctor/dr-hariharan-s"
   },
   {
@@ -26049,47 +26051,47 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-renu-thomas"
   },
   {
-    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas-2/",
+    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas-2",
     destination: "/trivandrum/doctor/dr-renu-thomas"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-abitha-aliyar/",
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-abitha-aliyar",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
-    source: "/trivandrum/doctors/dr-vinoo-balakrishnan/dr-vinoo-balakrishnan/",
+    source: "/trivandrum/doctors/dr-vinoo-balakrishnan/dr-vinoo-balakrishnan",
     destination: "/trivandrum/doctor/dr-vinoo-balakrishnan"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-aravind-s/",
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-aravind-s",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
-    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas/",
+    source: "/trivandrum/doctors/dr-renu-thomas/dr-renu-thomas",
     destination: "/trivandrum/doctor/dr-renu-thomas"
   },
   {
-    source: "/trivandrum/doctor/dr-renu-thomas/dr-renu-thomas/",
+    source: "/trivandrum/doctor/dr-renu-thomas/dr-renu-thomas",
     destination: "/trivandrum/doctor/dr-renu-thomas"
   },
   {
-    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan-2/",
+    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan-2",
     destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
   },
   {
-    source: "/trivandrum/doctor/dr-naveen-jain/dr-naveen-jain/",
+    source: "/trivandrum/doctor/dr-naveen-jain/dr-naveen-jain",
     destination: "/trivandrum/doctor/dr-naveen-jain-neonatologist-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-naveen-jain/dr-naveen-jain/",
+    source: "/trivandrum/doctors/dr-naveen-jain/dr-naveen-jain",
     destination: "/trivandrum/doctor/dr-naveen-jain-neonatologist-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-r-nithya/",
+    source: "/trivandrum/doctors/dr-r-nithya",
     destination: "/trivandrum/doctor/dr-nithya-r"
   },
   {
-    source: "/trivandrum/doctors/dr-bindu-purushothaman/dr-bindu-purushothaman-2/",
+    source: "/trivandrum/doctors/dr-bindu-purushothaman/dr-bindu-purushothaman-2",
     destination: "/trivandrum/doctor/dr-bindu-purushothaman"
   },
   {
@@ -26109,7 +26111,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-hari-t-a/",
+    source: "/trivandrum/doctors/dr-hari-t-a",
     destination: "/trivandrum/doctor/dr-hari-t-a"
   },
   {
@@ -26117,15 +26119,15 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-fousiya-yoonus/",
+    source: "/trivandrum/doctors/dr-fousiya-yoonus",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-nisha-nair-n-u/",
+    source: "/trivandrum/doctors/dr-nisha-nair-n-u",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/doctors/dr-balakrishnan-vedivachankoil/",
+    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/doctors/dr-balakrishnan-vedivachankoil",
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
@@ -26133,31 +26135,31 @@ const redirect = [
     destination: "/trivandrum/speciality/cardiology"
   },
   {
-    source: "/trivandrum/doctor/dr-meera-r/dr-meera-r/",
+    source: "/trivandrum/doctor/dr-meera-r/dr-meera-r",
     destination: "/trivandrum/doctor/dr-meera-r"
   },
   {
-    source: "/trivandrum/specialities/cardiology/feed/",
+    source: "/trivandrum/specialities/cardiology/feed",
     destination: "/trivandrum/speciality/cardiology"
   },
   {
-    source: "/trivandrum/doctors/dr-meera-r/dr-meera-r/",
+    source: "/trivandrum/doctors/dr-meera-r/dr-meera-r",
     destination: "/trivandrum/doctor/dr-meera-r"
   },
   {
-    source: "/trivandrum/doctors/dr-oommen-aju-jacob/dr-oommen-aju-jacob/",
+    source: "/trivandrum/doctors/dr-oommen-aju-jacob/dr-oommen-aju-jacob",
     destination: "/trivandrum/doctor/dr-oommen-aju-jacob"
   },
   {
-    source: "/trivandrum/departments/cardiology/feed/",
+    source: "/trivandrum/departments/cardiology/feed",
     destination: "/trivandrum/speciality/cardiology"
   },
   {
-    source: "/trivandrum/doctor/dr-oommen-aju-jacob/dr-oommen-aju-jacob/",
+    source: "/trivandrum/doctor/dr-oommen-aju-jacob/dr-oommen-aju-jacob",
     destination: "/trivandrum/doctor/dr-oommen-aju-jacob"
   },
   {
-    source: "/trivandrum/doctors/dr-narayanan-r/",
+    source: "/trivandrum/doctors/dr-narayanan-r",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26173,7 +26175,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-biju-sebastian"
   },
   {
-    source: "/trivandrum/doctor/dr-vijayalekshmi-n/dr-vijayalekshmi-n/",
+    source: "/trivandrum/doctor/dr-vijayalekshmi-n/dr-vijayalekshmi-n",
     destination: "/trivandrum/doctor/dr-vijayalekshmi-n"
   },
   {
@@ -26189,75 +26191,75 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-hariharan-s"
   },
   {
-    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan/",
+    source: "/trivandrum/doctors/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan",
     destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
   },
   {
-    source: "/trivandrum/doctor/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan/",
+    source: "/trivandrum/doctor/dr-ranjith-unnikrishnan/dr-ranjith-unnikrishnan",
     destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
   },
   {
-    source: "/trivandrum/doctor/dr-rajitha-l/",
+    source: "/trivandrum/doctor/dr-rajitha-l",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-meera-b/",
+    source: "/trivandrum/doctors/dr-meera-b",
     destination: "/trivandrum/doctor/dr-meera-r"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/",
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
   },
   {
-    source: "/trivandrum/doctors/dr-ameer-k-a/",
+    source: "/trivandrum/doctors/dr-ameer-k-a",
     destination: "/trivandrum/doctor/dr-ameer-k-a"
   },
   {
-    source: "/trivandrum/doctors/dr-muralidharan/",
+    source: "/trivandrum/doctors/dr-muralidharan",
     destination: "/trivandrum/doctor/dr-muraleedharan-k-k"
   },
   {
-    source: "/trivandrum/doctors/dr-gopinath-s-sunil/",
+    source: "/trivandrum/doctors/dr-gopinath-s-sunil",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-vattiyoorkavu/doctors/dr-anu-elizabeth-jacob-vattiyoorkavu/",
+    source: "/trivandrum/kimshealth-medical-centre-vattiyoorkavu/doctors/dr-anu-elizabeth-jacob-vattiyoorkavu",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-vattiyoorkavu"
   },
   {
-    source: "/trivandrum/doctors/dr-vijayan-k-n/dr-vijayan-k-n/",
+    source: "/trivandrum/doctors/dr-vijayan-k-n/dr-vijayan-k-n",
     destination: "/trivandrum/doctor/dr-vijayan-k-n"
   },
   {
-    source: "/trivandrum/doctors/dr-muhammed-nazeer/dr-muhammed-nazeer/",
+    source: "/trivandrum/doctors/dr-muhammed-nazeer/dr-muhammed-nazeer",
     destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
   },
   {
-    source: "/trivandrum/doctor/dr-muhammed-nazeer/dr-muhammed-nazeer/",
+    source: "/trivandrum/doctor/dr-muhammed-nazeer/dr-muhammed-nazeer",
     destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
   },
   {
-    source: "/trivandrum/doctor/dr-praveen-s-v/dr-praveen-s-v-3/feed/",
+    source: "/trivandrum/doctor/dr-praveen-s-v/dr-praveen-s-v-3/feed",
     destination: "/trivandrum/doctor/dr-praveen-s-v"
   },
   {
-    source: "/trivandrum/doctors/dr-rajesh-s/dr-rajesh-s/",
+    source: "/trivandrum/doctors/dr-rajesh-s/dr-rajesh-s",
     destination: "/trivandrum/doctor/dr-rajesh-s"
   },
   {
-    source: "/trivandrum/doctor/dr-rajesh-s/dr-rajesh-s/",
+    source: "/trivandrum/doctor/dr-rajesh-s/dr-rajesh-s",
     destination: "/trivandrum/doctor/dr-rajesh-s"
   },
   {
-    source: "/trivandrum/doctors/dr-roshini-ambat/dr-roshini-ambat/",
+    source: "/trivandrum/doctors/dr-roshini-ambat/dr-roshini-ambat",
     destination: "/trivandrum/doctor/dr-roshini-ambat"
   },
   {
-    source: "/trivandrum/doctors/dr-neetu-gupta/dr-neetu-gupta/",
+    source: "/trivandrum/doctors/dr-neetu-gupta/dr-neetu-gupta",
     destination: "/trivandrum/doctor/dr-neetu-gupta"
   },
   {
-    source: "/trivandrum/doctor/dr-neetu-gupta/dr-neetu-gupta/",
+    source: "/trivandrum/doctor/dr-neetu-gupta/dr-neetu-gupta",
     destination: "/trivandrum/doctor/dr-neetu-gupta"
   },
   {
@@ -26265,7 +26267,7 @@ const redirect = [
     destination: "/trivandrum/doctor/hashir-kareem"
   },
   {
-    source: "/trivandrum/departments/orthopaedics-and-trauma/",
+    source: "/trivandrum/departments/orthopaedics-and-trauma",
     destination: "/trivandrum/speciality/orthopaedics"
   },
   {
@@ -26273,7 +26275,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
   },
   {
-    source: "/trivandrum/doctors/dr-madhu-sasidharan/dr-madhu-sasidharan-2/",
+    source: "/trivandrum/doctors/dr-madhu-sasidharan/dr-madhu-sasidharan-2",
     destination: "/trivandrum/doctor/dr-madhu-sasidharan-gastroenterologist-trivandrum"
   },
   {
@@ -26281,31 +26283,31 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-madhu-sasidharan-gastroenterologist-trivandrum"
   },
   {
-    source: "/trivandrum/photo-gallery/amrutham/",
+    source: "/trivandrum/photo-gallery/amrutham",
     destination: "/trivandrum/gallery"
   },
   {
-    source: "/trivandrum/doctor/dr-thushanth-thomas/dr-thushanth-thomas/",
+    source: "/trivandrum/doctor/dr-thushanth-thomas/dr-thushanth-thomas",
     destination: "/trivandrum/doctor/dr-thushanth-thomas"
   },
   {
-    source: "/trivandrum/doctors/dr-thushanth-thomas/dr-thushanth-thomas-2/",
+    source: "/trivandrum/doctors/dr-thushanth-thomas/dr-thushanth-thomas-2",
     destination: "/trivandrum/doctor/dr-thushanth-thomas"
   },
   {
-    source: "/trivandrum/doctors/dr-raj-mohan-l/dr-raj-mohan-l/",
+    source: "/trivandrum/doctors/dr-raj-mohan-l/dr-raj-mohan-l",
     destination: "/trivandrum/doctor/dr-raj-mohan-l"
   },
   {
-    source: "/trivandrum/doctors/dr-thushanth-thomas/dr-thushanth-thomas/",
+    source: "/trivandrum/doctors/dr-thushanth-thomas/dr-thushanth-thomas",
     destination: "/trivandrum/doctor/dr-thushanth-thomas"
   },
   {
-    source: "/trivandrum/doctors/dr-sanuja-titus-santosh/dr-sanuja-titus-santosh/",
+    source: "/trivandrum/doctors/dr-sanuja-titus-santosh/dr-sanuja-titus-santosh",
     destination: "/trivandrum/doctor/dr-sanuja-titus-santosh"
   },
   {
-    source: "/trivandrum/doctors/dr-ashraf-ali/ https://www.kimshealth.qa/",
+    source: "/trivandrum/doctors/dr-ashraf-ali/ https://www.kimshealth.qa",
     destination: "/trivandrum/doctor/dr-ashraf-ali-a"
   },
   {
@@ -26317,23 +26319,23 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-raj-mohan-l/dr-raj-mohan-l-2/feed/",
+    source: "/trivandrum/doctors/dr-raj-mohan-l/dr-raj-mohan-l-2/feed",
     destination: "/trivandrum/doctor/dr-raj-mohan-l"
   },
   {
-    source: "/trivandrum/doctor/dr-satish-b/dr-satish-b-2/feed/",
+    source: "/trivandrum/doctor/dr-satish-b/dr-satish-b-2/feed",
     destination: "/trivandrum/doctor/dr-satish-balan-nephrologist-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-ashraf-ali/ https:/www.kimshealth.qa/",
+    source: "/trivandrum/doctors/dr-ashraf-ali/ https:/www.kimshealth.qa",
     destination: "/trivandrum/doctor/dr-ashraf-ali-a"
   },
   {
-    source: "/trivandrum/doctors/dr-sumithran-gangadharan/",
+    source: "/trivandrum/doctors/dr-sumithran-gangadharan",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctor/dr-raj-mohan-l/dr-raj-mohan-l-2/feed/",
+    source: "/trivandrum/doctor/dr-raj-mohan-l/dr-raj-mohan-l-2/feed",
     destination: "/trivandrum/doctor/dr-raj-mohan-l"
   },
   {
@@ -26349,7 +26351,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-ashraf-ali-a"
   },
   {
-    source: "/trivandrum/doctor/dr-vinod-krishnan-v/dr-vinod-krishnan-v-2/",
+    source: "/trivandrum/doctor/dr-vinod-krishnan-v/dr-vinod-krishnan-v-2",
     destination: "/trivandrum/doctor/dr-vinod-krishnan-v"
   },
   {
@@ -26357,7 +26359,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-suresh-chandran-c-j"
   },
   {
-    source: "/trivandrum/doctors/dr-amrita-b-rao/",
+    source: "/trivandrum/doctors/dr-amrita-b-rao",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26365,59 +26367,59 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-mathew-thomas"
   },
   {
-    source: "/trivandrum/doctors/dr-shabeerali-t-u/dr-shabeerali-t-u-2/feed/",
+    source: "/trivandrum/doctors/dr-shabeerali-t-u/dr-shabeerali-t-u-2/feed",
     destination: "/trivandrum/doctor/dr-shabeerali-t-u"
   },
   {
-    source: "/trivandrum/doctors/dr-vikraman-k-r/",
+    source: "/trivandrum/doctors/dr-vikraman-k-r",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-manesh-senan/dr-manesh-senan/",
+    source: "/trivandrum/doctors/dr-manesh-senan/dr-manesh-senan",
     destination: "/trivandrum/doctor/dr-manesh-senan"
   },
   {
-    source: "/trivandrum/doctor/dr-shabeerali-t-u/dr-shabeerali-t-u-2/feed/",
+    source: "/trivandrum/doctor/dr-shabeerali-t-u/dr-shabeerali-t-u-2/feed",
     destination: "/trivandrum/doctor/dr-shabeerali-t-u"
   },
   {
-    source: "/trivandrum/doctors/dr-shabeerali-t-u/dr-shabeerali-t-u/",
+    source: "/trivandrum/doctors/dr-shabeerali-t-u/dr-shabeerali-t-u",
     destination: "/trivandrum/doctor/dr-shabeerali-t-u"
   },
   {
-    source: "/trivandrum/doctor/dr-shabeerali-t-u/dr-shabeerali-t-u/",
+    source: "/trivandrum/doctor/dr-shabeerali-t-u/dr-shabeerali-t-u",
     destination: "/trivandrum/doctor/dr-shabeerali-t-u"
   },
   {
-    source: "/trivandrum/doctor/dr-p-arjun/dr-p-arjun/",
+    source: "/trivandrum/doctor/dr-p-arjun/dr-p-arjun",
     destination: "/trivandrum/doctor/dr-p-arjun"
   },
   {
-    source: "/trivandrum/doctor/dr-manesh-senan/dr-manesh-senan/",
+    source: "/trivandrum/doctor/dr-manesh-senan/dr-manesh-senan",
     destination: "/trivandrum/doctor/dr-manesh-senan"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/specialities/pediatrics-vedavichonkoli/",
+    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/specialities/pediatrics-vedavichonkoli",
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-p-arjun/dr-p-arjun/",
+    source: "/trivandrum/doctors/dr-p-arjun/dr-p-arjun",
     destination: "/trivandrum/doctor/dr-p-arjun"
   },
   {
-    source: "/trivandrum/doctors/dr-m-suresh-kumar/dr-m-suresh-kumar/",
+    source: "/trivandrum/doctors/dr-m-suresh-kumar/dr-m-suresh-kumar",
     destination: "/trivandrum/doctor/dr-m-suresh-kumar"
   },
   {
-    source: "/trivandrum/doctor/dr-m-suresh-kumar/dr-m-suresh-kumar/",
+    source: "/trivandrum/doctor/dr-m-suresh-kumar/dr-m-suresh-kumar",
     destination: "/trivandrum/doctor/dr-m-suresh-kumar"
   },
   {
-    source: "/trivandrum/doctor/dr-raj-mohan-l/dr-raj-mohan-l/",
+    source: "/trivandrum/doctor/dr-raj-mohan-l/dr-raj-mohan-l",
     destination: "/trivandrum/doctor/dr-raj-mohan-l"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-migita-michael-dcruz/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-migita-michael-dcruz",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -26425,7 +26427,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-subhalal-ms/",
+    source: "/trivandrum/doctors/dr-subhalal-ms",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26437,23 +26439,23 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
   },
   {
-    source: "/trivandrum/specialities/fertility-clinic/feed/",
+    source: "/trivandrum/specialities/fertility-clinic/feed",
     destination: "/trivandrum/speciality/fertility-and-ivf-clinic"
   },
   {
-    source: "/trivandrum/doctors/dr-asha-zacharia/dr-asha-zacharia/",
+    source: "/trivandrum/doctors/dr-asha-zacharia/dr-asha-zacharia",
     destination: "/trivandrum/doctor/dr-asha-zacharia"
   },
   {
-    source: "/trivandrum/doctor/dr-asha-zacharia/dr-asha-zacharia/",
+    source: "/trivandrum/doctor/dr-asha-zacharia/dr-asha-zacharia",
     destination: "/trivandrum/doctor/dr-asha-zacharia"
   },
   {
-    source: "/trivandrum/doctors/dr-rema-devi-t-j/dr-rema-devi-t-j/",
+    source: "/trivandrum/doctors/dr-rema-devi-t-j/dr-rema-devi-t-j",
     destination: "/trivandrum/doctor/dr-rema-devi-t-j"
   },
   {
-    source: "/trivandrum/doctor/dr-rema-devi-t-j/dr-rema-devi-t-j/",
+    source: "/trivandrum/doctor/dr-rema-devi-t-j/dr-rema-devi-t-j",
     destination: "/trivandrum/doctor/dr-rema-devi-t-j"
   },
   {
@@ -26461,7 +26463,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
   },
   {
-    source: "/trivandrum/specialities/other/",
+    source: "/trivandrum/specialities/other",
     destination: "/trivandrum/speciality"
   },
   {
@@ -26477,7 +26479,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-shiraz-ahmad-rather/dr-shiraz-ahmad-rather/",
+    source: "/trivandrum/doctors/dr-shiraz-ahmad-rather/dr-shiraz-ahmad-rather",
     destination: "/trivandrum/doctor/dr-shiraz-ahmad-rather-surgical-gastro-surgeon-trivandrum"
   },
   {
@@ -26485,7 +26487,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-ramesh-kumar-g/",
+    source: "/trivandrum/doctors/dr-ramesh-kumar-g",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26617,11 +26619,11 @@ const redirect = [
     destination: "/trivandrum/gallery"
   },
   {
-    source: "/trivandrum/doctors/dr-evana-m-roy/",
+    source: "/trivandrum/doctors/dr-evana-m-roy",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-sushama-devi-r/",
+    source: "/trivandrum/doctors/dr-sushama-devi-r",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26681,7 +26683,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctor/dr-shiraz-ahmad-rather/dr-shiraz-ahmad-rather/",
+    source: "/trivandrum/doctor/dr-shiraz-ahmad-rather/dr-shiraz-ahmad-rather",
     destination: "/trivandrum/doctor/dr-shiraz-ahmad-rather-surgical-gastro-surgeon-trivandrum"
   },
   {
@@ -26701,7 +26703,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctor/dr-evana-m-roy/",
+    source: "/trivandrum/doctor/dr-evana-m-roy",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26709,7 +26711,7 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-chaithanya-c-das/",
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-chaithanya-c-das",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
@@ -26717,11 +26719,11 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jalaja/",
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jalaja",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-ashina-b-muneer/",
+    source: "/trivandrum/kimshealth-medical-centre-attingal/doctors/dr-ashina-b-muneer",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
   },
   {
@@ -26733,7 +26735,7 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-resmi-wilson/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-resmi-wilson",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -26741,11 +26743,11 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-aysha-aboobaker/",
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-aysha-aboobaker",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-adarsh-s/",
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-adarsh-s",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
   },
   {
@@ -26757,15 +26759,15 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-jinsha-j-r/",
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-jinsha-j-r",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-sneha-manuel/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-sneha-manuel",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/visa_medicals/thankyou/",
+    source: "/trivandrum/visa_medicals/thankyou",
     destination: "/visa-medical"
   },
   {
@@ -26777,7 +26779,7 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-greeni-tressa-k-g/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-greeni-tressa-k-g",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -26785,7 +26787,7 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jerry-john/",
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-jerry-john",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
@@ -26793,7 +26795,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/ms-sneha-manuel/",
+    source: "/trivandrum/doctors/ms-sneha-manuel",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26833,7 +26835,7 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-blesson/",
+    source: "/trivandrum/kimshealth-medical-centre-ayoor/doctors/dr-blesson",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
@@ -26849,7 +26851,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-rajalekshmi-a/",
+    source: "/trivandrum/doctors/dr-rajalekshmi-a",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26877,7 +26879,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/specialities/dental-clinical-oral-and-maxillofacial-surgery/",
+    source: "/trivandrum/specialities/dental-clinical-oral-and-maxillofacial-surgery",
     destination: "/trivandrum/speciality/dental-clinical-oral-and-maxillofacial-surgery"
   },
   {
@@ -26885,11 +26887,11 @@ const redirect = [
     destination: "/trivandrum/speciality/ophthalmology"
   },
   {
-    source: "/trivandrum/departments/holistic-medicine/feed/",
+    source: "/trivandrum/departments/holistic-medicine/feed",
     destination: "/trivandrum/speciality/holistic-child-development-center"
   },
   {
-    source: "/trivandrum/specialities/holistic-medicine/",
+    source: "/trivandrum/specialities/holistic-medicine",
     destination: "/trivandrum/speciality/holistic-child-development-center"
   },
   {
@@ -26901,19 +26903,19 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-vineetha-g-gopal/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-vineetha-g-gopal",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praylyn-rubysha/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praylyn-rubysha",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-dhanya-louis/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-dhanya-louis",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-balakrishnan/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-balakrishnan",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -26921,7 +26923,7 @@ const redirect = [
     destination: "/trivandrum/speciality/hepatobiliary-pancreatic-and-liver-transplant-surgery"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-praveen-s-v/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-praveen-s-v",
     destination: "/trivandrum/doctor/dr-praveen-s-v"
   },
   {
@@ -26933,7 +26935,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctor/dr-rajalekshmi-a/",
+    source: "/trivandrum/doctor/dr-rajalekshmi-a",
     destination: "/trivandrum/doctor"
   },
   {
@@ -26941,7 +26943,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-anju-carmel/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-anju-carmel",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -26957,11 +26959,11 @@ const redirect = [
     destination: "/trivandrum/blog"
   },
   {
-    source: "/trivandrum/doctors/dr-praveen-murlidha/",
+    source: "/trivandrum/doctors/dr-praveen-murlidha",
     destination: "/trivandrum/doctor/dr-praveen-murlidharan-nephrologist-trivandrum"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-angel-sr/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-angel-sr",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -26969,23 +26971,23 @@ const redirect = [
     destination: "/trivandrum/blog"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-vattiyoorkavu/doctors/dr-aparna-mp/",
+    source: "/trivandrum/kimshealth-medical-centre-vattiyoorkavu/doctors/dr-aparna-mp",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-vattiyoorkavu"
   },
   {
-    source: "/trivandrum/doctors/dr-atul-abraham/",
+    source: "/trivandrum/doctors/dr-atul-abraham",
     destination: "/trivandrum/doctor/Atul-Abraham"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-shahabaz/",
+    source: "/trivandrum/kimshealth-medical-centre-pothencode/doctors/dr-shahabaz",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-pothencode"
   },
   {
-    source: "/trivandrum/doctors/dr-dhanasekaran-vk/",
+    source: "/trivandrum/doctors/dr-dhanasekaran-vk",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-vijaya-sekhar/",
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-vijaya-sekhar",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
@@ -26993,15 +26995,15 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/doctors/dr-ramesh-gopi-b/",
+    source: "/trivandrum/kimshealth-medical-centre-vedivachankoil/doctors/dr-ramesh-gopi-b",
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-asok-kumar-g/",
+    source: "/trivandrum/doctors/dr-asok-kumar-g",
     destination: "/trivandrum/doctor/dr-asok-kumar-g-m"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/greeni-tressa-k-g/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/greeni-tressa-k-g",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -27009,7 +27011,7 @@ const redirect = [
     destination: "/trivandrum/blog"
   },
   {
-    source: "/trivandrum/doctors/dr-akash-sasidharan/",
+    source: "/trivandrum/doctors/dr-akash-sasidharan",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27017,7 +27019,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/departments/dental-clinical-oral-and-maxillofacial-surgery/",
+    source: "/trivandrum/departments/dental-clinical-oral-and-maxillofacial-surgery",
     destination: "/trivandrum/speciality/dental-clinical-oral-and-maxillofacial-surgery"
   },
   {
@@ -27029,7 +27031,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-abitha-aliyar/",
+    source: "/trivandrum/doctors/dr-abitha-aliyar",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27037,7 +27039,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/specialities/respiratory-medicine-and-critical-care/",
+    source: "/trivandrum/specialities/respiratory-medicine-and-critical-care",
     destination: "/trivandrum/speciality/respiratory-medicine"
   },
   {
@@ -27045,11 +27047,11 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-ranjith-unnikrishnan"
   },
   {
-    source: "/trivandrum/doctors/ms-praseetha-g-s/",
+    source: "/trivandrum/doctors/ms-praseetha-g-s",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praseetha-g-s/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-praseetha-g-s",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -27057,7 +27059,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-sasidharan/",
+    source: "/trivandrum/doctors/dr-sasidharan",
     destination: "/trivandrum/doctor/dr-sasidharan-k"
   },
   {
@@ -27077,11 +27079,11 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-rajesh-v-pilal/",
+    source: "/trivandrum/doctors/dr-rajesh-v-pilal",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/trivandrum/kimshealth-medical-centre-attingal/",
+    source: "/trivandrum/trivandrum/kimshealth-medical-centre-attingal",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-attingal"
   },
   {
@@ -27145,7 +27147,7 @@ const redirect = [
     destination: "/trivandrum/blog"
   },
   {
-    source: "/trivandrum/trivandrum/kimshealth-medical-centre-ayoor/",
+    source: "/trivandrum/trivandrum/kimshealth-medical-centre-ayoor",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-ayoor"
   },
   {
@@ -27157,15 +27159,15 @@ const redirect = [
     destination: "/trivandrum/blog"
   },
   {
-    source: "/trivandrum/trivandrum/kimshealth-medical-centre-manacaud/",
+    source: "/trivandrum/trivandrum/kimshealth-medical-centre-manacaud",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
-    source: "/trivandrum/doctors/dr-s-sreejith/",
+    source: "/trivandrum/doctors/dr-s-sreejith",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-greeni-tressa-k-g/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/dr-greeni-tressa-k-g",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -27193,7 +27195,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/departments/respiratory-medicine-and-critical-care/",
+    source: "/trivandrum/departments/respiratory-medicine-and-critical-care",
     destination: "/trivandrum/speciality/respiratory-medicine"
   },
   {
@@ -27209,7 +27211,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/media-room/effective-skin-treatments-kims/",
+    source: "/trivandrum/media-room/effective-skin-treatments-kims",
     destination: "/trivandrum/gallery"
   },
   {
@@ -27217,7 +27219,7 @@ const redirect = [
     destination: "/trivandrum/doctor/aswathy-chandran"
   },
   {
-    source: "/trivandrum/doctors/ms-aswathy-chandran/",
+    source: "/trivandrum/doctors/ms-aswathy-chandran",
     destination: "/trivandrum/doctor/aswathy-chandran"
   },
   {
@@ -27225,7 +27227,7 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-arathy-s-v/",
+    source: "/trivandrum/kimshealth-medical-centre-kuravankonam/doctors/ms-arathy-s-v",
     destination: "/trivandrum/hospital/kimshealth-medical-centre"
   },
   {
@@ -27797,7 +27799,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum//doctors/dr-jacob-mm/",
+    source: "/trivandrum//doctors/dr-jacob-mm",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27813,19 +27815,19 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/media-room/why-your-child-doesnt-need-stem-toys-to-be-a-stem/",
+    source: "/trivandrum/media-room/why-your-child-doesnt-need-stem-toys-to-be-a-stem",
     destination: "/trivandrum/gallery"
   },
   {
-    source: "/trivandrum/doctors/dr-jacob-m-m/",
+    source: "/trivandrum/doctors/dr-jacob-m-m",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctor/dr-jacob-m-m/",
+    source: "/trivandrum/doctor/dr-jacob-m-m",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-pmc-nair/",
+    source: "/trivandrum/doctors/dr-pmc-nair",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27849,11 +27851,11 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-jamila-k-warrier-vedivachankoil/",
+    source: "/trivandrum/kimshealth-medical-centre-manacaud/doctors/dr-jamila-k-warrier-vedivachankoil",
     destination: "/trivandrum/hospital/kimshealth-medical-centre-kamaleswaram-manacaud"
   },
   {
-    source: "/trivandrum/doctors/dr-kumar-k-a/",
+    source: "/trivandrum/doctors/dr-kumar-k-a",
     destination: "/trivandrum/doctor/dr-kumar-k-a"
   },
   {
@@ -27861,7 +27863,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-neetu-gupta"
   },
   {
-    source: "/trivandrum/doctors/dr-binish-paul/",
+    source: "/trivandrum/doctors/dr-binish-paul",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27873,11 +27875,11 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-praveen-s-v/dr-praveen-s-v-3/feed/",
+    source: "/trivandrum/doctors/dr-praveen-s-v/dr-praveen-s-v-3/feed",
     destination: "/trivandrum/doctor/dr-praveen-s-v"
   },
   {
-    source: "/trivandrum/specialities/holistic-medicine/feed/",
+    source: "/trivandrum/specialities/holistic-medicine/feed",
     destination: "/trivandrum/speciality/holistic-child-development-center"
   },
   {
@@ -27913,7 +27915,7 @@ const redirect = [
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-jobin-mathew-jose/",
+    source: "/trivandrum/doctors/dr-jobin-mathew-jose",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27933,11 +27935,11 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-subin-sugath/",
+    source: "/trivandrum/doctors/dr-subin-sugath",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum//doctors/dr-sherin-nazeer/",
+    source: "/trivandrum//doctors/dr-sherin-nazeer",
     destination: "/trivandrum/doctor/sherine-nazeer"
   },
   {
@@ -27945,11 +27947,11 @@ const redirect = [
     destination: "/trivandrum/doctor/sherine-nazeer"
   },
   {
-    source: "/trivandrum/doctors/ms-anju-carmel/",
+    source: "/trivandrum/doctors/ms-anju-carmel",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/doctors/dr-rajitha-l/",
+    source: "/trivandrum/doctors/dr-rajitha-l",
     destination: "/trivandrum/doctor"
   },
   {
@@ -27957,7 +27959,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-praveen-s-v"
   },
   {
-    source: "/trivandrum/publication/successful-bowel-surgery-hemoglobin-2-g-dl-without-blood-transfusion/",
+    source: "/trivandrum/publication/successful-bowel-surgery-hemoglobin-2-g-dl-without-blood-transfusion",
     destination: "/trivandrum/gallery"
   },
   {
@@ -27965,11 +27967,11 @@ const redirect = [
     destination: "/trivandrum/hospital/kimshealth-trivandrum"
   },
   {
-    source: "/trivandrum/doctors/dr-sufina-n-sulfi/",
+    source: "/trivandrum/doctors/dr-sufina-n-sulfi",
     destination: "/trivandrum/doctor"
   },
   {
-    source: "/trivandrum/book-app/ajax-bookapp/",
+    source: "/trivandrum/book-app/ajax-bookapp",
     destination: "/trivandrum/book-an-appointment"
   },
   {
@@ -28017,7 +28019,7 @@ const redirect = [
     destination: "/trivandrum/doctor/dr-ragitha-binu-krishnan"
   },
   {
-    source: "/trivandrum/doctors/dr-anjana-raj/",
+    source: "/trivandrum/doctors/dr-anjana-raj",
     destination: "/trivandrum/doctor"
   },
   {
