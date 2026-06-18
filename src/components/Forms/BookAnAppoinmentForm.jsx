@@ -21,15 +21,15 @@ const BookAnAppoinmentForm = ({ pageContent, URLParams }) => {
     const [selectedHospital, setSelectedHospital] = useState(URLParams.hospital || null);
     const [selectedSpeciality, setSelectedSpeciality] = useState(URLParams.speciality);
     const [selectedSpecialities, setSelectedSpecialities] = useState(
-  URLParams.specialities
-    ? URLParams.specialities
-        .split("|")
-        .map(pair => {
-          const [title, slug] = pair.split(":").map(decodeURIComponent);
-          return { title, slug };
-        })
-    : null
-);
+        URLParams.specialities
+            ? URLParams.specialities
+                .split("|")
+                .map(pair => {
+                    const [title, slug] = pair.split(":").map(decodeURIComponent);
+                    return { title, slug };
+                })
+            : null
+    );
     const [selectedDoctor, setSelectedDoctor] = useState(URLParams.doctor);
     const [doctorLoading, setDoctorLoading] = useState(true);
     const [formData, setFormData] = useState({
@@ -41,18 +41,24 @@ const BookAnAppoinmentForm = ({ pageContent, URLParams }) => {
 
 
 
-    const getMinDate = () => {
-        const now = new Date();
-        const today = new Date();
-        const tomorrow = new Date();
-        tomorrow.setDate(today.getDate() + 1);
+    // const getMinDate = () => {
+    //     const now = new Date();
+    //     const today = new Date();
+    //     const tomorrow = new Date();
+    //     tomorrow.setDate(today.getDate() + 1);
 
-        // if time > 4PM, disable today
-        if (now.getHours() >= 16) {
-            return tomorrow.toISOString().split("T")[0];
-        } else {
-            return today.toISOString().split("T")[0];
-        }
+    //     // if time > 4PM, disable today
+    //     if (now.getHours() >= 16) {
+    //         return tomorrow.toISOString().split("T")[0];
+    //     } else {
+    //         return today.toISOString().split("T")[0];
+    //     }
+    // };
+    const getMinDate = () => {
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+
+        return tomorrow.toISOString().split("T")[0];
     };
 
 
@@ -517,7 +523,7 @@ const BookAnAppoinmentForm = ({ pageContent, URLParams }) => {
                                                         <div className="col-xl-12 col-lg-12 col-md-12 col-12 mb-3">
                                                             <label htmlFor=''>{staticText['Location']}*</label>
                                                             <select className="form-select from-location" value={selectedLocation} onChange={(e) => {
-                                                                setFormData({ ...formData, location: e.target.value , hospital: "", department: "", doctor: "" });
+                                                                setFormData({ ...formData, location: e.target.value, hospital: "", department: "", doctor: "" });
                                                                 setSelectedLocation(e.target.value);
                                                                 setSelectedSpecialities("");
 
