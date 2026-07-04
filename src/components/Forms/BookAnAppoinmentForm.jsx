@@ -42,23 +42,16 @@ const BookAnAppoinmentForm = ({ pageContent, URLParams }) => {
 
 
     const getMinDate = () => {
-        if (new Date().getDate() < 20) {
-            const tomorrow = new Date();
-            tomorrow.setDate(tomorrow.getDate() + 1);
+        const now = new Date();
+        const today = new Date();
+        const tomorrow = new Date();
+        tomorrow.setDate(today.getDate() + 1);
 
+        // if time > 4PM, disable today
+        if (now.getHours() >= 16) {
             return tomorrow.toISOString().split("T")[0];
         } else {
-            const now = new Date();
-            const today = new Date();
-            const tomorrow = new Date();
-            tomorrow.setDate(today.getDate() + 1);
-
-            // if time > 4PM, disable today
-            if (now.getHours() >= 16) {
-                return tomorrow.toISOString().split("T")[0];
-            } else {
-                return today.toISOString().split("T")[0];
-            }
+            return today.toISOString().split("T")[0];
         }
     };
 

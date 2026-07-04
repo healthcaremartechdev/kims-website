@@ -6,7 +6,7 @@ import nodemailer from "nodemailer";
 
 const emailData = {
   generic: {
-    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com"],
     "Bookhealth Checkup": ["appointments@kimsglobal.com"],
     "Career": ["jobs@kimshealth.org"],
     "Contact": ["relations@kimskerala.com"],
@@ -23,7 +23,7 @@ const emailData = {
     "International": ["ipr.tvm@kimshealth.org"]
   },
   trivandrum: {
-    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com", "nisanth.ss@kimsglobal.com"],
+    "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com"],
     "Career": ["jobs@kimshealth.org"],
     "Contact": ["relations@kimskerala.com"],
     "Corporate": ["relations@kimskerala.com"],
