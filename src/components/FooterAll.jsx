@@ -11,7 +11,7 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
     const [basePathOnlyLang, setBasePathOnlyLang] = useState();
     const [allLocations, setAllLocations] = useState([]);
 
- 
+
 
     useEffect(() => {
 
@@ -293,6 +293,11 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
                                             <a href={basePath + "/about-us"}>{staticTexts['About Us']}</a>
                                         </li>
                                     )}
+                                    <li>
+                                        <a href='https://www.asterqualitycare.com/' target='_blank'>
+                                            Aster DM Quality Care Limited
+                                        </a>
+                                    </li>
                                     {staticPageChecker['blog'] && (
                                         <li>
                                             <a href={basePath + "/blog"}>{staticTexts['Blog']}</a>
@@ -515,6 +520,11 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
                                             <a href={basePath + "/about-us"}>{staticTexts['About Us']}</a>
                                         </li>
                                     )}
+                                    <li>
+                                        <a href='https://www.asterqualitycare.com/' target='_blank'>
+                                            Aster DM Quality Care Limited
+                                        </a>
+                                    </li>
                                     {staticPageChecker['blog'] && (
                                         <li>
                                             <a href={basePath + "/blog"}>{staticTexts['Blog']}</a>

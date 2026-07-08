@@ -380,6 +380,11 @@ const Footer = () => {
                                             <a href={basePath + "/about-us"}>{staticTexts['About Us']}</a>
                                         </li>
                                     )}
+                                    <li>
+                                        <a href='https://www.asterqualitycare.com/' target='_blank'>
+                                            Aster DM Quality Care Limited
+                                        </a>
+                                    </li>
 
                                     {/* {staticPageChecker['procedure'] && (
                                         <li>
@@ -618,6 +623,11 @@ const Footer = () => {
                                             <a href={basePath + "/about-us"}>{staticTexts['About Us']}</a>
                                         </li>
                                     )}
+                                    <li>
+                                        <a href='https://www.asterqualitycare.com/' target='_blank'>
+                                            Aster DM Quality Care Limited
+                                        </a>
+                                    </li>
 
                                     {/* {staticPageChecker['procedure'] && (
                                         <li>
