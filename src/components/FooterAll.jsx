@@ -286,7 +286,7 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
 
                         <div className="col-md-2">
                             <div className="link-part">
-                                <h3>{staticTexts['Important Link']}</h3>
+                                <h3>{staticTexts['Important Links']}</h3>
                                 <ul>
                                     {staticPageChecker['about-us'] && (
                                         <li>
@@ -294,7 +294,7 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
                                         </li>
                                     )}
                                     <li>
-                                        <a href='https://www.asterqualitycare.com/' target='_blank'>
+                                        <a href='https://www.asterqualitycare.com/' target='_blank' style={{color: '#1313cf'}}>
                                             Aster DM Quality Care Limited
                                         </a>
                                     </li>
@@ -513,7 +513,7 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
 
                         <div className="colum-link col-12 mb-4">
                             <div className="footer-menu expanded link-part">
-                                <h3 className="accordian-footer position-relative d-lg-none">{staticTexts['Important Link']}</h3>
+                                <h3 className="accordian-footer position-relative d-lg-none">{staticTexts['Important Links']}</h3>
                                 <ul className="first-child">
                                     {staticPageChecker['about-us'] && (
                                         <li>
@@ -521,7 +521,7 @@ const FooterAll = ({ staticPageChecker, staticTexts, speciality, locationData, h
                                         </li>
                                     )}
                                     <li>
-                                        <a href='https://www.asterqualitycare.com/' target='_blank'>
+                                        <a href='https://www.asterqualitycare.com/' target='_blank' style={{color: '#1313cf'}}>
                                             Aster DM Quality Care Limited
                                         </a>
                                     </li>
