@@ -77,7 +77,6 @@ const Header = ({ hospital }) => {
 
 
   // ================== [Change Aster Text Color] ===============
-
   useEffect(() => {
     const searchText = "Aster DM Quality Care Limited";
 
@@ -88,7 +87,7 @@ const Header = ({ hospital }) => {
 
         if (index !== -1) {
           const span = document.createElement("span");
-          span.style.color = "#1313cf";
+          span.style.color = "#003378";
 
           const before = document.createTextNode(text.substring(0, index));
           const match = document.createTextNode(searchText);
