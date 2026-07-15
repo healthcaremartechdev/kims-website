@@ -8,7 +8,7 @@ import { ToastContainer } from 'react-toastify';
 const Header = ({ hospital }) => {
   const [activeHospital, setActiveHospital] = useState(hospital);
 
-  
+
   // cookies
   const loc = Cookies.get("systemLocation") ? JSON.parse(Cookies.get("systemLocation")) : "";
   const lang = Cookies.get("systemLang") ? JSON.parse(Cookies.get("systemLang")) : "";
@@ -74,6 +74,45 @@ const Header = ({ hospital }) => {
       });
     };
   }, []);
+
+
+  // ================== [Change Aster Text Color] ===============
+
+  useEffect(() => {
+    const searchText = "Aster DM Quality Care Limited";
+
+    function findAndHighlight(node) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const text = node.nodeValue;
+        const index = text.indexOf(searchText);
+
+        if (index !== -1) {
+          const span = document.createElement("span");
+          span.style.color = "#1313cf";
+
+          const before = document.createTextNode(text.substring(0, index));
+          const match = document.createTextNode(searchText);
+          const after = document.createTextNode(text.substring(index + searchText.length));
+
+          span.appendChild(match);
+
+          const fragment = document.createDocumentFragment();
+          fragment.appendChild(before);
+          fragment.appendChild(span);
+          fragment.appendChild(after);
+
+          node.parentNode.replaceChild(fragment, node);
+        }
+      } else {
+        node.childNodes.forEach(findAndHighlight);
+      }
+    }
+
+    findAndHighlight(document.body);
+  }, [])
+
+
+
 
   if (loc.default === true) {
     return (
