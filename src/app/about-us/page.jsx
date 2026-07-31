@@ -96,7 +96,6 @@ const AboutUs = async () => {
                         </div>
                     </section>
 
-
                     <section className="section details-page-before py-0 d-lg-none d-block">
                         <div className="procedures-details-page-header">
                             <div className="container pe-0">
@@ -286,7 +285,7 @@ const AboutUs = async () => {
                                 </div>
                             </>
                             }
-
+                        
                             {allLeaderSeniorManagement.length > 0 && <>
                                 <div className="sub-heading mb-3">
                                     <h4>{staticText['Senior Management']}</h4>

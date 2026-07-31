@@ -160,7 +160,11 @@ const HeaderUnit = ({ hospital }) => {
             </div>
             <div className="header-contact d-flex align-items-center justify-content-center position-relative">
               <ul>
-                <li><a href={`${basePath}/ambulance-services`}>{staticTexts['Call Ambulance']}</a></li>
+                
+                {staticPageChecker['ambulance-services'] && (
+                  <li><a href={`${basePath}/ambulance-services`}>{staticTexts['Call Ambulance']}</a></li>
+                )}
+
                 <li><a href={`${basePath}/about-us${hospital ? '?hospital=' + hospital : ''}`}>{staticTexts['About Us']}</a></li>
                 <li><a href={`${basePath}/at-home-services`}>{staticTexts['Home Care']}</a></li>
                 <li><a href={`${basePath}/second-opinion`}>{staticTexts['Second Opinion']}</a></li>
@@ -453,7 +457,11 @@ const HeaderUnit = ({ hospital }) => {
                   )}
                   <li className="quicklink-header"><a href={`${basePath}/at-home-services`} className="anchor-menu">{staticTexts['Home Care']}</a></li>
                   <li className="quicklink-header"><a href={`${basePath}/second-opinion`} className="anchor-menu">{staticTexts['Second Opinion']}</a></li>
-                  <li className="quicklink-header"><a href={`${basePath}/ambulance-services`} className="anchor-menu">{staticTexts['Call Ambulance']}</a></li>
+
+                  {staticPageChecker['ambulance-services'] && (
+                    <li className="quicklink-header"><a href={`${basePath}/ambulance-services`} className="anchor-menu">{staticTexts['Call Ambulance']}</a></li>
+                  )}
+
                   <li className="quicklink-header"><a href={`${basePath}/contact-us`} className="anchor-menu">{staticTexts['Contact Us']}</a></li>
                   <li className="quicklink-header"><a target='_blank' href={"https://healthcheckup.kimshealthcare.com/p/kims-trivandrum-1/"} className="anchor-menu">{staticTexts['Health Checkup']}</a></li>
 
