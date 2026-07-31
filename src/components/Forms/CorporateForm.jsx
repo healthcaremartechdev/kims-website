@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 
 const CorporateForm = ({ dataSet }) => {
     const [staticTexts, setStaticTexts] = useState({});
-    const [loading, setLoading] = useState({notice: false, annual: false, draft: false});
+    const [loading, setLoading] = useState({ notice: false, annual: false, draft: false });
 
 
     // separate states for each block
@@ -23,19 +23,19 @@ const CorporateForm = ({ dataSet }) => {
 
         let getFile = null;
         if (formData.type === "Download Annual Report") {
-            setLoading((prev) => ({...prev, annual: true}));
+            setLoading((prev) => ({ ...prev, annual: true }));
             let geFileArr = dataSet.annualReport.filter((item, _) => item.title === formData.report_notice_type);
             getFile = geFileArr?.[0]?.file?.[0]?.url;
         }
         else if (formData.type === "Notice of General Meetings") {
-            setLoading((prev) => ({...prev, notice: true}));
-            
+            setLoading((prev) => ({ ...prev, notice: true }));
+
             let geFileArr = dataSet.generalMeeting.filter((item, _) => item.title === formData.report_notice_type);
-            
+
             getFile = geFileArr?.[0]?.file?.[0]?.url;
         }
         else if (formData.type === "Download Draft Annual Return") {
-            setLoading((prev) => ({...prev, draft: true}));
+            setLoading((prev) => ({ ...prev, draft: true }));
             let geFileArr = dataSet.draftAnnualReturn.filter((item, _) => item.title === formData.report_notice_type);
             getFile = geFileArr?.[0]?.file?.[0]?.url;
         }
@@ -56,7 +56,7 @@ const CorporateForm = ({ dataSet }) => {
             });
 
             const res = await req.json();
-            setLoading({notice: false, annual: false, draft: false});
+            setLoading({ notice: false, annual: false, draft: false });
             if (req.status !== 200) {
                 toast(res.err, { theme: 'light', type: 'error', closeOnClick: true });
             } else {
@@ -71,7 +71,7 @@ const CorporateForm = ({ dataSet }) => {
             if (formData.type === "Download Draft Annual Return") setDraftForm({ email: "", report_notice_type: "", type: formData.type });
 
         } catch (error) {
-            
+
             toast("Something went wrong", { theme: 'light', type: 'error', closeOnClick: true });
         }
 
@@ -107,131 +107,145 @@ const CorporateForm = ({ dataSet }) => {
 
 
 
-
     return (
         <div className="row">
 
-            {/* Notice Form */}
-            <div className="col-md-4 mb-3">
-                <div className="corporate-notice-form association-form-card">
-                    <h3>{staticTexts['Notice of General Meetings']}</h3>
-                    <div className="row">
-                        <div className="col-md-12 mb-3">
-                            <div className="input-group mb-lg-0 mb-3">
-                                <span className="input-group-text"><i className="fa-regular fa-envelope"></i></span>
-                                <input type="text" className="form-control" placeholder={staticTexts['Email']}
-                                    value={noticeForm.email}
-                                    onChange={(e) => setNoticeForm({ ...noticeForm, email: e.target.value })} />
-                            </div>
-                        </div>
-                        <div className="col-md-12 mb-3">
-                            <div className="input-group mb-lg-0 mb-3">
-                                <span className="input-group-text"><i className="fa-regular fa-pen-to-square"></i></span>
-                                <select className="form-select from-location"
-                                    value={noticeForm.report_notice_type}
-                                    onChange={(e) => setNoticeForm({ ...noticeForm, report_notice_type: e.target.value })}>
-                                    <option value="">{staticTexts['Select Notice']}</option>
-                                    {
-                                        dataSet?.generalMeeting?.map((item) => (
-                                            <option key={item.id} value={item.title}>
-                                                {item.title}
-                                            </option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-                        </div>
-                        <div className="col-md-12 mb-3 text-start">
-                            <button className="btn hospital-primarybtn px-5 py-2"
-                                disabled={loading.notice}
-                                onClick={() => sendMail(noticeForm)}>
-                                {staticTexts['Submit']}
-                                {loading.notice && <i className="fas fa-spinner fa-spin ms-1"></i>}
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            {/* Annual Report Form */}
-            <div className="col-md-4 mb-3">
-                <div className="corporate-notice-form association-form-card">
-                    <h3>{staticTexts['Download Annual Report']}</h3>
-                    <div className="row">
-                        <div className="col-md-12 mb-3">
-                            <div className="input-group mb-lg-0 mb-3">
-                                <span className="input-group-text"><i className="fa-regular fa-envelope"></i></span>
-                                <input type="text" className="form-control" placeholder={staticTexts['Email']}
-                                    value={annualForm.email}
-                                    onChange={(e) => setAnnualForm({ ...annualForm, email: e.target.value })} />
+            {
+                dataSet?.generalMeeting.length > 0 && (
+                    // {/* Notice Form */}
+                    <div className="col-md-4 mb-3">
+                        <div className="corporate-notice-form association-form-card">
+                            <h3>{staticTexts['Notice of General Meetings']}</h3>
+                            <div className="row">
+                                <div className="col-md-12 mb-3">
+                                    <div className="input-group mb-lg-0 mb-3">
+                                        <span className="input-group-text"><i className="fa-regular fa-envelope"></i></span>
+                                        <input type="text" className="form-control" placeholder={staticTexts['Email']}
+                                            value={noticeForm.email}
+                                            onChange={(e) => setNoticeForm({ ...noticeForm, email: e.target.value })} />
+                                    </div>
+                                </div>
+                                <div className="col-md-12 mb-3">
+                                    <div className="input-group mb-lg-0 mb-3">
+                                        <span className="input-group-text"><i className="fa-regular fa-pen-to-square"></i></span>
+                                        <select className="form-select from-location"
+                                            value={noticeForm.report_notice_type}
+                                            onChange={(e) => setNoticeForm({ ...noticeForm, report_notice_type: e.target.value })}>
+                                            <option value="">{staticTexts['Select Notice']}</option>
+                                            {
+                                                dataSet?.generalMeeting?.map((item) => (
+                                                    <option key={item.id} value={item.title}>
+                                                        {item.title}
+                                                    </option>
+                                                ))
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div className="col-md-12 mb-3 text-start">
+                                    <button className="btn hospital-primarybtn px-5 py-2"
+                                        disabled={loading.notice}
+                                        onClick={() => sendMail(noticeForm)}>
+                                        {staticTexts['Submit']}
+                                        {loading.notice && <i className="fas fa-spinner fa-spin ms-1"></i>}
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-md-12 mb-3">
-                            <div className="input-group mb-lg-0 mb-3">
-                                <span className="input-group-text"><i className="fa-regular fa-pen-to-square"></i></span>
-                                <select className="form-select from-location"
-                                    value={annualForm.report_notice_type}
-                                    onChange={(e) => setAnnualForm({ ...annualForm, report_notice_type: e.target.value })}>
-                                    <option value="">{staticTexts['Select Report']}</option>
-                                    {
-                                        dataSet?.annualReport?.map((item) => (
-                                            <option key={item.id} value={item.title}>{item.title}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-                        </div>
-                        <div className="col-md-12 mb-3 text-start">
-                            <button className="btn hospital-primarybtn px-5 py-2"
-                                disabled={loading.annual}
-                                onClick={() => sendMail(annualForm)}>
-                                {staticTexts['Submit']}
-                                {loading.annual && <i className="fas fa-spinner fa-spin ms-1"></i>}
-                            </button>
                         </div>
                     </div>
-                </div>
-            </div>
+                )
+            }
 
-            {/* Draft Annual Return Form */}
-            <div className="col-md-4 mb-3">
-                <div className="corporate-notice-form association-form-card">
-                    <h3>{staticTexts['Download Annual Return']}</h3>
-                    <div className="row">
-                        <div className="col-md-12 mb-3">
-                            <div className="input-group mb-lg-0 mb-3">
-                                <span className="input-group-text"><i className="fa-regular fa-envelope"></i></span>
-                                <input type="text" className="form-control" placeholder={staticTexts['Email']}
-                                    value={draftForm.email}
-                                    onChange={(e) => setDraftForm({ ...draftForm, email: e.target.value })} />
+
+            {
+                dataSet?.annualReport.length > 0 && (
+                    // {/* Annual Report Form */}
+                    <div className="col-md-4 mb-3">
+                        <div className="corporate-notice-form association-form-card">
+                            <h3>{staticTexts['Download Annual Report']}</h3>
+                            <div className="row">
+                                <div className="col-md-12 mb-3">
+                                    <div className="input-group mb-lg-0 mb-3">
+                                        <span className="input-group-text"><i className="fa-regular fa-envelope"></i></span>
+                                        <input type="text" className="form-control" placeholder={staticTexts['Email']}
+                                            value={annualForm.email}
+                                            onChange={(e) => setAnnualForm({ ...annualForm, email: e.target.value })} />
+                                    </div>
+                                </div>
+                                <div className="col-md-12 mb-3">
+                                    <div className="input-group mb-lg-0 mb-3">
+                                        <span className="input-group-text"><i className="fa-regular fa-pen-to-square"></i></span>
+                                        <select className="form-select from-location"
+                                            value={annualForm.report_notice_type}
+                                            onChange={(e) => setAnnualForm({ ...annualForm, report_notice_type: e.target.value })}>
+                                            <option value="">{staticTexts['Select Report']}</option>
+                                            {
+                                                dataSet?.annualReport?.map((item) => (
+                                                    <option key={item.id} value={item.title}>{item.title}</option>
+                                                ))
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div className="col-md-12 mb-3 text-start">
+                                    <button className="btn hospital-primarybtn px-5 py-2"
+                                        disabled={loading.annual}
+                                        onClick={() => sendMail(annualForm)}>
+                                        {staticTexts['Submit']}
+                                        {loading.annual && <i className="fas fa-spinner fa-spin ms-1"></i>}
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-md-12 mb-3">
-                            <div className="input-group mb-lg-0 mb-3">
-                                <span className="input-group-text"><i className="fa-regular fa-pen-to-square"></i></span>
-                                <select className="form-select from-location"
-                                    value={draftForm.report_notice_type}
-                                    onChange={(e) => setDraftForm({ ...draftForm, report_notice_type: e.target.value })}>
-                                    <option value="">{staticTexts['Select Report']}</option>
-                                    {
-                                        dataSet?.draftAnnualReturn?.map((item) => (
-                                            <option key={item.id} value={item.title}>{item.title}</option>
-                                        ))
-                                    }
-                                </select>
-                            </div>
-                        </div>
-                        <div className="col-md-12 mb-3 text-start">
-                            <button className="btn hospital-primarybtn px-5 py-2"
-                                disabled={loading.draft}
-                                onClick={() => sendMail(draftForm)}>
-                                {staticTexts['Submit']}
-                                {loading.draft && <i className="fas fa-spinner fa-spin ms-1"></i>}
-                            </button>
                         </div>
                     </div>
-                </div>
-            </div>
+                )
+            }
+
+            {
+                dataSet?.draftAnnualReturn.length > 0 && (
+                    // {/* Draft Annual Return Form */}
+                    <div className="col-md-4 mb-3">
+                        <div className="corporate-notice-form association-form-card">
+                            <h3>{staticTexts['Download Annual Return']}</h3>
+                            <div className="row">
+                                <div className="col-md-12 mb-3">
+                                    <div className="input-group mb-lg-0 mb-3">
+                                        <span className="input-group-text"><i className="fa-regular fa-envelope"></i></span>
+                                        <input type="text" className="form-control" placeholder={staticTexts['Email']}
+                                            value={draftForm.email}
+                                            onChange={(e) => setDraftForm({ ...draftForm, email: e.target.value })} />
+                                    </div>
+                                </div>
+                                <div className="col-md-12 mb-3">
+                                    <div className="input-group mb-lg-0 mb-3">
+                                        <span className="input-group-text"><i className="fa-regular fa-pen-to-square"></i></span>
+                                        <select className="form-select from-location"
+                                            value={draftForm.report_notice_type}
+                                            onChange={(e) => setDraftForm({ ...draftForm, report_notice_type: e.target.value })}>
+                                            <option value="">{staticTexts['Select Report']}</option>
+                                            {
+                                                dataSet?.draftAnnualReturn?.map((item) => (
+                                                    <option key={item.id} value={item.title}>{item.title}</option>
+                                                ))
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div className="col-md-12 mb-3 text-start">
+                                    <button className="btn hospital-primarybtn px-5 py-2"
+                                        disabled={loading.draft}
+                                        onClick={() => sendMail(draftForm)}>
+                                        {staticTexts['Submit']}
+                                        {loading.draft && <i className="fas fa-spinner fa-spin ms-1"></i>}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )
+            }
+
 
         </div>
     )

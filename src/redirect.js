@@ -28038,7 +28038,6 @@ const redirect = [
 	// 	source: "/nagercoil/ambulance-services",
 	// 	destination: "/nagercoil/hospital/kimshealth-nagercoil"
 	// }
-
 ];
 
 export default redirect;
