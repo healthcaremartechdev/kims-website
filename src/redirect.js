@@ -28034,10 +28034,10 @@ const redirect = [
 		source: "/trivandrum/doctor/dr-d-kalpana",
 		destination: "/trivandrum/doctor/dr-kalpana-d"
 	},
-	{
-		source: "/nagercoil/ambulance-services",
-		destination: "/nagercoil/hospital/kimshealth-nagercoil"
-	}
+	// {
+	// 	source: "/nagercoil/ambulance-services",
+	// 	destination: "/nagercoil/hospital/kimshealth-nagercoil"
+	// }
 
 ];
 
