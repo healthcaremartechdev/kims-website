@@ -67,7 +67,7 @@ const emailData = {
     "Book Appointment": ["appointments.ngl@kimsglobal.com"],
     "Bookhealth Checkup": ["appointments.ngl@kimsglobal.com"],
     "Career": ["hr.ngl@kimshealth.org"],
-    "Contact": ["relations.ngl@kimshealth.org"],
+    "Contact": ["relations.ngl@kimshealth.org", "appointments.ngl@kimsglobal.com"],
     "Corporate": ["relations@kimskerala.com"],
     "Health At Home Services": ["appointments.ngl@kimsglobal.com", "dno.ngl@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
