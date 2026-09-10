@@ -64,13 +64,13 @@ const emailData = {
     "International": ["ipr.tvm@kimshealth.org"]
   },
   nagercoil: {
-    "Book Appointment": ["appointments.ngl@kimsglobal.com","abish.s@kimsglobal.com"],
-    "Bookhealth Checkup": ["appointments.ngl@kimsglobal.com","abish.s@kimsglobal.com"],
-    "Career": ["hr.ngl@kimshealth.org","abish.s@kimsglobal.com"],
-    "Contact": ["relations.ngl@kimshealth.org","abish.s@kimsglobal.com"],
-    "Corporate": ["relations@kimskerala.com","abish.s@kimsglobal.com"],
-    "Health At Home Services": ["appointments.ngl@kimsglobal.com", "dno.ngl@kimsglobal.com","abish.s@kimsglobal.com"],
-    "International": ["ipr.tvm@kimshealth.org","abish.s@kimsglobal.com"]
+    "Book Appointment": ["appointments.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
+    "Bookhealth Checkup": ["appointments.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
+    "Career": ["hr.ngl@kimshealth.org", "abish.s@kimsglobal.com"],
+    "Contact": ["relations.ngl@kimshealth.org", "abish.s@kimsglobal.com", "appointments.ngl@kimsglobal.com"],
+    "Corporate": ["relations@kimskerala.com", "abish.s@kimsglobal.com"],
+    "Health At Home Services": ["appointments.ngl@kimsglobal.com", "dno.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
+    "International": ["ipr.tvm@kimshealth.org", "abish.s@kimsglobal.com"]
   },
   ip: {
     "Book Appointment": ["ipr.tvm@kimshealth.org"],
