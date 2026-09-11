@@ -162,7 +162,7 @@ const BlogListing = ({ basePath, speciality, langLoc, URLParams }) => {
                                                 <h4>{allBlog[0].title} </h4>
                                             </a>
                                             <p>
-                                                {allBlog[0].shortDetails.slice(0, 90)}
+                                                {allBlog[0].shortDetails?.slice(0, 90)}
                                                 <a href={basePath + "/blog/" + allBlog[0]?.slug}><span>...{staticText['Read More']}</span></a>
                                             </p>
                                             <div className="d-flex align-items-center justify-content-between">
