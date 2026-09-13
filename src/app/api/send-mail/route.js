@@ -146,7 +146,7 @@ export async function POST(req) {
       secure: false,
       auth: {
         user: "kimshealthmailernew@gmail.com",
-        pass: "smdtjkhchdimmlvb",
+        pass: "olvfdsoeweavgbsd",
       },
     });
 
