@@ -9,8 +9,8 @@ const emailData = {
     "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com"],
     "Bookhealth Checkup": ["appointments@kimsglobal.com"],
     "Career": ["jobs@kimshealth.org"],
-    "Contact": ["relations@kimskerala.com"],
-    "Corporate": ["relations@kimskerala.com"],
+    "Contact": ["design.web@kimsglobal.com"],
+    "Corporate": ["design.web@kimsglobal.com"],
     "KISA": ["paramedical@kimskerala.com"],
     "IMT": ["imt@kimshealth.org"],
     "Emergency Medicine Programme": ["socomer@kimsglobal.com"],
@@ -25,8 +25,8 @@ const emailData = {
   trivandrum: {
     "Book Appointment": ["appointments@kimskerala.com", "appointments@kimsglobal.com"],
     "Career": ["jobs@kimshealth.org"],
-    "Contact": ["relations@kimskerala.com"],
-    "Corporate": ["relations@kimskerala.com"],
+    "Contact": ["design.web@kimsglobal.com"],
+    "Corporate": ["design.web@kimsglobal.com"],
     "Health At Home Services": ["healthathome.tvm@kimsglobal.com"],
     "KISA": ["kisa.tvm@kimshealth.org"],
     "IMT": ["imt@kimshealth.org"],
@@ -44,7 +44,7 @@ const emailData = {
     "Bookhealth Checkup": ["gpr.klm@kimshealth.org"],
     "Career": ["shiraz.n@kimsglobal.com"],
     "Contact": ["kimskollam@kimshealth.org"],
-    "Corporate": ["relations@kimskerala.com"],
+    "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
   kottayam: {
@@ -52,7 +52,7 @@ const emailData = {
     "Bookhealth Checkup": ["kims.ktm@kimshealth.org"],
     "Career": ["hr.ktm@kimsglobal.com"],
     "Contact": ["kims.ktm@kimshealth.org"],
-    "Corporate": ["relations@kimskerala.com"],
+    "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
   perintalmanna: {
@@ -60,7 +60,7 @@ const emailData = {
     "Bookhealth Checkup": ["health.checkup@kimsalshifa.com"],
     "Career": ["hrd@kimsalshifa.com"],
     "Contact": ["shakkir.pt@kimsalshifa.com"],
-    "Corporate": ["relations@kimskerala.com"],
+    "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
   nagercoil: {
@@ -68,7 +68,7 @@ const emailData = {
     "Bookhealth Checkup": ["appointments.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
     "Career": ["hr.ngl@kimshealth.org", "abish.s@kimsglobal.com"],
     "Contact": ["relations.ngl@kimshealth.org", "abish.s@kimsglobal.com", "appointments.ngl@kimsglobal.com"],
-    "Corporate": ["relations@kimskerala.com", "abish.s@kimsglobal.com"],
+    "Corporate": ["design.web@kimsglobal.com", "abish.s@kimsglobal.com"],
     "Health At Home Services": ["appointments.ngl@kimsglobal.com", "dno.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org", "abish.s@kimsglobal.com"]
   },
@@ -77,7 +77,7 @@ const emailData = {
     "Bookhealth Checkup": ["ipr.tvm@kimshealth.org"],
     "Career": ["jobs@kimshealth.org"],
     "Contact": ["ipr.tvm@kimshealth.org"],
-    "Corporate": ["relations@kimskerala.com"],
+    "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   }
 };
