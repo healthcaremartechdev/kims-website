@@ -145,8 +145,9 @@ export async function POST(req) {
       port: 587,
       secure: false,
       auth: {
-        user: "kimshealthmailernew@gmail.com",
-        pass: "olvfdsoeweavgbsd",
+        user: "kimshealthmailer@gmail.com",
+        // pass: "olvfdsoeweavgbsd",
+        pass: "qmxksudstxuefqoj"
       },
     });
 
