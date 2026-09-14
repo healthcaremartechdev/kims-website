@@ -145,9 +145,10 @@ export async function POST(req) {
       port: 587,
       secure: false,
       auth: {
-        user: "kimshealthmailer@gmail.com",
-        // pass: "olvfdsoeweavgbsd",
-        pass: "qmxksudstxuefqoj"
+        // user: "kimshealthmailer@gmail.com",
+        // pass: "qmxksudstxuefqoj"
+        user: "design.web@kimsglobal.com",
+        pass: "nerturiteotrklgy"
       },
     });
 
