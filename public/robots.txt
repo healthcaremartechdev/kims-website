@@ -2,6 +2,12 @@ User-agent: *
 Allow: /css/
 Allow: /js/
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: OAI-AdsBot
+Allow: /
+
 Sitemap: https://www.kimshealth.org/sitemap.xml
 Sitemap: https://www.kimshealth.org/trivandrum_sitemap.xml
 Sitemap: https://www.kimshealth.org/kollam_sitemap.xml
