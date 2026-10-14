@@ -43,15 +43,15 @@ const emailData = {
     "Book Appointment": ["gpr.klm@kimshealth.org"],
     "Bookhealth Checkup": ["gpr.klm@kimshealth.org"],
     "Career": ["shiraz.n@kimsglobal.com"],
-    "Contact": ["kimskollam@kimshealth.org"],
+    "Contact": ["kimskollam@asterqualitycare.com"],
     "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
   kottayam: {
     "Book Appointment": ["gpr.ktm@kimsglobal.com"],
-    "Bookhealth Checkup": ["kims.ktm@kimshealth.org"],
+    "Bookhealth Checkup": ["kims.ktm@asterqualitycare.com"],
     "Career": ["hr.ktm@kimsglobal.com"],
-    "Contact": ["kims.ktm@kimshealth.org"],
+    "Contact": ["kims.ktm@asterqualitycare.com"],
     "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
   },
