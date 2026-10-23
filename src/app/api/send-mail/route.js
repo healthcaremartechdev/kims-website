@@ -66,7 +66,7 @@ const emailData = {
   nagercoil: {
     "Book Appointment": ["appointments.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
     "Bookhealth Checkup": ["appointments.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
-    "Career": ["hr.ngl@kimshealth.org", "abish.s@kimsglobal.com"],
+    "Career": ["hr.ngl@asterqualitycare.com", "abish.s@kimsglobal.com"],
     "Contact": ["relations.ngl@kimshealth.org", "abish.s@kimsglobal.com", "appointments.ngl@kimsglobal.com"],
     "Corporate": ["design.web@kimsglobal.com", "abish.s@kimsglobal.com"],
     "Health At Home Services": ["appointments.ngl@kimsglobal.com", "dno.ngl@kimsglobal.com", "abish.s@kimsglobal.com"],
