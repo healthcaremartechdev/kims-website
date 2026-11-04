@@ -181,7 +181,7 @@ const SpecialityDetails = async ({ params, searchParams }) => {
                                                         <div className="details-card text-center">
                                                             <div className="card-content custom-min-height-content">
                                                                 <h4>{subS.title}</h4>
-                                                                <p dangerouslySetInnerHTML={{ __html: marked(subS.overviewSection?.details?.slice(0, 140) + "...") }}></p>
+                                                                <p dangerouslySetInnerHTML={{ __html: marked(subS.overviewSection?.details?.slice(0, 120) + "...") }}></p>
                                                                 <div className="main-btn-speciality ">
 
                                                                     {staticText["Read More"]}
