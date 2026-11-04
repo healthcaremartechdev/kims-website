@@ -72,3 +72,7 @@
         min-height: auto;
     }
 }
+
+.details-card{
+    height: 313px !important;
+}
