@@ -48,9 +48,9 @@ const emailData = {
     "International": ["ipr.tvm@kimshealth.org"]
   },
   kottayam: {
-    "Book Appointment": ["gpr.ktm@kimsglobal.com"],
+    "Book Appointment": ["gpr.ktm@asterqualitycare.com"],
     "Bookhealth Checkup": ["kims.ktm@asterqualitycare.com"],
-    "Career": ["hr.ktm@kimsglobal.com"],
+    "Career": ["hr.ktm@asterqualitycare.com"],
     "Contact": ["kims.ktm@asterqualitycare.com"],
     "Corporate": ["design.web@kimsglobal.com"],
     "International": ["ipr.tvm@kimshealth.org"]
