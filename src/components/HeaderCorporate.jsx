@@ -585,6 +585,13 @@ const HeaderCorporate = ({ hospital }) => {
                                   </a>
                                 </li>
                               )}
+                              {staticPageChecker['guest-information-directory'] && (
+                                <li>
+                                  <a href="https://patientdigitalcare.khmlonline.com:5002/static/GuestInformationDirectory.pdf" target='_blank'>
+                                    {staticTexts['Guest Information Directory']}
+                                  </a>
+                                </li>
+                              )}
 
                             </ul>
                           </div>
@@ -1156,6 +1163,10 @@ const HeaderCorporate = ({ hospital }) => {
 
                           {staticPageChecker['guidebook-for-tpa-patients'] && (
                             <li className="submenu-item"> <a href={basePath + "/guidebook-for-tpa-patients"}> {staticTexts['Guidelines']} </a> </li>
+                          )}
+
+                          {staticPageChecker['guest-information-directory'] && (
+                            <li className="submenu-item"> <a href="https://patientdigitalcare.khmlonline.com:5002/static/GuestInformationDirectory.pdf" target='_blank'> {staticTexts['Guest Information Directory']} </a> </li>
                           )}
                         </ul>
                       </li>
