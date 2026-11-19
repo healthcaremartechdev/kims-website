@@ -91,6 +91,7 @@ const DoctorDetails = async ({ params }) => {
                                         </div>
                                         <div className="left-details-list mt-3">
                                             <ul>
+                                                {data.doctorRegNo && <li><strong>{data.doctorRegNo}</strong></li>}
                                                 <li className="details-doc-ic">{data.doctorDesignation}</li>
                                                 <li className="details-liver-ic"><strong>{data.specialities[0]?.title}</strong></li>
                                                 {/* <li className="details-hospital-ic">{data.hospitals[0]?.address}</li> */}
