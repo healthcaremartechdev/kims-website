@@ -127,6 +127,55 @@ const BookAnAppoinmentForm = ({ pageContent, URLParams }) => {
 
             }
 
+
+
+
+            
+            // Send data to Google SpreadSheet Start****************************************************************
+            await fetch('https://api.healthcaremarktech.in/spreadsheet/kims.php', {
+                method: 'POST',
+                headers: {
+                    'Username': 'admin',
+                    'Password': 'password123',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    date: (() => {
+                        const parts = Object.fromEntries(
+                            new Intl.DateTimeFormat('en-GB', {
+                                timeZone: 'Asia/Kolkata',
+                                year: 'numeric',
+                                month: '2-digit',
+                                day: '2-digit',
+                                hour: '2-digit',
+                                minute: '2-digit',
+                                second: '2-digit',
+                                hourCycle: 'h23'
+                            }).formatToParts(new Date()).map(({ type, value }) => [type, value])
+                        );
+
+                        return `${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute}:${parts.second}`;
+                    })(),
+                    location: formData.location.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
+                    name: formData.name,
+                    phone: formData.contactNumber,
+                    email: formData.emailID,
+                    hospital: formData.hospital.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
+                    speciality: formData.department.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
+                    doctor: formData.doctor,
+                    appointment_date: formData.appoinmentDate,
+                    mr_number: formData.mrNumber,
+                    page_url: document.location.href,
+                    sheetName: 'KIMS Lead Sheet',
+                    sheetRange: 'Lead',
+                    sheetID: '1xLut9I6_otfFQVUeABnTe03zguFivbi0trhQgFSOfc4'
+                })
+            });
+            // Send data to Google SpreadSheet End****************************************************************
+
+
+
+
             setLoading(false);
             toast("Successfully sent", {
                 theme: 'light',
