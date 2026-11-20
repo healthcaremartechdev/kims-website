@@ -28034,10 +28034,320 @@ const redirect = [
 		source: "/trivandrum/doctor/dr-d-kalpana",
 		destination: "/trivandrum/doctor/dr-kalpana-d"
 	},
-	// {
-	// 	source: "/nagercoil/ambulance-services",
-	// 	destination: "/nagercoil/hospital/kimshealth-nagercoil"
-	// }
+	
+
+
+
+
+
+
+
+
+
+	{
+        source: "/doctor/anitha-sunil",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/kollam/doctor/sinju-sankar-p",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-lakshmi-s",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/reshmi-ratnakaran",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/trivandrum/doctor/dr-aneesh-raj",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-anju-krishna-k",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/swetha-s-kumar",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/babu-r",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/suhara-shareef",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-akhilesh-arjun",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-prabin-suthagar-ts",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-abdul-muhaimin-t",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/prof-dr-g-vijayaraghavan",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-pradeep-m-m",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-ram-mohan-c-v",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/ms-gopika-krishnan-l",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-sudin-s-r",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/anju-krishna-r-p",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/shaarika-s",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-ashwin-c",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-leena-saju",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/rajesh-n",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-suchithra-c",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/arun-gopalakrishna-pillai-1",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/hashim-abdul-latheef",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-meenu-g",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/mr-aaron-m-s",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/trivandrum/doctor/a-aravindhan",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/k-balakrishnan-nair",
+        destination: "/trivandrum/doctor/k-balakrishnan-nair-1"
+    },
+    {
+        source: "/doctor/dr-rithu-krishna-k",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/nagercoil/doctor/karthik-b",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/ms-jisha-varghese",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/doctor-vishnu-ak-surgical-oncology-kimshealth-trivandrum",
+        destination: "/trivandrum/doctor/doctor-vishnu-ks-surgical-oncology-kimshealth-trivandrum"
+    },
+    {
+        source: "/nagercoil/doctor/roshan-daniel",
+        destination: "/trivandrum/doctor/dr-roshan-daniel"
+    },
+    {
+        source: "/doctor/dr-gibeah-h-r-hariet",
+        destination: "/trivandrum/doctor/gibeah-h-r-harriet-1"
+    },
+    {
+        source: "/doctor/Atul-Abraham",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-anu-elizabeth-jacob",
+        destination: "/trivandrum/doctor/dr-anu-elizabeth-jacob-KIMSHEALTH"
+    },
+    {
+        source: "/doctor/anu-k-vasu",
+        destination: "/trivandrum/doctor/dr-anu-k-vasu"
+    },
+    {
+        source: "/doctor/arun-p",
+        destination: "/trivandrum/doctor/dr-arun-p"
+    },
+    {
+        source: "/doctor/dr-prethika-p-a",
+        destination: "/trivandrum/doctor/prethika-p-a"
+    },
+    {
+        source: "/trivandrum/doctors/ms-reshmi-s-r",
+        destination: "/trivandrum/doctor/reshmi-s-r"
+    },
+    {
+        source: "/doctor/dr-bijulal-cardiology-trivandrum-kerala-ki",
+        destination: "/trivandrum/doctor/dr-bijulal-cardiology-trivandrum-kerala-kimshealth"
+    },
+    {
+        source: "/doctor/reju-joseph-thomas",
+        destination: "/trivandrum/doctor/joseph-thomas"
+    },
+    {
+        source: "/doctor/dr-reju-joseph-thomas",
+        destination: "/trivandrum/doctor/joseph-thomas"
+    },
+    {
+        source: "/doctor/doctor-chandana-chandran-pediatric-surgeon",
+        destination: "/trivandrum/doctor/chandana-chandran"
+    },
+    {
+        source: "/doctor/dr-thanu-subramoniam-s",
+        destination: "/trivandrum/doctor/thanu-subramoniam"
+    },
+    {
+        source: "/doctor/dr-aathira-ravindran",
+        destination: "/trivandrum/doctor/dr-aathira-ravindran-kimshealth"
+    },
+    {
+        source: "None",
+        destination: "/trivandrum/doctor/gibeah-h-r-harriet-1"
+    },
+    {
+        source: "/doctor/dr-satish-balan",
+        destination: "/trivandrum/doctor/dr-satish-balan-nephrologist-trivandrum"
+    },
+    {
+        source: "/doctor/anees-thajudeen-1",
+        destination: "/trivandrum/doctor/dr-anees-thajudeen-electrophysiologist-trivandrum"
+    },
+    {
+        source: "/doctor/dr-praveen-murlidharan",
+        destination: "/trivandrum/doctor/dr-praveen-murlidharan-nephrologist-trivandrum"
+    },
+    {
+        source: "/doctor/dr-rafeekha-p-gynecolog",
+        destination: "/trivandrum/doctor/dr-rafeekha-p-gynecologist-trivandrum"
+    },
+    {
+        source: "/doctor/dr-latha-s",
+        destination: "/trivandrum/doctor/dr-latha-s-KIMSHEALTH"
+    },
+    {
+        source: "/doctor/nima-n-p",
+        destination: "/trivandrum/doctor/dr-padmaja-n-p"
+    },
+    {
+        source: "/ip/doctor/dr-mohammed-shan-s",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/mathai-jolhf-koshy",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/khalil-isaac-mathai-vsm",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-shabeer-bs",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/nagercoil/doctor/dr-amal-velse",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-riya-ann-mathew",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-saddiq-m-h",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/kottayam/doctor/dr-subin-k",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/nagercoil/doctor/ashika-kannan",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-rafeekha-p",
+        destination: "/trivandrum/doctor/dr-rafeekha-p-gynecologist-trivandrum"
+    },
+    {
+        source: "/trivandrum/doctor/dr-g-nandakumar",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-bharath-v-m",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/kollam/doctor/dr-nisha-mohammed",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-muhammed-nazeer",
+        destination: "/trivandrum/doctor/dr-muhammed-nazeer-orthopedic-surgeon-trivandrum"
+    },
+    {
+        source: "/doctor/dr-m-bhuvanesh",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-parvathy-r-s",
+        destination: "/trivandrum/doctor/dr-parvathy-p"
+    },
+    {
+        source: "/perintalmanna/doctor/ajith-m",
+        destination: "/trivandrum/doctor/dr-ajith-m-neurologist-Trivandrum"
+    },
+    {
+        source: "/doctor/dr-shaji-palangadan",
+        destination: "/trivandrum/doctor/dr-shaji-palangadan-heart-and-cardiac-surgeon-trivandrum"
+    },
+    {
+        source: "/doctor/dr-madhu-sasidharan",
+        destination: "/trivandrum/doctor/dr-madhu-sasidharan-gastroenterologist-trivandrum"
+    },
+    {
+        source: "/kollam/doctor/dr-arjun-athmaram",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/doctor/dr-shahabaz-s",
+        destination: "/trivandrum/doctor"
+    },
+    {
+        source: "/perintalmanna/doctor/dr-manoj-haridas",
+        destination: "/trivandrum/doctor/dr-manoj-haridas-hand-surgeon-trivandrum"
+    },
 ];
 
 export default redirect;
